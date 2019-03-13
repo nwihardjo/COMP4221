@@ -12,7 +12,7 @@ const char* STUDENT_ID = "20315011";
 // TODO: define your global variables here if you need
 token_feedforward_classifier* model_;
 int embedding_size=256;
-int num_hidden_layers=4;
+int num_hidden_layers=2;
 int num_epochs = 1;
 /**
  * initialize your model. this function will be called before the "train" function
