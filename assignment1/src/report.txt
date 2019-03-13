@@ -1,4 +1,5 @@
 - What do you think about the dataset
 - Explain your observation of different embedding size and different numbers of hidden layers
+D
 - How good do you think the token-based feedforward model is? Why?
 - Please suggest an alternative model that solves the drawbacks you observe:

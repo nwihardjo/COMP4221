@@ -1,16 +1,9 @@
 #include <iostream>
-#include <chrono>
-#include<time.h>
 #include "token_feedforward_classifier.hpp"
 #include <fstream>
 #include "assignment.hpp"
 using namespace std;
-using namespace std::chrono;
 int main() {
-  clock_t t;
-  t = clock();
-  auto start = high_resolution_clock::now();
-
   ifstream train_ifs("traindata.xml");
   auto [training_tokens, training_oracles] = read_dataset(train_ifs);
   train_ifs.close();
@@ -30,11 +23,5 @@ int main() {
 
   cout << "development test accuracy:" << compute_accuracy(dev_predicted, dev_oracles) << endl;
 
-  auto stop = high_resolution_clock::now();  
-  t = clock() - t;
-  double time_taken = ((double)t)/CLOCKS_PER_SEC;
-  auto duration = duration_cast<microseconds>(stop-start);
-  cout << "for chrono time it took" << duration.count() << endl;
-  cout << "it took" << time_taken << "seconds" << endl;
   return 0;
 }
