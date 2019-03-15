@@ -1,5 +1,41 @@
 - What do you think about the dataset
-- Explain your observation of different embedding size and different numbers of hidden layers
-D
+
+The dataset is adequate to train the token-level feedforward model. The data is very diverse, in terms of number of token or words per sentence as well as the complexity of the sentence. Although the complexity of the sentence would not affect the token-based model as the model only learn the representations of each word, the data seemms good enough to be used for more advanced model (i.e. model that is aware of the semantics meaning or model that learns the contextualised word representations). 
+
+However, for each sentence and type of sentences, the data contains rich vocabulary, ranging from people and organisation names, stopwords, and numeric values. It seems that the data is extracted from books, for which some of the sentences contain conversations. Moreover, the size of both training and testing data seems to be enough as it resulted in good performance (in terms of the accuracy) from the model. The 1.8 MBs of the training data is enough for the model to generalise the representation of each word.     
+
+
+
+- Please explain your observation of different embedding size and different numbers of hidden layers
+
+Different embedding size and different number of hidden layers yields different developmment accuracy. The results were observed from running the programme with the specified parameters 3 times and the average of the accuracy and time taken were observed as well.
+
+First, to observe how different embedding size would affect the performance of the model and the time it will take the model to run, the same number of epoch (equals to one) and same number of hidden layers (equals to one) are used. This is to maximise the chance to observe and assess the correlation between embedding size and the performance. The results were given below.
+
+Embedding size: 64, Accuracy: 71%, Time taken: 6s
+Embedding size: 128, Accuracy: 76%, Time taken: 11s
+Embedding size: 256, Accuracy: 80%, Time taken: 15s
+Embedding size: 512, Accuracy: 82%, Time taken: 60s
+
+As seen above, the larger the embedding size, the higher accuracy the model able to predict. This is true with the time needed to run the model, as the time taken to run the programme increases as the embedding size becomes larger. Larger number of embedding size would mean that each word (token) is represented and projected on higher dimension. This higher dimension will provide more representational flexibility and more meaning to each token, for which the model will be able to learn better with higher dimension representations. However, this higher representational flexibility requires more computational power as the model will map each token to higher dimension of embeddings; thus, creates more parameter to be optimised during training. It can be observed that as the embedding size increases (from 256 to 512), the accuracy does not increase significantly, as it seems that with embedding size of 512, each token has already had represented to enough dimension, meaning higher dimension or embedding size would be unnecessary as additional dimension of representational will be useless. It is chosen the embedding size to be 256, as it has quite good accuracy without compensating mmuch time to train the model.
+
+To assess and observe the effect of different number of hidden layers, the same number of epoch (equals to one) and same embedding size (equals to 128) are used, to minimise the effect of other parameter to the observed accuracy and time taken. The results were given below.
+
+Num of hidden layers: 1, Accuracy: 76%, Time taken: 11s
+Num of hidden layers: 2, Accuracy: 78%, Time taken: 28s
+Num of hidden layers: 3, Accuracy: 79%, Time taken: 28s
+Num of hidden layers: 4, Accuracy: 78%, Time taken: 46s
+
+Similar to the pattern observed with size of the embedding, the larger the number of hidden layer, the more computational power it took for the model to learn and optimised the weights of each layers. Each additional hidden layers specifies the model to map the value of the embedding into the additional layer with the specified activation function. Then, over training data, the model will try to optimise the weights (values in the hidden layer) so that it is able to predict the token. On the other hand, the additional layer seems to not significantly increase the accuracy the model. Each additional hidden layer would only add one or two percent, even possible to decrease the accuracy. This is because of our model which is not very complex, it only needs to learn the representations of each token in the embedding so that additional layer will add unnecessary layer that is esentially useless. Adding another hidden layer would also lead to higher number of epochs for the model to converge. Therefore, it is chosen the number of hidden layers to be one as additional number of hidden layers would not add significant increase in the accuracy.
+
+
+
 - How good do you think the token-based feedforward model is? Why?
+
+For token classifying tasks, the feedforward classifier seems to have a quite good accuracy on the data, as with only 128 embedding size with 1 hidden layer and 1 epoch, the model seems to have decent accuracy (at 76%) without taking too much time. However, for Natural Language Processing tasks, the model is definitely inadequate to learn the semantic meaning of the sentence, as it does not aware of the previous or next words in the sentence. The model would only aware of the given word and then tries to classify the token, for such it woud not has great results when trying to parse and really understand the meaning of each sentence. Another causes the model would be insufficient to do Natural Language Processing tasks (i.e. sentiment analysis) is because that the model has no memory or context of the sentence. It does not aware of any possible negations in the sentences, or negations in the next sentences. These are some of the reasons why the token-based feedforward model is inadequate for NLP-related tasks, although it has a decent accuracy for classifying the token of each word. 
+
+
+
 - Please suggest an alternative model that solves the drawbacks you observe:
+
+Some models or architecture that would be able to solve the drawbacks mentioned above is using Recurrent Neural Network (RNN) architecture, which introduces the term 'memory' into the model. This way, the model would be able to aware of the sentences as well as any context such that is has better possibility to learn the meanings behind the given sentences / data. In addition to that, state-of-the-art deep learning-based contextualised word representation model such as BERT, ELMo, and even GPT which is developed by OpenAI would be able to do significantly better performance on understanding the meaning, both literal and semantic, of the sentences. 
