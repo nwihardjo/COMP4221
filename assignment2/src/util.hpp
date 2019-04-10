@@ -147,19 +147,43 @@ vector<vector<feature_t>> convert_to_feature(const vector<vector<symbol_t>>& xs)
   return ret;
 }
 
-double compute_accuracy(const vector<vector<postag_t>> &predicted_postags, const vector<vector<postag_t>> &oracles) {
+bool is_number(const std::string &s) {
+  return !s.empty() && std::all_of(s.begin(), s.end(), ::isdigit);
+}
+
+
+double compute_accuracy(const vector<vector<postag_t>> &predicted_postags, const vector<vector<postag_t>> &oracles, const vector<vector<postag_t>> &words) {
   if(predicted_postags.size() != oracles.size()) throw std::runtime_error("compute accuracy: predicted postags size and oracles size should be the same");
   unsigned correct_cnt = 0;
   unsigned total_cnt = 0;
+  auto sum = 0;
+  auto digit_correct = 0;
+  auto digit_false = 0; 
   for(unsigned i=0; i<predicted_postags.size(); ++i) {
     auto sentence_predicted_postags = predicted_postags[i];
+    auto sentence_word = words[i];
     auto sentence_oracles = oracles[i];
-    if(sentence_predicted_postags.size() != sentence_oracles.size()) throw std::runtime_error("compute accuracy: sentence predicted postags size and sentence oracles size should be the same");
+    if(sentence_predicted_postags.size() != sentence_oracles.size()) 
+      throw std::runtime_error("compute accuracy: sentence predicted postags size and sentence oracles size should be the same");
     for(unsigned i=0; i<sentence_predicted_postags.size(); ++i) {
-      if(sentence_predicted_postags[i] == sentence_oracles[i]) ++correct_cnt;
+      if(sentence_predicted_postags[i] == sentence_oracles[i]){
+        if (is_number(sentence_word[i]))
+          digit_correct++;
+        ++correct_cnt;
+      }
+      else {
+        sum++;
+        if (is_number(sentence_word[i]))
+          digit_false++;
+	if(i > 1 && i < sentence_word.size()-2){
+          cout << sentence_word[i-2] << " " << sentence_word[i-1] << " " << sentence_word[i] << " " << sentence_word[i+1] << " " << sentence_word[i+2] << "\t" << sentence_predicted_postags[i] << "\t" << sentence_oracles[i] << endl;
+        }
+      }
       ++total_cnt;
     }
   }
+  cout << "got " << sum << " wrong out of " << total_cnt << endl;
+  cout << "numeric false: " << digit_false << " out of " << digit_false+digit_correct << endl;
   return correct_cnt/(double)total_cnt;
 }
 

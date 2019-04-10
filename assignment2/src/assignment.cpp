@@ -1,93 +1,196 @@
 #include "assignment.hpp"
+#include<vector>
+#include<iostream>
 using namespace tg;
 
-// TODO: fill in your student ID
-const char *STUDENT_ID = "00000000";
+const char *STUDENT_ID = "20315011";
 
-// TODO: choose number of epochs to train
-const unsigned NUM_EPOCHS = 5;
-
-/**
- * create your custom classifier by combining transducers
- * the input to your classifier will a list of tokens
- * \param vocab a list of all possible words
- * \param postags a list of all possible POS tags
- * \return
- */
-transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) {
-
-  // in this starting code, we demonstrates how to construct a 2-layer feedforward neural network
-  // that takes 2 tokens as features
-
-  // embedding lookup layer is mathematically equivalent to
-  // a 1-hot layer followed by a dense layer with identity activation
-  // but trains faster then composing those two separately
-  auto embedding_lookup = make_embedding_lookup(64, vocab);
-
-  // create a concatenation operation
-  // this operation can concatenate the 2 tokens (in 1-hot representation) into a big vector feature
-  auto concatenate = make_concatenate(2);
-
-  // create the first feedforward layer,
-  // with 64 output units and tanh as activation function
-  auto dense0 = make_dense_feedfwd(64, make_tanh());
-
-  // create another feedforward layer
-  // this is the final layer. so this layer should return the predicted POS tag (in 1-hot representation)
-  // the output dimension of your final layer should be the size of all POS tags
-  // because each dimension corresponds to a particular choice
-  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
-
-  // this is the inverse 1-hot operation
-  // it takes a 1-hot vector feature, and returns a token from a pre-defined vocabulary
-  // the 1-hot vector feature doesn't have to be perfect 0 and 1 values.
-  // but they have to sum up to 1 (just like probability distribution)
-  // usually the this (approximated) 1-hot input comes from a softmax operation
-  auto onehot_inverse = make_onehot_inverse(postags);
-
-  // connect these layers together
-  // composing A and B means first apply A, and then take the output of A and feed into B
-  return compose(group(embedding_lookup, embedding_lookup), concatenate, dense1, onehot_inverse);
+void lower_case(token_t &str){
+	//transform(str.begin(), str.end(), str.begin(), ::tolower);
 }
 
+/* 
+// ITERATION 1 - HYPOTHESIS 1 
+const unsigned NUM_EPOCHS = 40; 
+transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { auto embedding_lookup = make_embedding_lookup(64, vocab);
+  auto concatenate = make_concatenate(2);
+  auto dense0 = make_dense_feedfwd(64, make_tanh());
+  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
+  auto onehot_inverse = make_onehot_inverse(postags);
+  return compose(group(embedding_lookup, embedding_lookup), concatenate, dense0, dense1, onehot_inverse);
+}
+vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
+  if (token_index > 0) {
+    return vector<token_t>{sentence[token_index], sentence[token_index - 1]};
+  } else {
+    return vector<token_t>{sentence[token_index], "<s>"};
+  }
+}
+
+// ITERATION 1 - HYPOTHESIS 2
+const unsigned NUM_EPOCHS = 30;
+transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { 
+  auto embedding_lookup = make_embedding_lookup(64, vocab);
+  auto concatenate = make_concatenate(5);
+  auto dense0 = make_dense_feedfwd(64, make_tanh());
+  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
+  auto onehot_inverse = make_onehot_inverse(postags);
+  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense0, dense1, onehot_inverse);
+}
+vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
+  if (token_index > 4) {
+    return vector<token_t>{sentence[token_index], sentence[token_index - 1], sentence[token_index - 2], sentence[token_index-3], sentence[token_index-4]};
+  } else if (token_index == 3) {
+    return vector<token_t>{sentence[token_index], sentence[token_index - 1], sentence[token_index-2], sentence[token_index-3], "<s>"};
+  } else if (token_index == 2) {
+    return vector<token_t>{sentence[token_index], sentence[token_index - 1], sentence[token_index-2], "<s>", "<s>"};
+  } else if (token_index == 1) {
+    return vector<token_t>{sentence[token_index], sentence[token_index - 1], "<s>", "<s>", "<s>"};
+  } else {
+    return vector<token_t>{sentence[token_index], "<s>", "<s>", "<s>", "<s>"};
+  }
+}
+
+// ITERATION 1 - HYPOTHESIS 3
+const unsigned NUM_EPOCHS = 10;
+transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { 
+  auto embedding_lookup = make_embedding_lookup(256, vocab);
+  auto concatenate = make_concatenate(3);
+  auto dense0 = make_dense_feedfwd(256, make_tanh());
+  auto dense_ = make_dense_feedfwd(64, make_tanh());
+  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
+  auto onehot_inverse = make_onehot_inverse(postags);
+  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense0, dense1, onehot_inverse);
+}
+*/
+vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
+  auto size = sentence.size();
+  token_t previous;
+  token_t next;
+  token_t current = sentence[token_index];
+
+  if (token_index > 0 ){
+    previous = sentence[token_index - 1];
+    lower_case(previous);
+  }
+  else
+    previous = "<s>";
+
+  if (token_index < size - 1){
+    next = sentence[token_index + 1];
+    lower_case(next);
+  }
+  else
+    next = "<s>";
+
+  lower_case(current);
+  return vector<token_t>{previous, current, next};
+}
+/*
+// ITERATION 2 - HYPOTHESIS 2
+const unsigned NUM_EPOCHS = 50;
+transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { 
+  auto embedding_lookup = make_embedding_lookup(64, vocab);
+  auto concatenate = make_concatenate(5);
+  auto dense0 = make_dense_feedfwd(64, make_tanh());
+  auto dense_ = make_dense_feedfwd(64, make_tanh());
+  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
+  auto onehot_inverse = make_onehot_inverse(postags);
+  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense0, dense_, dense1, onehot_inverse);
+}
+vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
+  int size = sentence.size();
+  token_t current = sentence[token_index]; 
+  lower_case(current);
+  token_t temp;
+  token_t temp_;
+  token_t temp1;
+  token_t temp1_;
+
+  if (token_index > 1) {
+    temp = sentence[token_index - 2]; lower_case(temp);
+    temp_ = sentence[token_index - 1]; lower_case(temp_);
+  } else if (token_index == 1) {
+    temp = "<s>";
+    temp_ = sentence[token_index - 1]; lower_case(temp);
+  } else {
+    temp = "<s>";
+    temp_ = "<s>";
+  }
+
+  if (int(token_index) < (size - 2) ){
+    temp1 = sentence[token_index + 2]; lower_case(temp);
+    temp1_ = sentence[token_index + 1]; lower_case(temp_);
+  } else if (int(token_index) == (size - 2)) {
+    temp1 = "<s>";
+    temp1_ = sentence[token_index + 1]; lower_case(temp);
+  } else {
+    temp1 = "<s>";
+    temp1_ = "<s>";
+  }
+
+  return vector<token_t>{temp, temp_, current, temp1_, temp1};
+}
+*/
+
+// ITERATION 1 - HYPOTHESIS 4
+const unsigned NUM_EPOCHS = 60;
+transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { 
+  auto embedding_lookup = make_embedding_lookup(128, vocab);
+  auto concatenate = make_concatenate(5);
+  auto dense0 = make_dense_feedfwd(64, make_tanh());
+  auto dense_ = make_dense_feedfwd(32, make_tanh());
+  auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
+  auto onehot_inverse = make_onehot_inverse(postags);
+  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense0, dense1, onehot_inverse);
+}
+vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
+  token_t suffix;
+  token_t first_letter;
+  
+  bool isCapital = isupper(sentence[token_index].at(0);
+  if isCapital
+    first_letter = "1";
+  else
+    first_letter = "0";
+
+  if (token_t.length() > 3  
+    suffix = sentence[token_index].substr(sentence[token_index].length() - 3);
+  else
+    suffix = "<s>";
+
+  token_t previous
+  token_t next;
+  token_t current = sentence[token_index];
+
+  if (token_index > 0 ){
+    previous = sentence[token_index - 1];
+    lower_case(previous);
+  }
+  else
+    previous = "<s>";
+
+  if (token_index < size - 1){
+    next = sentence[token_index + 1];
+    lower_case(next);
+  }
+  else
+    next = "<s>";
+
+  lower_case(current);
+  return vector<token_t>{previous, current, next, first_letter, suffix};
+}
+
+/*
 // rename me into your_classifier if you want to use this classifier
-transducer_t your_classifier_knn(const vector<token_t> &vocab, const vector<postag_t> &postags) {
+const unsigned NUM_EPOCHS =1000;
+transducer_t your_classifier (const vector<token_t> &vocab, const vector<postag_t> &postags) {
 
   // in this starting code, we demonstrates how to construct a KNN that takes two tokens as features
 
   // a KNN classifier takes a real-valued vector feature and directly returns the predicted class
-  auto knn = make_symbolic_k_nearest_neighbors_classifier(5, 2, postags);
+  auto knn = make_symbolic_k_nearest_neighbors_classifier(1, 3, postags);
 
   return knn;
 }
-
-
-/**
- * besides the target token to classify, your model may also need other tokens as "context" input
- * this function defines the inputs that your model expects
- * \param sentence the sentence that the target token is coming from
- * \param token_index the position of the target token in the sentence
- * \return a list of tokens to feed to your model
 */
-vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
-
-  // in these starting code, we demonstrate how to feed the target token,
-  // together with its preceding token as context.
-
-  if (token_index > 0) {
-
-    // when the target token is not the first token of the sentence, we just need to
-    // feed the target token and its previous token to the model
-    return vector<token_t>{sentence[token_index], sentence[token_index - 1]};
-  } else {
-
-    // in case the target token is the first token, we need to invent a dummy previous token.
-    // this is because a feedforward neural network expects consistent input dimensions.
-    // if sometimes you give the feedforward neural network 1 token as input,
-    // sometimes you give it 2 tokens as input, then the feedforward neural network will be angry.
-
-    // there is nothing special about the string "<s>". you can pick whatever you want as long as
-    // it doesn't appear in the vocabulary
-    return vector<token_t>{sentence[token_index], "<s>"};
-  }
-}
