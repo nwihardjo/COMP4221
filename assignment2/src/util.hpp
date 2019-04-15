@@ -176,7 +176,7 @@ double compute_accuracy(const vector<vector<postag_t>> &predicted_postags, const
         if (is_number(sentence_word[i]))
           digit_false++;
 	if(i > 1 && i < sentence_word.size()-2){
-          cout << sentence_word[i-2] << " " << sentence_word[i-1] << " " << sentence_word[i] << " " << sentence_word[i+1] << " " << sentence_word[i+2] << "\t" << sentence_predicted_postags[i] << "\t" << sentence_oracles[i] << endl;
+          cout << sentence_word[i-1] << " " << sentence_word[i] << " " << sentence_word[i+1] << "\t" << sentence_predicted_postags[i] << "\t" << sentence_oracles[i] << endl;
         }
       }
       ++total_cnt;
