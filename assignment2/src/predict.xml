@@ -5,7 +5,7 @@
 			<nonterminal value="NN">Email</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="NNS">Andre</nonterminal>
+			<nonterminal value="NNP">Andre</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="-LRB-">&lt;</nonterminal>
 			<nonterminal value="ADD">webmas...@globelingerie.com</nonterminal>
@@ -15,19 +15,19 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="PRP$">Your</nonterminal>
-			<nonterminal value="NN">learning</nonterminal>
+			<nonterminal value="VBG">learning</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNS">concepts</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">all</nonterminal>
 			<nonterminal value="NNS">kinds</nonterminal>
-			<nonterminal value="VBZ">combines</nonterminal>
+			<nonterminal value="NNS">combines</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="JJ">extensive</nonterminal>
 			<nonterminal value="NN">group</nonterminal>
 			<nonterminal value="NN">activity</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="VBD">bringing</nonterminal>
+			<nonterminal value="VBG">bringing</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
 			<nonterminal value="NN">mind</nonterminal>
 			<nonterminal value="IN">into</nonterminal>
@@ -55,14 +55,14 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">State</nonterminal>
 			<nonterminal value="NNP">Department</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">further</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">image</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">US</nonterminal>
-			<nonterminal value="NNS">abroad</nonterminal>
+			<nonterminal value="RB">abroad</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="CD">1991</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -71,7 +71,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="VBZ">Cures</nonterminal>
-			<nonterminal value="NNS">insomnia</nonterminal>
+			<nonterminal value="NN">insomnia</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -83,12 +83,12 @@
 			<nonterminal value="VBG">learning</nonterminal>
 			<nonterminal value="IN">through</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VBN">school</nonterminal>
+			<nonterminal value="NN">school</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="JJ">hard</nonterminal>
+			<nonterminal value="RB">hard</nonterminal>
 			<nonterminal value="NNS">knocks</nonterminal>
 			<nonterminal value="VBZ">has</nonterminal>
-			<nonterminal value="VB">come</nonterminal>
+			<nonterminal value="VBN">come</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
 			<nonterminal value="NN">end</nonterminal>
@@ -105,10 +105,10 @@
 			<nonterminal value="VBG">reaping</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">rewards</nonterminal>
-			<nonterminal value="DT">these</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="WDT">these</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NNS">lessons</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="VBP">have</nonterminal>
 			<nonterminal value="VBN">left</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
@@ -128,7 +128,7 @@
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">Gatineau</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="UH">Que.</nonterminal>
+			<nonterminal value="NNPS">Que.</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBD">used</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
@@ -144,13 +144,13 @@
 			<nonterminal value="NNP">Island</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="RB">just</nonterminal>
-			<nonterminal value="VB">south</nonterminal>
+			<nonterminal value="DT">south</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">Arctic</nonterminal>
 			<nonterminal value="NNP">Circle</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">save</nonterminal>
 			<nonterminal value="CD">two</nonterminal>
 			<nonterminal value="NNS">friends</nonterminal>
@@ -212,7 +212,7 @@
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">lot</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNS">worry</nonterminal>
+			<nonterminal value="JJ">worry</nonterminal>
 			<nonterminal value="IN">over</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
 			<nonterminal value="NN">career</nonterminal>
@@ -226,7 +226,7 @@
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="MD">&apos;ll</nonterminal>
 			<nonterminal value="VB">see</nonterminal>
-			<nonterminal value="WDT">that</nonterminal>
+			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="CD">2005</nonterminal>
 			<nonterminal value="VBZ">has</nonterminal>
 			<nonterminal value="VBN">filled</nonterminal>
@@ -246,10 +246,10 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Sign</nonterminal>
-			<nonterminal value=",">-</nonterminal>
-			<nonterminal value="PRP$">up</nonterminal>
-			<nonterminal value="NNS">lists</nonterminal>
+			<nonterminal value="VB">Sign</nonterminal>
+			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value="NN">up</nonterminal>
+			<nonterminal value="VBZ">lists</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="JJ">available</nonterminal>
@@ -257,7 +257,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">services</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
-			<nonterminal value="PRP$">Feb.</nonterminal>
+			<nonterminal value="NNP">Feb.</nonterminal>
 			<nonterminal value="CD">27</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNP">March</nonterminal>
@@ -294,7 +294,7 @@
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">normally</nonterminal>
 			<nonterminal value="VBN">referred</nonterminal>
-			<nonterminal value="TO">to</nonterminal>
+			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="NN">mysticism</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -302,7 +302,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">If</nonterminal>
+			<nonterminal value="IN">If</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
@@ -315,7 +315,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Web</nonterminal>
-			<nonterminal value="VB">giant</nonterminal>
+			<nonterminal value="VBD">giant</nonterminal>
 			<nonterminal value="NNP">Google</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="VBG">resisting</nonterminal>
@@ -327,12 +327,12 @@
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="VB">force</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">reveal</nonterminal>
 			<nonterminal value="WP">what</nonterminal>
 			<nonterminal value="NNS">users</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
-			<nonterminal value="VBN">searching</nonterminal>
+			<nonterminal value="VBG">searching</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -352,7 +352,7 @@
 			<nonterminal value="RB">ago</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="CD">tonight</nonterminal>
+			<nonterminal value="VBN">tonight</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="WRB">when</nonterminal>
 			<nonterminal value="PRP$">my</nonterminal>
@@ -363,14 +363,14 @@
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
-			<nonterminal value="VBP">re-read</nonterminal>
+			<nonterminal value="VBD">re-read</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBD">went</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNS">website</nonterminal>
+			<nonterminal value="NN">website</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">song</nonterminal>
@@ -379,7 +379,7 @@
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">email</nonterminal>
-			<nonterminal value="VBN">created</nonterminal>
+			<nonterminal value="VBD">created</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -393,7 +393,7 @@
 			<nonterminal value="IN">If</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="VBP">get</nonterminal>
-			<nonterminal value="DT">a</nonterminal>
+			<nonterminal value="RB">a</nonterminal>
 			<nonterminal value="JJ">good</nonterminal>
 			<nonterminal value="NN">wife</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -407,7 +407,7 @@
 			<nonterminal value="VBP">get</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">bad</nonterminal>
-			<nonterminal value="NN">one</nonterminal>
+			<nonterminal value="CD">one</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="MD">&apos;ll</nonterminal>
@@ -421,20 +421,20 @@
 		<nonterminal value="TOP">
 			<nonterminal value="RB">also</nonterminal>
 			<nonterminal value="VB">make</nonterminal>
-			<nonterminal value="VB">sure</nonterminal>
+			<nonterminal value="JJ">sure</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="VBP">print</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="RB">out</nonterminal>
 			<nonterminal value="RB">NOW</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="RB">so</nonterminal>
+			<nonterminal value="IN">so</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="MD">can</nonterminal>
 			<nonterminal value="VB">get</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">information</nonterminal>
-			<nonterminal value="RP">off</nonterminal>
+			<nonterminal value="IN">off</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -459,7 +459,7 @@
 			<nonterminal value="NNS">kids</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="RB">no</nonterminal>
+			<nonterminal value="DT">no</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NN">reason</nonterminal>
 			<nonterminal value=".">!</nonterminal>
@@ -467,7 +467,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="VBG">With</nonterminal>
+			<nonterminal value="IN">With</nonterminal>
 			<nonterminal value="DT">each</nonterminal>
 			<nonterminal value="NN">breath</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -476,7 +476,7 @@
 			<nonterminal value="NN">body</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">ensure</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value="VBZ">remains</nonterminal>
 			<nonterminal value="JJ">relaxed</nonterminal>
@@ -501,7 +501,7 @@
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="NNPS">Evangelicals</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
-			<nonterminal value="VBP">accept</nonterminal>
+			<nonterminal value="VBD">accept</nonterminal>
 			<nonterminal value="NNP">Jesus</nonterminal>
 			<nonterminal value="NNP">Christ</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
@@ -510,7 +510,7 @@
 			<nonterminal value="NN">saviour</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
-			<nonterminal value="VBZ">interpret</nonterminal>
+			<nonterminal value="VBP">interpret</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">Bible</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
@@ -533,7 +533,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Picture</nonterminal>
+			<nonterminal value="VB">Picture</nonterminal>
 			<nonterminal value="PRP">yourself</nonterminal>
 			<nonterminal value="VBG">sitting</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
@@ -542,7 +542,7 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="JJ">tropical</nonterminal>
 			<nonterminal value="NN">beach</nonterminal>
-			<nonterminal value="NN">basking</nonterminal>
+			<nonterminal value="VBG">basking</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">glow</nonterminal>
@@ -570,7 +570,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">US</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="VBN">facing</nonterminal>
+			<nonterminal value="VBG">facing</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
 			<nonterminal value="JJ">asymmetrical</nonterminal>
 			<nonterminal value="NN">attack</nonterminal>
@@ -578,10 +578,10 @@
 			<nonterminal value="NNS">groups</nonterminal>
 			<nonterminal value="VBG">wielding</nonterminal>
 			<nonterminal value="JJ">small</nonterminal>
-			<nonterminal value="NN">arms</nonterminal>
+			<nonterminal value="NNS">arms</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="JJ">shoulder</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value="NN">shoulder</nonterminal>
+			<nonterminal value=",">-</nonterminal>
 			<nonterminal value="VBN">fired</nonterminal>
 			<nonterminal value="NNS">grenades</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
@@ -593,13 +593,13 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="-LRB-">[</nonterminal>
-			<nonterminal value="ADD">http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines</nonterminal>
+			<nonterminal value="NNS">http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines</nonterminal>
 			<nonterminal value="-RRB-">]</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Additionally</nonterminal>
+			<nonterminal value="RB">Additionally</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBG">reviewing</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -610,7 +610,7 @@
 			<nonterminal value="NNP">Mississippi</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJ">educational</nonterminal>
+			<nonterminal value="NN">educational</nonterminal>
 			<nonterminal value="NNS">stakes</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
@@ -618,7 +618,7 @@
 			<nonterminal value="VB">find</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="RB">usually</nonterminal>
-			<nonterminal value="NN">land</nonterminal>
+			<nonterminal value="VBP">land</nonterminal>
 			<nonterminal value="IN">near</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">bottom</nonterminal>
@@ -627,7 +627,7 @@
 			<nonterminal value="NN">list</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="CD">50</nonterminal>
-			<nonterminal value="NNS">states</nonterminal>
+			<nonterminal value="VBZ">states</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -638,7 +638,7 @@
 			<nonterminal value="NN">report</nonterminal>
 			<nonterminal value="VBZ">examines</nonterminal>
 			<nonterminal value="JJ">commercial</nonterminal>
-			<nonterminal value="NN">fish</nonterminal>
+			<nonterminal value="NNS">fish</nonterminal>
 			<nonterminal value="NNS">species</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">but</nonterminal>
@@ -659,14 +659,14 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Yet</nonterminal>
+			<nonterminal value="CC">Yet</nonterminal>
 			<nonterminal value="NNS">people</nonterminal>
-			<nonterminal value="VB">seem</nonterminal>
+			<nonterminal value="VBP">seem</nonterminal>
 			<nonterminal value="JJ">willing</nonterminal>
 			<nonterminal value=",">--</nonterminal>
 			<nonterminal value="RB">even</nonterminal>
 			<nonterminal value="JJ">eager</nonterminal>
-			<nonterminal value=",">--</nonterminal>
+			<nonterminal value="NFP">--</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="VB">accommodate</nonterminal>
 			<nonterminal value="NN">mountain</nonterminal>
@@ -690,8 +690,8 @@
 			<nonterminal value="NN">world</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
 			<nonterminal value="JJ">second</nonterminal>
-			<nonterminal value="CD">largest</nonterminal>
-			<nonterminal value="NNS">consumer</nonterminal>
+			<nonterminal value="JJS">largest</nonterminal>
+			<nonterminal value="NN">consumer</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NN">energy</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -706,17 +706,17 @@
 			<nonterminal value="RB">Originally</nonterminal>
 			<nonterminal value="VBN">christened</nonterminal>
 			<nonterminal value="NNP">Micro</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
-			<nonterminal value="NNP">Soft</nonterminal>
+			<nonterminal value=":">-</nonterminal>
+			<nonterminal value="JJ">Soft</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VBN">&apos;</nonterminal>
+			<nonterminal value="``">&apos;</nonterminal>
 			<nonterminal value=",">-</nonterminal>
 			<nonterminal value="''">&apos;</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="VBN">removed</nonterminal>
-			<nonterminal value="RB">later</nonterminal>
-			<nonterminal value="IN">on</nonterminal>
+			<nonterminal value="RBR">later</nonterminal>
+			<nonterminal value="NN">on</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -724,27 +724,27 @@
 		<nonterminal value="TOP">
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
-			<nonterminal value="IN">kind</nonterminal>
-			<nonterminal value="IN">of</nonterminal>
+			<nonterminal value="VBP">kind</nonterminal>
+			<nonterminal value="RB">of</nonterminal>
 			<nonterminal value="VB">see</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="NN">animal</nonterminal>
 			<nonterminal value="NNS">rights</nonterminal>
-			<nonterminal value="NN">theory</nonterminal>
+			<nonterminal value="NNP">theory</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="NNP">Peter</nonterminal>
 			<nonterminal value="NNP">Singer</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NN">theory</nonterminal>
+			<nonterminal value="NNP">theory</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNP">utilitarianism</nonterminal>
+			<nonterminal value="NN">utilitarianism</nonterminal>
 			<nonterminal value="VBN">applied</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="JJ">non-human</nonterminal>
 			<nonterminal value="NNS">animals</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
@@ -753,17 +753,17 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Excellent</nonterminal>
+			<nonterminal value="JJ">Excellent</nonterminal>
 			<nonterminal value="NN">answer</nonterminal>
-			<nonterminal value="NNP">googlenut</nonterminal>
+			<nonterminal value="NN">googlenut</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">No</nonterminal>
+			<nonterminal value="DT">No</nonterminal>
 			<nonterminal value="NN">water</nonterminal>
-			<nonterminal value="NNS">needed</nonterminal>
+			<nonterminal value="VBN">needed</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
@@ -785,7 +785,7 @@
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">past</nonterminal>
+			<nonterminal value="NN">past</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -794,8 +794,8 @@
 			<nonterminal value="VBZ">does</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
 			<nonterminal value="VB">need</nonterminal>
-			<nonterminal value="VBN">excuses</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="VBZ">excuses</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">pursue</nonterminal>
 			<nonterminal value="PRP$">its</nonterminal>
 			<nonterminal value="NN">aggression</nonterminal>
@@ -804,12 +804,12 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="IN">Open</nonterminal>
+			<nonterminal value="VB">Open</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">blank</nonterminal>
 			<nonterminal value="''">&apos;</nonterminal>
-			<nonterminal value="RB">notepad</nonterminal>
-			<nonterminal value="POS">&apos;</nonterminal>
+			<nonterminal value="NN">notepad</nonterminal>
+			<nonterminal value="``">&apos;</nonterminal>
 			<nonterminal value="NN">file</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">place</nonterminal>
@@ -827,29 +827,29 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Where</nonterminal>
+			<nonterminal value="WRB">Where</nonterminal>
 			<nonterminal value="EX">there</nonterminal>
 			<nonterminal value="VBD">had</nonterminal>
 			<nonterminal value="VBN">been</nonterminal>
 			<nonterminal value="RB">only</nonterminal>
 			<nonterminal value="CD">one</nonterminal>
 			<nonterminal value="NNS">beaver</nonterminal>
-			<nonterminal value="NN">colony</nonterminal>
+			<nonterminal value="RP">colony</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJ">park</nonterminal>
+			<nonterminal value="NN">park</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
 			<nonterminal value="JJ">northern</nonterminal>
 			<nonterminal value="NN">range</nonterminal>
 			<nonterminal value="IN">before</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">wolves</nonterminal>
-			<nonterminal value="FW">returned</nonterminal>
+			<nonterminal value="VBN">returned</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="RB">now</nonterminal>
 			<nonterminal value="EX">there</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
-			<nonterminal value="NN">nine</nonterminal>
+			<nonterminal value="CD">nine</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -863,7 +863,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">About</nonterminal>
+			<nonterminal value="IN">About</nonterminal>
 			<nonterminal value="CD">30</nonterminal>
 			<nonterminal value="NNS">seconds</nonterminal>
 			<nonterminal value="IN">into</nonterminal>
@@ -872,12 +872,12 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">started</nonterminal>
-			<nonterminal value="VBN">flogging</nonterminal>
+			<nonterminal value="VBG">flogging</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">terrorist</nonterminal>
 			<nonterminal value="NN">issue</nonterminal>
 			<nonterminal value="RB">just</nonterminal>
-			<nonterminal value="WRB">one</nonterminal>
+			<nonterminal value="CD">one</nonterminal>
 			<nonterminal value="JJR">more</nonterminal>
 			<nonterminal value="NN">time</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -886,7 +886,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="IN">For</nonterminal>
-			<nonterminal value="JJ">much</nonterminal>
+			<nonterminal value="RB">much</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="CD">2005</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -905,11 +905,11 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="IN">In</nonterminal>
-			<nonterminal value="PRP">one</nonterminal>
+			<nonterminal value="CD">one</nonterminal>
 			<nonterminal value="NN">class</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
-			<nonterminal value="IN">asks</nonterminal>
+			<nonterminal value="VBD">asks</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">students</nonterminal>
 			<nonterminal value="IN">if</nonterminal>
@@ -923,7 +923,7 @@
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NN">tragedy</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -934,7 +934,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NN">63</nonterminal>
+			<nonterminal value="CD">63</nonterminal>
 			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NN">Percentage</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
@@ -942,13 +942,13 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">United</nonterminal>
 			<nonterminal value="NNP">States</nonterminal>
-			<nonterminal value="VBN">imported</nonterminal>
+			<nonterminal value="VBD">imported</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="CD">2003</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="NN">record</nonterminal>
-			<nonterminal value="JJ">high</nonterminal>
+			<nonterminal value="JJ">record</nonterminal>
+			<nonterminal value="NN">high</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -971,30 +971,30 @@
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBP">&apos;ve</nonterminal>
 			<nonterminal value="RB">never</nonterminal>
-			<nonterminal value="VB">been</nonterminal>
+			<nonterminal value="VBN">been</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">smoker</nonterminal>
 			<nonterminal value="CC">&amp;</nonterminal>
-			<nonterminal value="VB">am</nonterminal>
+			<nonterminal value="VBP">am</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="JJ">very</nonterminal>
+			<nonterminal value="RB">very</nonterminal>
 			<nonterminal value="JJ">strong</nonterminal>
-			<nonterminal value="NNS">anti-smoker</nonterminal>
+			<nonterminal value="NN">anti-smoker</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">but</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBP">&apos;m</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
-			<nonterminal value="JJ">over-eater</nonterminal>
+			<nonterminal value="NN">over-eater</nonterminal>
 			<nonterminal value="CC">&amp;</nonterminal>
 			<nonterminal value="RB">so</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBP">know</nonterminal>
 			<nonterminal value="WRB">how</nonterminal>
-			<nonterminal value="RB">hard</nonterminal>
+			<nonterminal value="JJ">hard</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">change</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">habit</nonterminal>
@@ -1006,21 +1006,21 @@
 			<nonterminal value="NFP">-----=</nonterminal>
 			<nonterminal value="VBN">Posted</nonterminal>
 			<nonterminal value="IN">via</nonterminal>
-			<nonterminal value="NNS">Newsfeeds.Com</nonterminal>
+			<nonterminal value="ADD">Newsfeeds.Com</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="JJ">Uncensored</nonterminal>
-			<nonterminal value="NNP">Usenet</nonterminal>
-			<nonterminal value="NNP">News</nonterminal>
-			<nonterminal value="''">=-----</nonterminal>
+			<nonterminal value="NN">Usenet</nonterminal>
+			<nonterminal value="NN">News</nonterminal>
+			<nonterminal value="NFP">=-----</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Dependant</nonterminal>
-			<nonterminal value="IN">=</nonterminal>
+			<nonterminal value="UH">Dependant</nonterminal>
+			<nonterminal value=",">=</nonterminal>
 			<nonterminal value="NNP">NASA</nonterminal>
 			<nonterminal value="CC">&amp;</nonterminal>
-			<nonterminal value="NNP">Company</nonterminal>
+			<nonterminal value="NN">Company</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">use</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
@@ -1031,7 +1031,7 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">unify</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NN">aims</nonterminal>
+			<nonterminal value="NNS">aims</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="JJ">different</nonterminal>
 			<nonterminal value="NNS">countries</nonterminal>
@@ -1047,7 +1047,7 @@
 			<nonterminal value="JJ">strong</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="PRP$">our</nonterminal>
-			<nonterminal value="NNS">weakest</nonterminal>
+			<nonterminal value="NN">weakest</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
@@ -1056,14 +1056,14 @@
 			<nonterminal value="JJ">healthy</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NN">sickest</nonterminal>
-			<nonterminal value="NN">amongst</nonterminal>
+			<nonterminal value="JJS">sickest</nonterminal>
+			<nonterminal value="IN">amongst</nonterminal>
 			<nonterminal value="PRP">us</nonterminal>
 			<nonterminal value="HYPH">-</nonterminal>
 			<nonterminal value="NN">playing</nonterminal>
 			<nonterminal value="NNS">sports</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="VBG">being</nonterminal>
+			<nonterminal value="NN">being</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">army</nonterminal>
@@ -1093,7 +1093,7 @@
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="NN">advancement</nonterminal>
 			<nonterminal value="RB">almost</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="JJ">thin</nonterminal>
 			<nonterminal value="NN">air</nonterminal>
@@ -1109,8 +1109,8 @@
 			<nonterminal value="NN">represent</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="CD">O</nonterminal>
-			<nonterminal value="UH">Lord</nonterminal>
+			<nonterminal value="NNP">O</nonterminal>
+			<nonterminal value="NNP">Lord</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBP">repeat</nonterminal>
 			<nonterminal value="PRP$">Your</nonterminal>
@@ -1122,7 +1122,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Share</nonterminal>
+			<nonterminal value="VB">Share</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">love</nonterminal>
 			<nonterminal value=".">!</nonterminal>
@@ -1162,17 +1162,17 @@
 			<nonterminal value="NN">thing</nonterminal>
 			<nonterminal value="MD">might</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
-			<nonterminal value="VBG">deciding</nonterminal>
+			<nonterminal value="NN">deciding</nonterminal>
 			<nonterminal value="WDT">which</nonterminal>
-			<nonterminal value="IN">path</nonterminal>
-			<nonterminal value="NNS">means</nonterminal>
+			<nonterminal value="PRP">path</nonterminal>
+			<nonterminal value="VBZ">means</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJR">most</nonterminal>
+			<nonterminal value="JJS">most</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="VBD">where</nonterminal>
+			<nonterminal value="WRB">where</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">put</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
@@ -1192,9 +1192,9 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NN">alt.animals.ethics.vegetarian</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="FW">alt.animals.lion</nonterminal>
+			<nonterminal value="NN">alt.animals.lion</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="FW">alt.animals.tiger</nonterminal>
+			<nonterminal value="NN">alt.animals.tiger</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNS">alt.animals.felines.diseases</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -1207,11 +1207,11 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="CC">Be</nonterminal>
-			<nonterminal value="VBN">prepared</nonterminal>
+			<nonterminal value="VB">Be</nonterminal>
+			<nonterminal value="JJ">prepared</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="JJ">new</nonterminal>
-			<nonterminal value="NN">horizons</nonterminal>
+			<nonterminal value="NNS">horizons</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1228,8 +1228,8 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNS">maybe</nonterminal>
-			<nonterminal value="PRP">too</nonterminal>
+			<nonterminal value="RB">maybe</nonterminal>
+			<nonterminal value="RB">too</nonterminal>
 			<nonterminal value="JJ">much</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -1238,34 +1238,34 @@
 		<nonterminal value="TOP">
 			<nonterminal value="DT">THIS</nonterminal>
 			<nonterminal value="VBZ">IS</nonterminal>
-			<nonterminal value="NNP">ABSOLUTELY</nonterminal>
-			<nonterminal value="NNP">LEGAL</nonterminal>
+			<nonterminal value="JJ">ABSOLUTELY</nonterminal>
+			<nonterminal value="JJ">LEGAL</nonterminal>
 			<nonterminal value="NN">!!!!</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Kind</nonterminal>
+			<nonterminal value="RB">Kind</nonterminal>
 			<nonterminal value="NNS">regards</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="DT">That</nonterminal>
+			<nonterminal value="IN">That</nonterminal>
 			<nonterminal value="NN">way</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="MD">&apos;ll</nonterminal>
-			<nonterminal value="RB">all</nonterminal>
+			<nonterminal value="DT">all</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
-			<nonterminal value="RB">part</nonterminal>
+			<nonterminal value="NN">part</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="VBG">building</nonterminal>
+			<nonterminal value="NN">building</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">huge</nonterminal>
 			<nonterminal value="NN">archive</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="JJ">cat</nonterminal>
+			<nonterminal value="NN">cat</nonterminal>
 			<nonterminal value="NNS">pictures</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -1274,8 +1274,8 @@
 		<nonterminal value="TOP">
 			<nonterminal value="VBG">Healing</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">Collective</nonterminal>
-			<nonterminal value="NNP">Body</nonterminal>
+			<nonterminal value="JJ">Collective</nonterminal>
+			<nonterminal value="NN">Body</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -1286,28 +1286,28 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">treatment</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
-			<nonterminal value="NN">receive</nonterminal>
+			<nonterminal value="VBP">receive</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
-			<nonterminal value="VBN">toys</nonterminal>
+			<nonterminal value="NNS">toys</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Shakespeare</nonterminal>
+			<nonterminal value="UH">Shakespeare</nonterminal>
 			<nonterminal value="NNP">Electronic</nonterminal>
 			<nonterminal value="NNP">Conference</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="NNP">Vol.</nonterminal>
+			<nonterminal value="NNPS">Vol.</nonterminal>
 			<nonterminal value="CD">6</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNP">No.</nonterminal>
-			<nonterminal value="NN">0832</nonterminal>
+			<nonterminal value="LS">0832</nonterminal>
 			<nonterminal value=".">.</nonterminal>
-			<nonterminal value="NN">Monday</nonterminal>
+			<nonterminal value="NNP">Monday</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CD">23</nonterminal>
 			<nonterminal value="NNP">October</nonterminal>
@@ -1317,15 +1317,15 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Heh</nonterminal>
+			<nonterminal value="CC">Heh</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="UH">yep</nonterminal>
+			<nonterminal value="FW">yep</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
-			<nonterminal value="VBD">like</nonterminal>
+			<nonterminal value="VBP">like</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">wear</nonterminal>
-			<nonterminal value="PRP$">silk</nonterminal>
+			<nonterminal value="NN">silk</nonterminal>
 			<nonterminal value="NNS">chemises</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNS">panties</nonterminal>
@@ -1344,9 +1344,9 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="CD">1</nonterminal>
+			<nonterminal value="LS">1</nonterminal>
 			<nonterminal value=".">.</nonterminal>
-			<nonterminal value="NN">Blowback</nonterminal>
+			<nonterminal value=",">Blowback</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="NNP">Iraq</nonterminal>
 		</nonterminal>
@@ -1357,9 +1357,9 @@
 			<nonterminal value="NN">receptionist</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="NNP">Hand</nonterminal>
+			<nonterminal value="NN">Hand</nonterminal>
 			<nonterminal value="VBN">made</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">former</nonterminal>
@@ -1370,7 +1370,7 @@
 			<nonterminal value="NNP">George</nonterminal>
 			<nonterminal value="NNP">Harrison</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
-			<nonterminal value="NFP">:</nonterminal>
+			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="VBP">do</nonterminal>
@@ -1381,7 +1381,7 @@
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="DT">that</nonterminal>
 			<nonterminal value="NN">man</nonterminal>
-			<nonterminal value="RB">anymore</nonterminal>
+			<nonterminal value="NN">anymore</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="VBP">do</nonterminal>
@@ -1390,9 +1390,9 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">know</nonterminal>
 			<nonterminal value="NN">anything</nonterminal>
-			<nonterminal value="IN">about</nonterminal>
+			<nonterminal value="RB">about</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1405,7 +1405,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Since</nonterminal>
+			<nonterminal value="IN">Since</nonterminal>
 			<nonterminal value="NNP">President</nonterminal>
 			<nonterminal value="NNP">Hu</nonterminal>
 			<nonterminal value="VBN">ordered</nonterminal>
@@ -1413,12 +1413,12 @@
 			<nonterminal value="HYPH">-</nonterminal>
 			<nonterminal value="VBN">owned</nonterminal>
 			<nonterminal value="NN">oil</nonterminal>
-			<nonterminal value="NN">firms</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="NNS">firms</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="VB">go</nonterminal>
+			<nonterminal value="VBP">go</nonterminal>
 			<nonterminal value="RB">abroad</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">ensure</nonterminal>
 			<nonterminal value="NN">supply</nonterminal>
@@ -1436,7 +1436,7 @@
 			<nonterminal value="NNP">Sea</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="RB">just</nonterminal>
-			<nonterminal value="UH">west</nonterminal>
+			<nonterminal value="JJ">west</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">line</nonterminal>
@@ -1451,12 +1451,12 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Every</nonterminal>
+			<nonterminal value="DT">Every</nonterminal>
 			<nonterminal value="RB">now</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="RB">then</nonterminal>
 			<nonterminal value="PRP">she</nonterminal>
-			<nonterminal value="VBD">stops</nonterminal>
+			<nonterminal value="VBZ">stops</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">breathe</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -1468,12 +1468,12 @@
 			<nonterminal value="NN">plain</nonterminal>
 			<nonterminal value="NN">fact</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="DT">that</nonterminal>
+			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="NNP">Bush</nonterminal>
 			<nonterminal value="VBZ">has</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="RB">sight</nonterminal>
-			<nonterminal value="JJR">more</nonterminal>
+			<nonterminal value="NN">sight</nonterminal>
+			<nonterminal value="RBR">more</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">way</nonterminal>
@@ -1520,10 +1520,10 @@
 			<nonterminal value="POS">&apos;s</nonterminal>
 			<nonterminal value="NN">art</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="VB">like</nonterminal>
+			<nonterminal value="JJ">like</nonterminal>
 			<nonterminal value="VBG">entering</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="NN">floating</nonterminal>
+			<nonterminal value="JJ">floating</nonterminal>
 			<nonterminal value="NN">world</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNS">dreams</nonterminal>
@@ -1533,11 +1533,11 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="VBG">Talk</nonterminal>
+			<nonterminal value="VB">Talk</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="PRP">me</nonterminal>
 			<nonterminal value="-LRB-">&lt;</nonterminal>
-			<nonterminal value="RB">ymsgr:sendIM?mayursha&amp;__Hi+Mayur...</nonterminal>
+			<nonterminal value="PRP">ymsgr:sendIM?mayursha&amp;__Hi+Mayur...</nonterminal>
 			<nonterminal value="-RRB-">&gt;</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1554,7 +1554,7 @@
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="CD">100</nonterminal>
 			<nonterminal value="NN">%</nonterminal>
-			<nonterminal value="VBN">legal</nonterminal>
+			<nonterminal value="JJ">legal</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1574,11 +1574,11 @@
 			<nonterminal value="NNP">Louisiana</nonterminal>
 			<nonterminal value="NN">city</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="PRP$">New</nonterminal>
+			<nonterminal value="NNP">New</nonterminal>
 			<nonterminal value="NNP">Orleans</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">badly</nonterminal>
-			<nonterminal value="NN">flooded</nonterminal>
+			<nonterminal value="VBN">flooded</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1592,7 +1592,7 @@
 			<nonterminal value="NN">Dictator</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBN">unrestrained</nonterminal>
-			<nonterminal value="VBD">by</nonterminal>
+			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="NN">anything</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -1602,8 +1602,8 @@
 			<nonterminal value="RP">up</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">Armed</nonterminal>
-			<nonterminal value="NNPS">Forces</nonterminal>
+			<nonterminal value="JJ">Armed</nonterminal>
+			<nonterminal value="NNS">Forces</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="WDT">which</nonterminal>
 			<nonterminal value="MD">would</nonterminal>
@@ -1623,7 +1623,7 @@
 			<nonterminal value="MD">should</nonterminal>
 			<nonterminal value="VB">have</nonterminal>
 			<nonterminal value="CD">six</nonterminal>
-			<nonterminal value="NNS">sealed</nonterminal>
+			<nonterminal value="VBN">sealed</nonterminal>
 			<nonterminal value="NNS">envelopes</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">each</nonterminal>
@@ -1635,7 +1635,7 @@
 			<nonterminal value="VBG">stating</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="RB">above</nonterminal>
-			<nonterminal value="NNS">phrase</nonterminal>
+			<nonterminal value="NN">phrase</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
 			<nonterminal value="NN">name</nonterminal>
@@ -1646,7 +1646,7 @@
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="$">$</nonterminal>
 			<nonterminal value="CD">1.00</nonterminal>
-			<nonterminal value="UH">bill</nonterminal>
+			<nonterminal value="NN">bill</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1698,7 +1698,7 @@
 			<nonterminal value="NNP">Beschta</nonterminal>
 			<nonterminal value="VBD">told</nonterminal>
 			<nonterminal value="NNP">Blue</nonterminal>
-			<nonterminal value="NNP">Planet</nonterminal>
+			<nonterminal value="NN">Planet</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1713,10 +1713,10 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNS">Further</nonterminal>
+			<nonterminal value="RB">Further</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">any</nonterminal>
-			<nonterminal value="VBN">fighting</nonterminal>
+			<nonterminal value="NN">fighting</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">Persian</nonterminal>
@@ -1733,9 +1733,9 @@
 			<nonterminal value="NN">gas</nonterminal>
 			<nonterminal value="IN">through</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNS">Strait</nonterminal>
+			<nonterminal value="NNP">Strait</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNPS">Hormuz</nonterminal>
+			<nonterminal value="NN">Hormuz</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1748,11 +1748,11 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">slept</nonterminal>
-			<nonterminal value="RB">alone</nonterminal>
+			<nonterminal value="NN">alone</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="ADD">avenger</nonterminal>
+			<nonterminal value="NN">avenger</nonterminal>
 			<nonterminal value="MD">might</nonterminal>
 			<nonterminal value="VB">find</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
@@ -1763,10 +1763,10 @@
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Logic</nonterminal>
 			<nonterminal value="VBZ">says</nonterminal>
-			<nonterminal value="NN">no</nonterminal>
+			<nonterminal value="DT">no</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">but</nonterminal>
-			<nonterminal value="UH">logic</nonterminal>
+			<nonterminal value="VB">logic</nonterminal>
 			<nonterminal value="NN">seldom</nonterminal>
 			<nonterminal value="VBZ">plays</nonterminal>
 			<nonterminal value="DT">any</nonterminal>
@@ -1782,7 +1782,7 @@
 		<nonterminal value="TOP">
 			<nonterminal value="VBP">Do</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
-			<nonterminal value="VB">live</nonterminal>
+			<nonterminal value="VBP">live</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="VBN">gated</nonterminal>
@@ -1803,11 +1803,11 @@
 			<nonterminal value="NNP">Lopez</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="VBN">found</nonterminal>
-			<nonterminal value="VBN">guilty</nonterminal>
+			<nonterminal value="NNS">guilty</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="RB">summarily</nonterminal>
-			<nonterminal value="NN">hung</nonterminal>
+			<nonterminal value="JJ">hung</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBN">quartered</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
@@ -1816,7 +1816,7 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CD">1594</nonterminal>
 			<nonterminal value="IN">at</nonterminal>
-			<nonterminal value="NNP">Tyburn</nonterminal>
+			<nonterminal value="NN">Tyburn</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1824,13 +1824,13 @@
 		<nonterminal value="TOP">
 			<nonterminal value="CD">1580</nonterminal>
 			<nonterminal value="NNP">Catherine</nonterminal>
-			<nonterminal value="IN">de</nonterminal>
-			<nonterminal value="NNPS">Medici</nonterminal>
+			<nonterminal value="NNP">de</nonterminal>
+			<nonterminal value="NNP">Medici</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">France</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="JJ">keen</nonterminal>
+			<nonterminal value="VBN">keen</nonterminal>
 			<nonterminal value="NN">chess</nonterminal>
 			<nonterminal value="NN">player</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -1845,7 +1845,7 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">devil</nonterminal>
-			<nonterminal value="VBN">acted</nonterminal>
+			<nonterminal value="VBD">acted</nonterminal>
 			<nonterminal value="IN">through</nonterminal>
 			<nonterminal value="PRP$">his</nonterminal>
 			<nonterminal value="JJ">other</nonterminal>
@@ -1853,12 +1853,12 @@
 			<nonterminal value="NNS">puppets</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">Sympathy</nonterminal>
+			<nonterminal value="NN">Sympathy</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">devil</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="DT">that</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="WRB">when</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -1898,7 +1898,7 @@
 			<nonterminal value="VBN">murdered</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="NNS">people</nonterminal>
-			<nonterminal value="VBD">sent</nonterminal>
+			<nonterminal value="VBP">sent</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="NNP">Mick</nonterminal>
 			<nonterminal value="NNP">Jagger</nonterminal>
@@ -1920,7 +1920,7 @@
 			<nonterminal value="NN">benefit</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
-			<nonterminal value="NN">sponsoring</nonterminal>
+			<nonterminal value="VBG">sponsoring</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1933,7 +1933,7 @@
 			<nonterminal value="VBN">found</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
 			<nonterminal value="NN">information</nonterminal>
-			<nonterminal value="VBN">helpful</nonterminal>
+			<nonterminal value="JJ">helpful</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -1959,11 +1959,11 @@
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBZ">does</nonterminal>
 			<nonterminal value="NNS">lots</nonterminal>
-			<nonterminal value="IN">of</nonterminal>
+			<nonterminal value="JJ">of</nonterminal>
 			<nonterminal value="NN">charity</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NN">thinking</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
 			<nonterminal value="NN">way</nonterminal>
@@ -1980,12 +1980,12 @@
 			<nonterminal value="IN">upon</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="WDT">that</nonterminal>
+			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="VBD">took</nonterminal>
 			<nonterminal value="PRP$">his</nonterminal>
 			<nonterminal value="NN">wife</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
-			<nonterminal value="NNP">life</nonterminal>
+			<nonterminal value="NN">life</nonterminal>
 			<nonterminal value="IN">because</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="PRP$">his</nonterminal>
@@ -2005,24 +2005,24 @@
 			<nonterminal value="NNPS">Beatles</nonterminal>
 			<nonterminal value="POS">&apos;</nonterminal>
 			<nonterminal value="NN">song</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="VB">Get</nonterminal>
-			<nonterminal value="NNP">Back</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="VBP">Get</nonterminal>
+			<nonterminal value="RB">Back</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="VBP">advise</nonterminal>
 			<nonterminal value="JJ">black</nonterminal>
 			<nonterminal value="NNP">Joe</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="VB">get</nonterminal>
+			<nonterminal value="VBP">get</nonterminal>
 			<nonterminal value="RB">back</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="WRB">where</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="RB">once</nonterminal>
 			<nonterminal value="VBD">belonged</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="IN">if</nonterminal>
@@ -2055,11 +2055,11 @@
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Christopher</nonterminal>
 			<nonterminal value="NNP">Scipio</nonterminal>
-			<nonterminal value="NNPS">Homeopath</nonterminal>
+			<nonterminal value="NNP">Homeopath</nonterminal>
 			<nonterminal value=",">/</nonterminal>
 			<nonterminal value="NNP">Herbalist</nonterminal>
 			<nonterminal value="NNP">Holistic</nonterminal>
-			<nonterminal value="NNP">Viral</nonterminal>
+			<nonterminal value="JJ">Viral</nonterminal>
 			<nonterminal value="NNP">Specialist</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2068,7 +2068,7 @@
 			<nonterminal value="$">$</nonterminal>
 			<nonterminal value="CD">7.22</nonterminal>
 			<nonterminal value="CD">t</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NNP">US</nonterminal>
 			<nonterminal value="JJ">national</nonterminal>
 			<nonterminal value="NN">debt</nonterminal>
@@ -2079,7 +2079,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Later</nonterminal>
+			<nonterminal value="CC">Later</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="VBD">kept</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -2093,7 +2093,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Image</nonterminal>
+			<nonterminal value="NN">Image</nonterminal>
 			<nonterminal value="NN">booster</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -2110,7 +2110,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="DT">The</nonterminal>
-			<nonterminal value="NN">Greater</nonterminal>
+			<nonterminal value="JJR">Greater</nonterminal>
 			<nonterminal value="NNP">New</nonterminal>
 			<nonterminal value="NNP">Orleans</nonterminal>
 			<nonterminal value="NNP">Fair</nonterminal>
@@ -2120,7 +2120,7 @@
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="NNP">GNOFHAC</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
-			<nonterminal value="VBN">filed</nonterminal>
+			<nonterminal value="VBD">filed</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">housing</nonterminal>
 			<nonterminal value="NN">discrimination</nonterminal>
@@ -2128,9 +2128,9 @@
 			<nonterminal value="IN">against</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">Housing</nonterminal>
-			<nonterminal value="NN">Authority</nonterminal>
+			<nonterminal value="NNP">Authority</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="PRP$">New</nonterminal>
+			<nonterminal value="NNP">New</nonterminal>
 			<nonterminal value="NNP">Orleans</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="NNP">HANO</nonterminal>
@@ -2144,7 +2144,7 @@
 		<nonterminal value="TOP">
 			<nonterminal value="DT">The</nonterminal>
 			<nonterminal value="NNP">India</nonterminal>
-			<nonterminal value="NNP">Diaries</nonterminal>
+			<nonterminal value="NNPS">Diaries</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -2167,7 +2167,7 @@
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="VBN">required</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">bunker</nonterminal>
 			<nonterminal value="PRP">themselves</nonterminal>
 			<nonterminal value="RB">further</nonterminal>
@@ -2182,10 +2182,10 @@
 			<nonterminal value="VB">find</nonterminal>
 			<nonterminal value="PRP">themselves</nonterminal>
 			<nonterminal value="VBD">required</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">fight</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJ">very</nonterminal>
+			<nonterminal value="RB">very</nonterminal>
 			<nonterminal value="NN">government</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="RB">just</nonterminal>
@@ -2198,7 +2198,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">__________________________________________________</nonterminal>
+			<nonterminal value="NFP">__________________________________________________</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -2206,13 +2206,13 @@
 			<nonterminal value="VB">Come</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">say</nonterminal>
-			<nonterminal value="RB">hello</nonterminal>
+			<nonterminal value="UH">hello</nonterminal>
 			<nonterminal value=",">...</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
-			<nonterminal value="VBN">warmly</nonterminal>
-			<nonterminal value="NNS">welcomed</nonterminal>
+			<nonterminal value="JJ">warmly</nonterminal>
+			<nonterminal value="VBN">welcomed</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2242,9 +2242,9 @@
 		<nonterminal value="TOP">
 			<nonterminal value="DT">That</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
-			<nonterminal value="JJ">likely</nonterminal>
+			<nonterminal value="RB">likely</nonterminal>
 			<nonterminal value="RB">never</nonterminal>
-			<nonterminal value="NN">change</nonterminal>
+			<nonterminal value="VB">change</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2252,12 +2252,12 @@
 		<nonterminal value="TOP">
 			<nonterminal value="VBG">Bending</nonterminal>
 			<nonterminal value="RB">forward</nonterminal>
-			<nonterminal value="NNS">suggests</nonterminal>
+			<nonterminal value="VBZ">suggests</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="RB">completely</nonterminal>
-			<nonterminal value="VB">surrender</nonterminal>
+			<nonterminal value="JJ">surrender</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="PRP">You</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -2271,7 +2271,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">unexpected</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">enjoy</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -2282,7 +2282,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="PRP$">Your</nonterminal>
-			<nonterminal value="NN">ruling</nonterminal>
+			<nonterminal value="VBG">ruling</nonterminal>
 			<nonterminal value="NN">planet</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNP">Jupiter</nonterminal>
@@ -2295,7 +2295,7 @@
 			<nonterminal value="NN">relationship</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="NNP">Pluto</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value=",">-</nonterminal>
 			<nonterminal value="VBN">called</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="JJ">mutual</nonterminal>
@@ -2315,17 +2315,17 @@
 			<nonterminal value="POS">&apos;s</nonterminal>
 			<nonterminal value="NN">missile</nonterminal>
 			<nonterminal value="NNS">armaments</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
-			<nonterminal value="IN">pose</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
+			<nonterminal value="VBP">pose</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNS">greatest</nonterminal>
-			<nonterminal value="VB">concern</nonterminal>
+			<nonterminal value="JJS">greatest</nonterminal>
+			<nonterminal value="NN">concern</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="JJ">American</nonterminal>
 			<nonterminal value="NNS">forces</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">Gulf</nonterminal>
+			<nonterminal value="NN">Gulf</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="RB">especially</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
@@ -2357,10 +2357,10 @@
 			<nonterminal value="NNS">problems</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="RB">almost</nonterminal>
-			<nonterminal value="NN">half</nonterminal>
+			<nonterminal value="JJ">half</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="JJR">whom</nonterminal>
-			<nonterminal value="VBP">do</nonterminal>
+			<nonterminal value="WP">whom</nonterminal>
+			<nonterminal value="VB">do</nonterminal>
 			<nonterminal value="RB">n&apos;t</nonterminal>
 			<nonterminal value="VB">have</nonterminal>
 			<nonterminal value="NN">health</nonterminal>
@@ -2370,7 +2370,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">_____</nonterminal>
+			<nonterminal value="NFP">_____</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -2388,14 +2388,14 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">do</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="VBD">become</nonterminal>
+			<nonterminal value="VBN">become</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">member</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">watch</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
 			<nonterminal value="NNS">earnings</nonterminal>
-			<nonterminal value="UH">grow</nonterminal>
+			<nonterminal value="NN">grow</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2403,11 +2403,11 @@
 		<nonterminal value="TOP">
 			<nonterminal value="IN">In</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="NN">timid</nonterminal>
+			<nonterminal value="JJ">timid</nonterminal>
 			<nonterminal value="NN">voice</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
-			<nonterminal value="VBD">says</nonterminal>
+			<nonterminal value="VBZ">says</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="IN">If</nonterminal>
@@ -2418,7 +2418,7 @@
 			<nonterminal value="NNS">Peters</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="VBN">blown</nonterminal>
-			<nonterminal value="RB">up</nonterminal>
+			<nonterminal value="IN">up</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">bomb</nonterminal>
@@ -2428,7 +2428,7 @@
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">tragedy</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2459,28 +2459,28 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="ADD">http://reflectioncafe.blogspot.com/2005/09/unnatural-disasterthe-less...</nonterminal>
+			<nonterminal value="RB">http://reflectioncafe.blogspot.com/2005/09/unnatural-disasterthe-less...</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="IN">For</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJR">most</nonterminal>
+			<nonterminal value="RBS">most</nonterminal>
 			<nonterminal value="NN">part</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
-			<nonterminal value="JJ">outward</nonterminal>
+			<nonterminal value="NN">outward</nonterminal>
 			<nonterminal value="NN">life</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
 			<nonterminal value="NN">year</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">go</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
-			<nonterminal value="JJ">fits</nonterminal>
+			<nonterminal value="NNS">fits</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBZ">starts</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NN">alternating</nonterminal>
 			<nonterminal value="NNS">periods</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
@@ -2497,10 +2497,10 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="NFP">-----==</nonterminal>
-			<nonterminal value="NNP">Over</nonterminal>
+			<nonterminal value="IN">Over</nonterminal>
 			<nonterminal value="CD">100,000</nonterminal>
-			<nonterminal value="NNP">Newsgroups</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value="NNS">Newsgroups</nonterminal>
+			<nonterminal value=",">-</nonterminal>
 			<nonterminal value="CD">19</nonterminal>
 			<nonterminal value="JJ">Different</nonterminal>
 			<nonterminal value="NNS">Servers</nonterminal>
@@ -2519,7 +2519,7 @@
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Love</nonterminal>
 			<nonterminal value="VBZ">comes</nonterminal>
-			<nonterminal value="RB">willingly</nonterminal>
+			<nonterminal value="RP">willingly</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="RB">easily</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -2572,7 +2572,7 @@
 			<nonterminal value="NN">LOCATION</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="NNP">Conference</nonterminal>
-			<nonterminal value="NNP">Call</nonterminal>
+			<nonterminal value="VB">Call</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -2584,11 +2584,11 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="NNP">Kioka</nonterminal>
-			<nonterminal value="NNP">Williams</nonterminal>
+			<nonterminal value="NNS">Williams</nonterminal>
 			<nonterminal value="VBD">told</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJ">Associated</nonterminal>
-			<nonterminal value="NN">Press</nonterminal>
+			<nonterminal value="VBN">Associated</nonterminal>
+			<nonterminal value="NNP">Press</nonterminal>
 			<nonterminal value="NN">news</nonterminal>
 			<nonterminal value="NN">agency</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -2598,13 +2598,13 @@
 		<nonterminal value="TOP">
 			<nonterminal value="IN">From</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VBN">&apos;</nonterminal>
+			<nonterminal value="``">&apos;</nonterminal>
 			<nonterminal value="NN">edit</nonterminal>
 			<nonterminal value="''">&apos;</nonterminal>
 			<nonterminal value="NN">menu</nonterminal>
 			<nonterminal value="VB">select</nonterminal>
-			<nonterminal value="POS">&apos;</nonterminal>
-			<nonterminal value="NN">paste</nonterminal>
+			<nonterminal value="``">&apos;</nonterminal>
+			<nonterminal value="VBP">paste</nonterminal>
 			<nonterminal value="''">&apos;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -2618,11 +2618,11 @@
 			<nonterminal value="NNP">Antonio</nonterminal>
 			<nonterminal value="NNP">de</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="NNPS">Bishop</nonterminal>
+			<nonterminal value="NNP">Bishop</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">Nicaragua</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="VBN">assassinated</nonterminal>
+			<nonterminal value="VBD">assassinated</nonterminal>
 			<nonterminal value="IN">while</nonterminal>
 			<nonterminal value="VBG">playing</nonterminal>
 			<nonterminal value="NN">chess</nonterminal>
@@ -2630,7 +2630,7 @@
 			<nonterminal value="PRP$">his</nonterminal>
 			<nonterminal value="NN">palace</nonterminal>
 			<nonterminal value="IN">at</nonterminal>
-			<nonterminal value="UH">Leon</nonterminal>
+			<nonterminal value="NNP">Leon</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2657,7 +2657,7 @@
 			<nonterminal value="NN">habitat</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">still</nonterminal>
-			<nonterminal value="RB">acceptable</nonterminal>
+			<nonterminal value="JJ">acceptable</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 		</nonterminal>
@@ -2670,7 +2670,7 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">do</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
-			<nonterminal value="VBG">posting</nonterminal>
+			<nonterminal value="NN">posting</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="JJ">different</nonterminal>
 			<nonterminal value="NNS">settings</nonterminal>
@@ -2684,41 +2684,41 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">go</nonterminal>
 			<nonterminal value="RB">back</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="VBN">Giving</nonterminal>
+			<nonterminal value="VBG">Giving</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">hand</nonterminal>
-			<nonterminal value="RP">up</nonterminal>
+			<nonterminal value="IN">up</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNS">advantaged</nonterminal>
+			<nonterminal value="VBN">advantaged</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Unemployent</nonterminal>
-			<nonterminal value="VBN">stays</nonterminal>
-			<nonterminal value="RB">low</nonterminal>
+			<nonterminal value="VBZ">stays</nonterminal>
+			<nonterminal value="JJ">low</nonterminal>
 			<nonterminal value="IN">because</nonterminal>
-			<nonterminal value="IN">half</nonterminal>
+			<nonterminal value="PDT">half</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">population</nonterminal>
-			<nonterminal value="IN">oversees</nonterminal>
+			<nonterminal value="VBD">oversees</nonterminal>
 			<nonterminal value="DT">those</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="GW">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">workforce</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NN">dregs</nonterminal>
+			<nonterminal value="NNS">dregs</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">rabble</nonterminal>
@@ -2731,7 +2731,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">No</nonterminal>
+			<nonterminal value="DT">No</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="NNP">Winston</nonterminal>
@@ -2742,7 +2742,7 @@
 			<nonterminal value="MD">would</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
-			<nonterminal value="NNP">ACCIDENT</nonterminal>
+			<nonterminal value="NN">ACCIDENT</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 		</nonterminal>
@@ -2787,30 +2787,30 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Selah</nonterminal>
+			<nonterminal value="NNP">Selah</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="IN">In</nonterminal>
-			<nonterminal value="VB">exchange</nonterminal>
+			<nonterminal value="NN">exchange</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="VBG">sucking</nonterminal>
 			<nonterminal value="JJ">vast</nonterminal>
-			<nonterminal value="VBN">amounts</nonterminal>
+			<nonterminal value="NNS">amounts</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NN">water</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">local</nonterminal>
 			<nonterminal value="NN">land</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NN">mighty</nonterminal>
+			<nonterminal value="NNP">mighty</nonterminal>
 			<nonterminal value="NN">corporation</nonterminal>
-			<nonterminal value="VBN">promised</nonterminal>
+			<nonterminal value="VBD">promised</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">bring</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -2836,8 +2836,8 @@
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
 			<nonterminal value="JJ">upper</nonterminal>
-			<nonterminal value="VBN">cut</nonterminal>
-			<nonterminal value="IN">below</nonterminal>
+			<nonterminal value="NN">cut</nonterminal>
+			<nonterminal value="RB">below</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">jaw</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
@@ -2853,7 +2853,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="IN">Is</nonterminal>
+			<nonterminal value="VBZ">Is</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">old</nonterminal>
 			<nonterminal value="NNP">Devil</nonterminal>
@@ -2887,19 +2887,19 @@
 			<nonterminal value="JJ">Indian</nonterminal>
 			<nonterminal value="JJ">national</nonterminal>
 			<nonterminal value="NN">chart</nonterminal>
-			<nonterminal value="RB">besides</nonterminal>
+			<nonterminal value="IN">besides</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">transit</nonterminal>
 			<nonterminal value="NN">affliction</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
-			<nonterminal value="``">transit</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
+			<nonterminal value="VB">transit</nonterminal>
 			<nonterminal value="NNP">Mercury</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="NNP">Rahu</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNP">Venus</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="JJ">natal</nonterminal>
+			<nonterminal value="NN">natal</nonterminal>
 			<nonterminal value="NNP">Saturn</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNP">Venus</nonterminal>
@@ -2915,10 +2915,10 @@
 			<nonterminal value="VBZ">has</nonterminal>
 			<nonterminal value="VBN">resulted</nonterminal>
 			<nonterminal value="IN">into</nonterminal>
-			<nonterminal value="VBN">floods</nonterminal>
+			<nonterminal value="NNS">floods</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="JJ">many</nonterminal>
-			<nonterminal value="NN">parts</nonterminal>
+			<nonterminal value="NNS">parts</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">country</nonterminal>
@@ -2943,9 +2943,9 @@
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="NNP">BBC</nonterminal>
 			<nonterminal value="NNP">News</nonterminal>
-			<nonterminal value="NN">Online</nonterminal>
+			<nonterminal value="NNP">Online</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="VBP">thought</nonterminal>
+			<nonterminal value="VBN">thought</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="MD">should</nonterminal>
 			<nonterminal value="VB">see</nonterminal>
@@ -2966,18 +2966,18 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="DT">The</nonterminal>
-			<nonterminal value="NN">Eastern</nonterminal>
-			<nonterminal value="NN">phoebe</nonterminal>
+			<nonterminal value="NNP">Eastern</nonterminal>
+			<nonterminal value="NNP">phoebe</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="VBG">showing</nonterminal>
 			<nonterminal value="RP">up</nonterminal>
-			<nonterminal value="IN">about</nonterminal>
+			<nonterminal value="RB">about</nonterminal>
 			<nonterminal value="CD">20</nonterminal>
 			<nonterminal value="NNS">days</nonterminal>
 			<nonterminal value="IN">before</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value="VBD">used</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -2989,10 +2989,10 @@
 			<nonterminal value="DT">an</nonterminal>
 			<nonterminal value="NN">orthodontist</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="VBN">learned</nonterminal>
+			<nonterminal value="VBD">learned</nonterminal>
 			<nonterminal value="EX">there</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
-			<nonterminal value="IN">at</nonterminal>
+			<nonterminal value="RB">at</nonterminal>
 			<nonterminal value="RBS">least</nonterminal>
 			<nonterminal value="CD">one</nonterminal>
 			<nonterminal value="JJ">polar</nonterminal>
@@ -3002,11 +3002,11 @@
 			<nonterminal value="JJ">central</nonterminal>
 			<nonterminal value="NN">region</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="DT">Baffin</nonterminal>
-			<nonterminal value="NN">Island</nonterminal>
+			<nonterminal value="NNP">Baffin</nonterminal>
+			<nonterminal value="NNP">Island</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="NNP">July</nonterminal>
-			<nonterminal value="IN">2001</nonterminal>
+			<nonterminal value="CD">2001</nonterminal>
 			<nonterminal value="WRB">when</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">felt</nonterminal>
@@ -3015,7 +3015,7 @@
 			<nonterminal value="VBD">thought</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="JJ">dog</nonterminal>
+			<nonterminal value="NN">dog</nonterminal>
 			<nonterminal value="VBG">leaning</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="PRP$">his</nonterminal>
@@ -3028,16 +3028,16 @@
 		<nonterminal value="TOP">
 			<nonterminal value="LS">2</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
-			<nonterminal value="PRP">S</nonterminal>
-			<nonterminal value="VBP">Luest</nonterminal>
+			<nonterminal value="NNP">S</nonterminal>
+			<nonterminal value="JJS">Luest</nonterminal>
 			<nonterminal value="NN">P.O.</nonterminal>
-			<nonterminal value="NNP">Box</nonterminal>
+			<nonterminal value="NN">Box</nonterminal>
 			<nonterminal value="CD">366</nonterminal>
 			<nonterminal value="NNP">Garden</nonterminal>
-			<nonterminal value="NNS">Grove</nonterminal>
+			<nonterminal value="NNP">Grove</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNP">CA</nonterminal>
-			<nonterminal value="CD">92842</nonterminal>
+			<nonterminal value="NNP">92842</nonterminal>
 			<nonterminal value="NNP">USA</nonterminal>
 		</nonterminal>
 	</sent>
@@ -3064,7 +3064,7 @@
 			<nonterminal value="NN">tent</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBN">headed</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="RB">out</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 		</nonterminal>
@@ -3075,14 +3075,14 @@
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="RB">currently</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
-			<nonterminal value="DT">third</nonterminal>
+			<nonterminal value="JJ">third</nonterminal>
 			<nonterminal value="NN">place</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">need</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
 			<nonterminal value="NN">help</nonterminal>
-			<nonterminal value="RB">so</nonterminal>
+			<nonterminal value="IN">so</nonterminal>
 			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">prize</nonterminal>
@@ -3103,7 +3103,7 @@
 			<nonterminal value="VBP">&apos;m</nonterminal>
 			<nonterminal value="VBG">getting</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
-			<nonterminal value="``">touch</nonterminal>
+			<nonterminal value="JJ">touch</nonterminal>
 			<nonterminal value="IN">because</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBP">think</nonterminal>
@@ -3115,7 +3115,7 @@
 			<nonterminal value="NNS">people</nonterminal>
 			<nonterminal value="VBG">campaigning</nonterminal>
 			<nonterminal value="RB">about</nonterminal>
-			<nonterminal value="JJ">hospital</nonterminal>
+			<nonterminal value="NN">hospital</nonterminal>
 			<nonterminal value="NNS">closures</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -3132,7 +3132,7 @@
 			<nonterminal value="NN">speed</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NN">ability</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">avoid</nonterminal>
 			<nonterminal value="NN">radar</nonterminal>
 			<nonterminal value="NN">detection</nonterminal>
@@ -3166,14 +3166,14 @@
 			<nonterminal value="CD">1,700</nonterminal>
 			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NN">Percentage</nonterminal>
-			<nonterminal value="VB">increase</nonterminal>
+			<nonterminal value="NN">increase</nonterminal>
 			<nonterminal value="IN">between</nonterminal>
 			<nonterminal value="CD">2001</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="CD">2002</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNP">Saudi</nonterminal>
-			<nonterminal value="IN">Arabian</nonterminal>
+			<nonterminal value="JJ">Saudi</nonterminal>
+			<nonterminal value="JJ">Arabian</nonterminal>
 			<nonterminal value="NN">spending</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="JJ">public</nonterminal>
@@ -3222,7 +3222,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">industry</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNP">Marriage</nonterminal>
+			<nonterminal value="NN">Marriage</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNS">Kids</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -3249,17 +3249,17 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">process</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="VBG">being</nonterminal>
-			<nonterminal value="VBN">thrown</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="NN">being</nonterminal>
+			<nonterminal value="NNS">thrown</nonterminal>
+			<nonterminal value="RB">out</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">India</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="JJ">similar</nonterminal>
 			<nonterminal value="NNS">crimes</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="IN">as</nonterminal>
-			<nonterminal value="RB">well</nonterminal>
+			<nonterminal value="RB">as</nonterminal>
+			<nonterminal value="JJ">well</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -3271,8 +3271,8 @@
 			<nonterminal value="VBZ">does</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">USA</nonterminal>
-			<nonterminal value="VBD">give</nonterminal>
-			<nonterminal value="PRP$">NASA</nonterminal>
+			<nonterminal value="VBP">give</nonterminal>
+			<nonterminal value="NNP">NASA</nonterminal>
 			<nonterminal value="NN">per</nonterminal>
 			<nonterminal value="NN">year</nonterminal>
 			<nonterminal value=".">?</nonterminal>
@@ -3285,7 +3285,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">More</nonterminal>
+			<nonterminal value="RBR">More</nonterminal>
 			<nonterminal value="RB">below</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -3298,7 +3298,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">number</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="IN">elk</nonterminal>
+			<nonterminal value="NNS">elk</nonterminal>
 			<nonterminal value="VBZ">has</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
 			<nonterminal value="VBN">declined</nonterminal>
@@ -3321,13 +3321,13 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="NN">Marvelous</nonterminal>
+			<nonterminal value="JJ">Marvelous</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">Spanish</nonterminal>
+			<nonterminal value="JJ">Spanish</nonterminal>
 			<nonterminal value="NN">priest</nonterminal>
 			<nonterminal value="CC">&amp;</nonterminal>
 			<nonterminal value="VBG">leading</nonterminal>
@@ -3347,13 +3347,13 @@
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">George</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
-			<nonterminal value="NNP">house</nonterminal>
+			<nonterminal value="NN">house</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
 			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
-			<nonterminal value="NN">arrogant</nonterminal>
+			<nonterminal value="JJ">arrogant</nonterminal>
 			<nonterminal value="NN">person</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
 			<nonterminal value="VBZ">does</nonterminal>
@@ -3371,23 +3371,23 @@
 			<nonterminal value="NN">demand</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBN">boosted</nonterminal>
-			<nonterminal value="VBD">by</nonterminal>
+			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">huge</nonterminal>
 			<nonterminal value="NN">rise</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
-			<nonterminal value="JJ">car</nonterminal>
-			<nonterminal value="IN">ownership</nonterminal>
-			<nonterminal value="IN">as</nonterminal>
+			<nonterminal value="NN">car</nonterminal>
+			<nonterminal value="NN">ownership</nonterminal>
+			<nonterminal value="RB">as</nonterminal>
 			<nonterminal value="RB">well</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VB">need</nonterminal>
+			<nonterminal value="NN">need</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">find</nonterminal>
-			<nonterminal value="VBZ">alternatives</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
-			<nonterminal value="NN">polluting</nonterminal>
+			<nonterminal value="NNS">alternatives</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
+			<nonterminal value="VBG">polluting</nonterminal>
 			<nonterminal value="NN">coal</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="NN">electricity</nonterminal>
@@ -3419,8 +3419,8 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">&apos;</nonterminal>
-			<nonterminal value="NNPS">Hundreds</nonterminal>
+			<nonterminal value="``">&apos;</nonterminal>
+			<nonterminal value="NNS">Hundreds</nonterminal>
 			<nonterminal value="JJ">dead</nonterminal>
 			<nonterminal value="''">&apos;</nonterminal>
 		</nonterminal>
@@ -3430,7 +3430,7 @@
 			<nonterminal value="DT">The</nonterminal>
 			<nonterminal value="NN">room</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="ADD">silent</nonterminal>
+			<nonterminal value="VBN">silent</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NN">none</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
@@ -3455,7 +3455,7 @@
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">hospital</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="JJR">survived</nonterminal>
+			<nonterminal value="VBN">survived</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="IN">though</nonterminal>
 			<nonterminal value="NNP">Mr.</nonterminal>
@@ -3491,7 +3491,7 @@
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">money</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="IN">so</nonterminal>
 			<nonterminal value="JJ">many</nonterminal>
 			<nonterminal value="NNS">others</nonterminal>
@@ -3525,7 +3525,7 @@
 			<nonterminal value="-LRB-">[</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
 			<nonterminal value="NN">error</nonterminal>
-			<nonterminal value="NN">occurred</nonterminal>
+			<nonterminal value="VBD">occurred</nonterminal>
 			<nonterminal value="IN">while</nonterminal>
 			<nonterminal value="VBG">processing</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
@@ -3541,11 +3541,11 @@
 			<nonterminal value="IN">among</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">first</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">seize</nonterminal>
 			<nonterminal value="IN">upon</nonterminal>
 			<nonterminal value="JJ">new</nonterminal>
-			<nonterminal value="NN">societal</nonterminal>
+			<nonterminal value="JJ">societal</nonterminal>
 			<nonterminal value="NNS">trends</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">create</nonterminal>
@@ -3561,10 +3561,10 @@
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="IN">at</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
-			<nonterminal value="DT">all</nonterminal>
+			<nonterminal value="RB">all</nonterminal>
 			<nonterminal value="HYPH">-</nonterminal>
 			<nonterminal value="NN">time</nonterminal>
-			<nonterminal value="JJ">high</nonterminal>
+			<nonterminal value="NN">high</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -3581,7 +3581,7 @@
 			<nonterminal value="DT">those</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
 			<nonterminal value="VBP">believe</nonterminal>
-			<nonterminal value=",">....................</nonterminal>
+			<nonterminal value=".">....................</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -3590,7 +3590,7 @@
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="RB">far</nonterminal>
-			<nonterminal value="IN">above</nonterminal>
+			<nonterminal value="RB">above</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">earth</nonterminal>
 			<nonterminal value=",">-</nonterminal>
@@ -3617,15 +3617,15 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">2.5</nonterminal>
+			<nonterminal value="CD">2.5</nonterminal>
 			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NN">Number</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNS">hours</nonterminal>
 			<nonterminal value="IN">after</nonterminal>
 			<nonterminal value="NNP">Rumsfeld</nonterminal>
-			<nonterminal value="VB">learnt</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="``">learnt</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="NNP">Osama</nonterminal>
 			<nonterminal value="NNP">bin</nonterminal>
 			<nonterminal value="NNP">Laden</nonterminal>
@@ -3636,16 +3636,16 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="CD">11</nonterminal>
 			<nonterminal value="NNP">September</nonterminal>
-			<nonterminal value="VBZ">attacks</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="NNS">attacks</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">brought</nonterminal>
-			<nonterminal value="PRP$">up</nonterminal>
+			<nonterminal value="RP">up</nonterminal>
 			<nonterminal value="NNS">reasons</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">hit</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="NN">hit</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NNP">Iraq</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
@@ -3653,13 +3653,13 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="CD">130</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value="SYM">-</nonterminal>
 			<nonterminal value="JJ">Approximate</nonterminal>
 			<nonterminal value="NN">Number</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNS">countries</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">total</nonterminal>
@@ -3687,7 +3687,7 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">give</nonterminal>
 			<nonterminal value="NNP">NASA</nonterminal>
-			<nonterminal value="NNS">credit</nonterminal>
+			<nonterminal value="NN">credit</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="DT">some</nonterminal>
 			<nonterminal value="NNS">things</nonterminal>
@@ -3699,18 +3699,18 @@
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NN">fear</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="VBG">reporting</nonterminal>
+			<nonterminal value="NN">reporting</nonterminal>
 			<nonterminal value="NN">failure</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="VB">culture</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="NN">culture</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="RB">probably</nonterminal>
 			<nonterminal value="VBN">led</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">lack</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="VBG">reporting</nonterminal>
+			<nonterminal value="NN">reporting</nonterminal>
 			<nonterminal value="NNS">defects</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -3722,7 +3722,7 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">We</nonterminal>
+			<nonterminal value="PRP">We</nonterminal>
 			<nonterminal value="VBP">applaud</nonterminal>
 			<nonterminal value="NNP">China</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
@@ -3732,17 +3732,17 @@
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="NNP">NASA</nonterminal>
 			<nonterminal value="NN">spokesman</nonterminal>
-			<nonterminal value="DT">Allard</nonterminal>
+			<nonterminal value="NNP">Allard</nonterminal>
 			<nonterminal value="NNP">Beutel</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
-			<nonterminal value="NN">Tuesday</nonterminal>
+			<nonterminal value="NNP">Tuesday</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="VBZ">Removes</nonterminal>
-			<nonterminal value="NN">wrinkles</nonterminal>
+			<nonterminal value="NNS">wrinkles</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -3755,7 +3755,7 @@
 		<nonterminal value="TOP">
 			<nonterminal value="PRP">i</nonterminal>
 			<nonterminal value="VBP">believe</nonterminal>
-			<nonterminal value="WDT">that</nonterminal>
+			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="NNP">NASA</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
@@ -3772,7 +3772,7 @@
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="RB">so</nonterminal>
 			<nonterminal value="JJ">many</nonterminal>
-			<nonterminal value="NNP">huge</nonterminal>
+			<nonterminal value="JJ">huge</nonterminal>
 			<nonterminal value="NNS">wastes</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NN">tax</nonterminal>
@@ -3783,9 +3783,9 @@
 			<nonterminal value="PRP">i</nonterminal>
 			<nonterminal value="VBP">find</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
-			<nonterminal value="MD">best</nonterminal>
+			<nonterminal value="JJS">best</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">think</nonterminal>
 			<nonterminal value="IN">about</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
@@ -3816,7 +3816,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Emergency</nonterminal>
+			<nonterminal value="NN">Emergency</nonterminal>
 			<nonterminal value="NNS">teams</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
@@ -3847,20 +3847,20 @@
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="ADD">http://www.myshutter.com</nonterminal>
-			<nonterminal value="NNP">Before</nonterminal>
+			<nonterminal value="IN">Before</nonterminal>
 			<nonterminal value="VBG">becoming</nonterminal>
-			<nonterminal value="NNS">disabled</nonterminal>
+			<nonterminal value="VBN">disabled</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="DT">an</nonterminal>
-			<nonterminal value="GW">AVID</nonterminal>
-			<nonterminal value="VBN">amateur</nonterminal>
-			<nonterminal value="NN">photographer</nonterminal>
+			<nonterminal value="NNP">AVID</nonterminal>
+			<nonterminal value="RB">amateur</nonterminal>
+			<nonterminal value="RB">photographer</nonterminal>
 			<nonterminal value=",">..</nonterminal>
 			<nonterminal value="VB">come</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
-			<nonterminal value="NN">visit</nonterminal>
+			<nonterminal value="VB">visit</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VB">sign</nonterminal>
 			<nonterminal value="PRP$">our</nonterminal>
@@ -3869,7 +3869,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJR">More</nonterminal>
+			<nonterminal value="RBR">More</nonterminal>
 			<nonterminal value="NN">time</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
@@ -3883,14 +3883,14 @@
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">psycho-spiritual</nonterminal>
-			<nonterminal value="JJ">exercise</nonterminal>
+			<nonterminal value="NN">exercise</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBG">benefiting</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">mind</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
 			<nonterminal value="VBG">developing</nonterminal>
-			<nonterminal value="NNS">stamina</nonterminal>
+			<nonterminal value="NN">stamina</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NN">strength</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -3906,31 +3906,31 @@
 			<nonterminal value="IN">that</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
-			<nonterminal value="VBN">shot</nonterminal>
+			<nonterminal value="RB">shot</nonterminal>
 			<nonterminal value="CD">seven</nonterminal>
 			<nonterminal value="NNS">times</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBG">being</nonterminal>
-			<nonterminal value="NNS">seven</nonterminal>
+			<nonterminal value="CD">seven</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="IN">as</nonterminal>
+			<nonterminal value="RB">as</nonterminal>
 			<nonterminal value="RB">well</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="CD">three</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">holy</nonterminal>
+			<nonterminal value="NN">holy</nonterminal>
 			<nonterminal value="NNS">numbers</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="NNP">Holy</nonterminal>
 			<nonterminal value="NNP">Cabalah</nonterminal>
 			<nonterminal value="NN">tradition</nonterminal>
-			<nonterminal value="NNP">....</nonterminal>
+			<nonterminal value=",">....</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="LS">5</nonterminal>
+			<nonterminal value="CD">5</nonterminal>
 			<nonterminal value=":">-</nonterminal>
 			<nonterminal value="NN">Number</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
@@ -3941,7 +3941,7 @@
 			<nonterminal value="VB">use</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">word</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NN">evolution</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
@@ -3957,7 +3957,7 @@
 			<nonterminal value="CC">But</nonterminal>
 			<nonterminal value="JJ">other</nonterminal>
 			<nonterminal value="NNS">people</nonterminal>
-			<nonterminal value="VB">do</nonterminal>
+			<nonterminal value="VBP">do</nonterminal>
 			<nonterminal value="VB">like</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">way</nonterminal>
@@ -3969,15 +3969,15 @@
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">ones</nonterminal>
+			<nonterminal value="NNS">ones</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
 			<nonterminal value="VBP">favor</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
-			<nonterminal value="VB">seem</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="VBP">seem</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">outnumber</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="NNP">ones</nonterminal>
+			<nonterminal value="NNS">ones</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
 			<nonterminal value="VBP">oppose</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
@@ -3990,7 +3990,7 @@
 			<nonterminal value="PRP">We</nonterminal>
 			<nonterminal value="VBP">&apos;re</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
-			<nonterminal value="VB">happy</nonterminal>
+			<nonterminal value="JJ">happy</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="NNP">Hamas</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
@@ -4010,8 +4010,8 @@
 			<nonterminal value="NNPS">Palestinians</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
-			<nonterminal value="VBN">commented</nonterminal>
-			<nonterminal value="NN">Khader</nonterminal>
+			<nonterminal value="VBD">commented</nonterminal>
+			<nonterminal value="NNP">Khader</nonterminal>
 			<nonterminal value="NNP">Habib</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
@@ -4027,7 +4027,7 @@
 			<nonterminal value="DT">This</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="NN">something</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="PRP$">his</nonterminal>
 			<nonterminal value="NN">ego</nonterminal>
 			<nonterminal value="NN">trip</nonterminal>
@@ -4038,8 +4038,8 @@
 			<nonterminal value="MD">could</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
 			<nonterminal value="VB">face</nonterminal>
-			<nonterminal value="RB">anymore</nonterminal>
-			<nonterminal value="NNP">....</nonterminal>
+			<nonterminal value="NN">anymore</nonterminal>
+			<nonterminal value=",">....</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -4057,22 +4057,22 @@
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NN">state</nonterminal>
 			<nonterminal value="HYPH">-</nonterminal>
-			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
-			<nonterminal value="VBZ">the</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
+			<nonterminal value="NN">of</nonterminal>
+			<nonterminal value=",">-</nonterminal>
+			<nonterminal value="DT">the</nonterminal>
+			<nonterminal value=",">-</nonterminal>
 			<nonterminal value="NN">art</nonterminal>
-			<nonterminal value="RB">technologies</nonterminal>
+			<nonterminal value="NNS">technologies</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">He</nonterminal>
+			<nonterminal value="PRP">He</nonterminal>
 			<nonterminal value="MD">Would</nonterminal>
 			<nonterminal value="VB">Tear</nonterminal>
-			<nonterminal value="IN">Down</nonterminal>
+			<nonterminal value="RP">Down</nonterminal>
 			<nonterminal value="PRP$">Our</nonterminal>
 			<nonterminal value="NN">System</nonterminal>
 			<nonterminal value="IN">Of</nonterminal>
@@ -4094,16 +4094,16 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="UH">You</nonterminal>
+			<nonterminal value="PRP">You</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
 			<nonterminal value="VBP">like</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="JJ">tough</nonterminal>
-			<nonterminal value="NN">talk</nonterminal>
+			<nonterminal value="VB">talk</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="NNP">Tough</nonterminal>
+			<nonterminal value="JJ">Tough</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
-			<nonterminal value="NNP">Crime</nonterminal>
+			<nonterminal value="NN">Crime</nonterminal>
 			<nonterminal value=".">?</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4118,14 +4118,14 @@
 			<nonterminal value="JJ">new</nonterminal>
 			<nonterminal value="NN">server</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="RB">so</nonterminal>
+			<nonterminal value="IN">so</nonterminal>
 			<nonterminal value="PRP">we</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
-			<nonterminal value="RP">down</nonterminal>
+			<nonterminal value="RB">down</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="RB">while</nonterminal>
+			<nonterminal value="NN">while</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4137,15 +4137,15 @@
 			<nonterminal value="NNP">Yang</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNP">David</nonterminal>
-			<nonterminal value="UH">Filo</nonterminal>
+			<nonterminal value="NNP">Filo</nonterminal>
 			<nonterminal value="VBN">selected</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">name</nonterminal>
 			<nonterminal value="IN">because</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
-			<nonterminal value="VBN">considered</nonterminal>
+			<nonterminal value="VBD">considered</nonterminal>
 			<nonterminal value="PRP">themselves</nonterminal>
-			<nonterminal value="VBD">yahoos</nonterminal>
+			<nonterminal value="PRP">yahoos</nonterminal>
 			<nonterminal value=",">...</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4160,25 +4160,25 @@
 		<nonterminal value="TOP">
 			<nonterminal value="IN">If</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
-			<nonterminal value="GW">own</nonterminal>
+			<nonterminal value="VBP">own</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">Retail</nonterminal>
-			<nonterminal value="NNP">Store</nonterminal>
+			<nonterminal value="NN">Store</nonterminal>
 			<nonterminal value="CC">or</nonterminal>
-			<nonterminal value="VB">are</nonterminal>
+			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="JJ">Professional</nonterminal>
 			<nonterminal value="NNP">Vendor</nonterminal>
 			<nonterminal value="WP">who</nonterminal>
-			<nonterminal value="VBZ">exhibits</nonterminal>
+			<nonterminal value="VBD">exhibits</nonterminal>
 			<nonterminal value="IN">at</nonterminal>
-			<nonterminal value="NNP">Sport</nonterminal>
+			<nonterminal value="NN">Sport</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBG">Hunting</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">or</nonterminal>
-			<nonterminal value="VB">Craft</nonterminal>
-			<nonterminal value="NNPS">Shows</nonterminal>
+			<nonterminal value="NN">Craft</nonterminal>
+			<nonterminal value="VBZ">Shows</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="JJ">interested</nonterminal>
@@ -4191,13 +4191,13 @@
 			<nonterminal value="VB">give</nonterminal>
 			<nonterminal value="PRP">us</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="NN">call</nonterminal>
+			<nonterminal value="VB">call</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="UH">Roy</nonterminal>
+			<nonterminal value="NNP">Roy</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4205,16 +4205,16 @@
 		<nonterminal value="TOP">
 			<nonterminal value="NN">Country</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
-			<nonterminal value="JJ">open</nonterminal>
+			<nonterminal value="VB">open</nonterminal>
 			<nonterminal value="CC">or</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
 			<nonterminal value="VB">have</nonterminal>
 			<nonterminal value="VBN">fixed</nonterminal>
 			<nonterminal value="NN">strategy</nonterminal>
-			<nonterminal value="IN">=</nonterminal>
+			<nonterminal value=",">=</nonterminal>
 			<nonterminal value="NNP">NASA</nonterminal>
 			<nonterminal value="CC">&amp;</nonterminal>
-			<nonterminal value="NNP">Company</nonterminal>
+			<nonterminal value="NN">Company</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">use</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
@@ -4240,7 +4240,7 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">image001.jpg</nonterminal>
+			<nonterminal value="NFP">image001.jpg</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -4249,8 +4249,8 @@
 			<nonterminal value="NN">advertising</nonterminal>
 			<nonterminal value="NN">farce</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
-			<nonterminal value="VBG">how</nonterminal>
-			<nonterminal value="PRP$">much</nonterminal>
+			<nonterminal value="WRB">how</nonterminal>
+			<nonterminal value="JJ">much</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">loved</nonterminal>
 			<nonterminal value="NNP">Linda</nonterminal>
@@ -4285,7 +4285,7 @@
 			<nonterminal value="NN">friend</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
-			<nonterminal value="NFP">whom</nonterminal>
+			<nonterminal value="WP">whom</nonterminal>
 			<nonterminal value="NNP">McCartney</nonterminal>
 			<nonterminal value="VBD">went</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
@@ -4296,7 +4296,7 @@
 			<nonterminal value="NNP">York</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
-			<nonterminal value="VB">whom</nonterminal>
+			<nonterminal value="WP">whom</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">bought</nonterminal>
 			<nonterminal value="NNS">things</nonterminal>
@@ -4313,7 +4313,7 @@
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="JJ">dear</nonterminal>
 			<nonterminal value="NNP">Linda</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4322,7 +4322,7 @@
 			<nonterminal value="DT">Some</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VBN">better</nonterminal>
+			<nonterminal value="JJR">better</nonterminal>
 			<nonterminal value="NNS">comments</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 		</nonterminal>
@@ -4331,13 +4331,13 @@
 		<nonterminal value="TOP">
 			<nonterminal value="NNP">Mr.</nonterminal>
 			<nonterminal value="NNP">Crawford</nonterminal>
-			<nonterminal value="VBN">threw</nonterminal>
+			<nonterminal value="VBD">threw</nonterminal>
 			<nonterminal value="JJ">several</nonterminal>
 			<nonterminal value="NNS">punches</nonterminal>
 			<nonterminal value="IN">at</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">assailant</nonterminal>
-			<nonterminal value="RB">before</nonterminal>
+			<nonterminal value="IN">before</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBD">was</nonterminal>
 			<nonterminal value="VBN">stabbed</nonterminal>
@@ -4366,8 +4366,8 @@
 			<nonterminal value="NN">imagination</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
 			<nonterminal value="VB">be</nonterminal>
-			<nonterminal value="NN">working</nonterminal>
-			<nonterminal value="RB">overtime</nonterminal>
+			<nonterminal value="VBG">working</nonterminal>
+			<nonterminal value="NN">overtime</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4383,7 +4383,7 @@
 			<nonterminal value="NNP">Europe</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">still</nonterminal>
-			<nonterminal value="VB">irrelevant</nonterminal>
+			<nonterminal value="VBP">irrelevant</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 		</nonterminal>
@@ -4406,13 +4406,13 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Climate</nonterminal>
+			<nonterminal value="NN">Climate</nonterminal>
 			<nonterminal value=":">:</nonterminal>
 			<nonterminal value="NNS">Humans</nonterminal>
 			<nonterminal value="NN">fuss</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNS">animals</nonterminal>
-			<nonterminal value="VB">adjust</nonterminal>
+			<nonterminal value="VBP">adjust</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
@@ -4449,8 +4449,8 @@
 			<nonterminal value="RP">up</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="NN">space</nonterminal>
-			<nonterminal value="NN">later</nonterminal>
-			<nonterminal value="IN">on</nonterminal>
+			<nonterminal value="RBR">later</nonterminal>
+			<nonterminal value="NN">on</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4460,7 +4460,7 @@
 			<nonterminal value="NNP">Brazil</nonterminal>
 			<nonterminal value="NN">trade</nonterminal>
 			<nonterminal value="NN">deal</nonterminal>
-			<nonterminal value="VBN">included</nonterminal>
+			<nonterminal value="VBD">included</nonterminal>
 			<nonterminal value="NN">funding</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
@@ -4474,12 +4474,12 @@
 			<nonterminal value="IN">at</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">cost</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="NNS">experts</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
 			<nonterminal value="MD">would</nonterminal>
 			<nonterminal value="VB">add</nonterminal>
-			<nonterminal value="RP">up</nonterminal>
+			<nonterminal value="IN">up</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="CD">three</nonterminal>
 			<nonterminal value="NNS">times</nonterminal>
@@ -4504,17 +4504,17 @@
 			<nonterminal value="JJ">happy</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">pay</nonterminal>
-			<nonterminal value="VBN">big</nonterminal>
-			<nonterminal value="NN">bucks</nonterminal>
+			<nonterminal value="RP">big</nonterminal>
+			<nonterminal value="NNS">bucks</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
-			<nonterminal value="VB">quality</nonterminal>
+			<nonterminal value="NN">quality</nonterminal>
 			<nonterminal value="NNS">lists</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Selah</nonterminal>
+			<nonterminal value="NNP">Selah</nonterminal>
 			<nonterminal value=".">!</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4527,13 +4527,13 @@
 			<nonterminal value="NN">economy</nonterminal>
 			<nonterminal value="NNS">falters</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="CC">which</nonterminal>
+			<nonterminal value="WDT">which</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="PRP$">my</nonterminal>
 			<nonterminal value="NN">view</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="VBN">appears</nonterminal>
+			<nonterminal value="VBZ">appears</nonterminal>
 			<nonterminal value="RB">increasingly</nonterminal>
 			<nonterminal value="JJ">likely</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -4553,18 +4553,18 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">assets</nonterminal>
 			<nonterminal value="WDT">that</nonterminal>
-			<nonterminal value="VB">produce</nonterminal>
+			<nonterminal value="IN">produce</nonterminal>
 			<nonterminal value="PRP">them</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value="NNP">Jason</nonterminal>
-			<nonterminal value="NNP">Kindopp</nonterminal>
+			<nonterminal value="NNPS">Kindopp</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNP">Eurasia</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
-			<nonterminal value="VB">lead</nonterminal>
+			<nonterminal value="WRB">lead</nonterminal>
 			<nonterminal value="NNP">China</nonterminal>
-			<nonterminal value="NN">analyst</nonterminal>
+			<nonterminal value="VBP">analyst</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -4576,16 +4576,16 @@
 			<nonterminal value="JJ">first</nonterminal>
 			<nonterminal value="NN">phase</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="VB">she</nonterminal>
+			<nonterminal value="PRP">she</nonterminal>
 			<nonterminal value="VBD">said</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
-			<nonterminal value="VB">demonstrate</nonterminal>
+			<nonterminal value="RB">demonstrate</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">capability</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="NN">multi-compartment</nonterminal>
+			<nonterminal value="JJ">multi-compartment</nonterminal>
 			<nonterminal value="NN">spacecraft</nonterminal>
 			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="MD">will</nonterminal>
@@ -4599,7 +4599,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="CD">two</nonterminal>
 			<nonterminal value="NNS">fliers</nonterminal>
-			<nonterminal value="NN">return</nonterminal>
+			<nonterminal value="VB">return</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="NNP">Earth</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -4627,7 +4627,7 @@
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">North</nonterminal>
 			<nonterminal value="NNP">Carolina</nonterminal>
-			<nonterminal value="JJ">Religious</nonterminal>
+			<nonterminal value="NNP">Religious</nonterminal>
 			<nonterminal value="NNP">Coalition</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="NNP">Marriage</nonterminal>
@@ -4636,11 +4636,11 @@
 			<nonterminal value="VBN">formed</nonterminal>
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">get</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">message</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
-			<nonterminal value="IN">at</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
+			<nonterminal value="RB">at</nonterminal>
 			<nonterminal value="RBS">least</nonterminal>
 			<nonterminal value="DT">some</nonterminal>
 			<nonterminal value="NNS">people</nonterminal>
@@ -4648,9 +4648,9 @@
 			<nonterminal value="NN">faith</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
 			<nonterminal value="RB">not</nonterminal>
-			<nonterminal value="IN">opposed</nonterminal>
-			<nonterminal value="TO">to</nonterminal>
-			<nonterminal value="VBG">extending</nonterminal>
+			<nonterminal value="JJ">opposed</nonterminal>
+			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="VB">extending</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNS">rights</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
@@ -4681,9 +4681,9 @@
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="PRP$">our</nonterminal>
 			<nonterminal value="JJ">own</nonterminal>
-			<nonterminal value="VBP">select</nonterminal>
-			<nonterminal value="PRP">guild</nonterminal>
-			<nonterminal value="VBN">called</nonterminal>
+			<nonterminal value="VB">select</nonterminal>
+			<nonterminal value="CD">guild</nonterminal>
+			<nonterminal value="VBD">called</nonterminal>
 			<nonterminal value="NNP">ULGG</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="NNP">GW</nonterminal>
@@ -4708,19 +4708,19 @@
 			<nonterminal value="PRP">I</nonterminal>
 			<nonterminal value="VBD">checked</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
-			<nonterminal value="RP">out</nonterminal>
+			<nonterminal value="IN">out</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">U.S.</nonterminal>
 			<nonterminal value="NNP">Post</nonterminal>
 			<nonterminal value="NNP">Office</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
-			<nonterminal value="CD">1-800-238-5355</nonterminal>
+			<nonterminal value="LS">1-800-238-5355</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="VBD">confirmed</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">indeed</nonterminal>
@@ -4735,26 +4735,26 @@
 			<nonterminal value="PRP">you</nonterminal>
 			<nonterminal value="VBP">&apos;re</nonterminal>
 			<nonterminal value="VBG">going</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">develop</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="JJ">hopeless</nonterminal>
-			<nonterminal value="NN">romantic</nonterminal>
+			<nonterminal value="NN">hopeless</nonterminal>
+			<nonterminal value="VBN">romantic</nonterminal>
 			<nonterminal value="NN">streak</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="JJ">Lunar</nonterminal>
+			<nonterminal value="NNP">Lunar</nonterminal>
 			<nonterminal value="NNS">landers</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="JJ">other</nonterminal>
-			<nonterminal value="UH">gear</nonterminal>
+			<nonterminal value="NN">gear</nonterminal>
 			<nonterminal value="VBN">needed</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="VBN">extended</nonterminal>
-			<nonterminal value="VBN">visits</nonterminal>
+			<nonterminal value="NNS">visits</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">moon</nonterminal>
@@ -4762,17 +4762,17 @@
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="VBN">lofted</nonterminal>
 			<nonterminal value="IN">by</nonterminal>
-			<nonterminal value="JJ">gargantuan</nonterminal>
+			<nonterminal value="NN">gargantuan</nonterminal>
 			<nonterminal value="NNS">launchers</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
-			<nonterminal value="JJ">big</nonterminal>
+			<nonterminal value="RB">big</nonterminal>
 			<nonterminal value="IN">as</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NNP">Apollo</nonterminal>
-			<nonterminal value="HYPH">-</nonterminal>
-			<nonterminal value="JJ">era</nonterminal>
+			<nonterminal value=",">-</nonterminal>
+			<nonterminal value="NN">era</nonterminal>
 			<nonterminal value="NNP">Saturn</nonterminal>
-			<nonterminal value="CC">5</nonterminal>
+			<nonterminal value="CD">5</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="RBS">most</nonterminal>
@@ -4785,17 +4785,17 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="NNP">Cloaking</nonterminal>
+			<nonterminal value="VBG">Cloaking</nonterminal>
 			<nonterminal value="PRP">himself</nonterminal>
 			<nonterminal value="IN">in</nonterminal>
 			<nonterminal value="NNP">Yasser</nonterminal>
 			<nonterminal value="NNP">Arafat</nonterminal>
 			<nonterminal value="POS">&apos;s</nonterminal>
-			<nonterminal value="NNS">legacy</nonterminal>
+			<nonterminal value="NN">legacy</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="NNP">Abbas</nonterminal>
 			<nonterminal value="VBD">pledged</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">fulfill</nonterminal>
 			<nonterminal value="JJ">Palestinian</nonterminal>
 			<nonterminal value="NNS">dreams</nonterminal>
@@ -4809,13 +4809,13 @@
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="IN">If</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="VBN">school</nonterminal>
-			<nonterminal value="NN">bus</nonterminal>
+			<nonterminal value="NN">school</nonterminal>
+			<nonterminal value="CD">bus</nonterminal>
 			<nonterminal value="VBG">carrying</nonterminal>
 			<nonterminal value="CD">fifty</nonterminal>
 			<nonterminal value="NNS">children</nonterminal>
 			<nonterminal value="VBN">drove</nonterminal>
-			<nonterminal value="RB">off</nonterminal>
+			<nonterminal value="IN">off</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">cliff</nonterminal>
 			<nonterminal value=",">,</nonterminal>
@@ -4828,14 +4828,14 @@
 			<nonterminal value="VB">be</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
 			<nonterminal value="NN">tragedy</nonterminal>
-			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
 			<nonterminal value="VB">Continue</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">ideate</nonterminal>
 			<nonterminal value="IN">on</nonterminal>
 			<nonterminal value="DT">this</nonterminal>
@@ -4856,17 +4856,17 @@
 	</sent>
 	<sent>
 		<nonterminal value="TOP">
-			<nonterminal value="RB">{</nonterminal>
-			<nonterminal value="NN">LUCIO</nonterminal>
+			<nonterminal value="NFP">{</nonterminal>
+			<nonterminal value="NNP">LUCIO</nonterminal>
 			<nonterminal value=":">:</nonterminal>
-			<nonterminal value="UH">Does</nonterminal>
+			<nonterminal value="VBZ">Does</nonterminal>
 			<nonterminal value="NNP">BRIDGET</nonterminal>
 			<nonterminal value="NNP">PAINT</nonterminal>
 			<nonterminal value="RB">still</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="NNP">Pompey</nonterminal>
+			<nonterminal value="NNPS">Pompey</nonterminal>
 			<nonterminal value=",">,</nonterminal>
-			<nonterminal value="UH">ha</nonterminal>
+			<nonterminal value="NN">ha</nonterminal>
 			<nonterminal value=".">?</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4888,7 +4888,7 @@
 			<nonterminal value="MD">can</nonterminal>
 			<nonterminal value="VB">help</nonterminal>
 			<nonterminal value="PRP">you</nonterminal>
-			<nonterminal value="CC">weather</nonterminal>
+			<nonterminal value="VBP">weather</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">storm</nonterminal>
 			<nonterminal value=".">.</nonterminal>
@@ -4915,9 +4915,9 @@
 			<nonterminal value="NN">Consciousness</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
-			<nonterminal value="VBN">merging</nonterminal>
+			<nonterminal value="VBG">merging</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
-			<nonterminal value="NNP">Infinity</nonterminal>
+			<nonterminal value="NN">Infinity</nonterminal>
 			<nonterminal value=".">.</nonterminal>
 		</nonterminal>
 	</sent>
@@ -4925,7 +4925,7 @@
 		<nonterminal value="TOP">
 			<nonterminal value="RB">Not</nonterminal>
 			<nonterminal value="RB">only</nonterminal>
-			<nonterminal value="IN">that</nonterminal>
+			<nonterminal value="WDT">that</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="CC">but</nonterminal>
 			<nonterminal value="NN">travel</nonterminal>
@@ -4936,10 +4936,10 @@
 			<nonterminal value="JJ">personal</nonterminal>
 			<nonterminal value="NN">expansion</nonterminal>
 			<nonterminal value="NN">infuse</nonterminal>
-			<nonterminal value="JJ">fresh</nonterminal>
+			<nonterminal value="ADD">fresh</nonterminal>
 			<nonterminal value="NN">energy</nonterminal>
 			<nonterminal value="IN">into</nonterminal>
-			<nonterminal value="DT">all</nonterminal>
+			<nonterminal value="RB">all</nonterminal>
 			<nonterminal value="NNS">areas</nonterminal>
 			<nonterminal value="IN">of</nonterminal>
 			<nonterminal value="PRP$">your</nonterminal>
@@ -4968,7 +4968,7 @@
 			<nonterminal value="NNP">John</nonterminal>
 			<nonterminal value="NNP">Lennon</nonterminal>
 			<nonterminal value="VBD">wanted</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">compete</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="NNP">Jesus</nonterminal>
@@ -4985,9 +4985,9 @@
 			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="VB">make</nonterminal>
 			<nonterminal value="DT">a</nonterminal>
-			<nonterminal value="JJ">bogus</nonterminal>
+			<nonterminal value="NN">bogus</nonterminal>
 			<nonterminal value="NN">role</nonterminal>
-			<nonterminal value="IN">of</nonterminal>
+			<nonterminal value="NN">of</nonterminal>
 			<nonterminal value="NNP">Christ</nonterminal>
 			<nonterminal value="RB">together</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
@@ -5039,14 +5039,14 @@
 			<nonterminal value="NNP">John</nonterminal>
 			<nonterminal value="CC">and</nonterminal>
 			<nonterminal value="NNP">Yoko</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
-			<nonterminal value="NFP">:</nonterminal>
-			<nonterminal value="IN">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
+			<nonterminal value=":">:</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="NN">way</nonterminal>
 			<nonterminal value="NNS">things</nonterminal>
 			<nonterminal value="VBP">are</nonterminal>
-			<nonterminal value="VBN">going</nonterminal>
+			<nonterminal value="VBG">going</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="PRP">they</nonterminal>
 			<nonterminal value="VBP">&apos;re</nonterminal>
@@ -5058,14 +5058,14 @@
 			<nonterminal value="''">&quot;</nonterminal>
 			<nonterminal value=",">,</nonterminal>
 			<nonterminal value="DT">The</nonterminal>
-			<nonterminal value="NN">CURSE</nonterminal>
+			<nonterminal value="NNP">CURSE</nonterminal>
 			<nonterminal value="IN">OF</nonterminal>
 			<nonterminal value="NNP">GOD</nonterminal>
 			<nonterminal value="IN">upon</nonterminal>
 			<nonterminal value="NNP">John</nonterminal>
 			<nonterminal value="NNP">Lennon</nonterminal>
 			<nonterminal value="VBD">carried</nonterminal>
-			<nonterminal value="IN">on</nonterminal>
+			<nonterminal value="RB">on</nonterminal>
 			<nonterminal value="IN">with</nonterminal>
 			<nonterminal value="DT">all</nonterminal>
 			<nonterminal value="NN">type</nonterminal>
@@ -5076,16 +5076,16 @@
 			<nonterminal value="WDT">which</nonterminal>
 			<nonterminal value="VBD">made</nonterminal>
 			<nonterminal value="NNP">Lennon</nonterminal>
-			<nonterminal value="VBD">give</nonterminal>
+			<nonterminal value="IN">give</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
-			<nonterminal value="VBN">interview</nonterminal>
+			<nonterminal value="NN">interview</nonterminal>
 			<nonterminal value="IN">to</nonterminal>
 			<nonterminal value="DT">the</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="NNP">Rolling</nonterminal>
 			<nonterminal value="NNP">Stone</nonterminal>
 			<nonterminal value="''">&quot;</nonterminal>
-			<nonterminal value="VB">magazine</nonterminal>
+			<nonterminal value="NN">magazine</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="NN">today</nonterminal>
 			<nonterminal value="VBN">condensed</nonterminal>
@@ -5095,12 +5095,12 @@
 			<nonterminal value="NNP">Lennon</nonterminal>
 			<nonterminal value="NNS">remembers</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
-			<nonterminal value="UH">book</nonterminal>
+			<nonterminal value="NN">book</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
 			<nonterminal value="WRB">where</nonterminal>
 			<nonterminal value="PRP">he</nonterminal>
 			<nonterminal value="VBZ">speaks</nonterminal>
-			<nonterminal value="CC">about</nonterminal>
+			<nonterminal value="IN">about</nonterminal>
 			<nonterminal value="WRB">how</nonterminal>
 			<nonterminal value="JJ">bad</nonterminal>
 			<nonterminal value="NN">thing</nonterminal>
@@ -5108,18 +5108,18 @@
 			<nonterminal value="VBG">going</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="PRP">him</nonterminal>
-			<nonterminal value="VB">blaming</nonterminal>
+			<nonterminal value="NN">blaming</nonterminal>
 			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="WP">whatever</nonterminal>
 			<nonterminal value="VBZ">is</nonterminal>
 			<nonterminal value="RB">up</nonterminal>
 			<nonterminal value="RB">there</nonterminal>
-			<nonterminal value="''">&quot;</nonterminal>
+			<nonterminal value="``">&quot;</nonterminal>
 			<nonterminal value="IN">for</nonterminal>
 			<nonterminal value="PRP">it</nonterminal>
 			<nonterminal value="-LRB-">-LRB-</nonterminal>
 			<nonterminal value="VBG">referring</nonterminal>
-			<nonterminal value="IN">to</nonterminal>
+			<nonterminal value="TO">to</nonterminal>
 			<nonterminal value="NNP">God</nonterminal>
 			<nonterminal value="-RRB-">-RRB-</nonterminal>
 			<nonterminal value=".">.</nonterminal>

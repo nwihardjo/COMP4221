@@ -6,7 +6,7 @@ using namespace tg;
 const char *STUDENT_ID = "20315011";
 
 void lower_case(token_t &str){
-	//transform(str.begin(), str.end(), str.begin(), ::tolower);
+	transform(str.begin(), str.end(), str.begin(), ::tolower);
 }
 
 /* 
@@ -134,23 +134,23 @@ vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_ind
 */
 
 // ITERATION 1 - HYPOTHESIS 4
-const unsigned NUM_EPOCHS = 40;
+const unsigned NUM_EPOCHS = 10;
 transducer_t your_classifier(const vector<token_t> &vocab, const vector<postag_t> &postags) { 
   auto embedding_lookup = make_embedding_lookup(64, vocab);
-  auto concatenate = make_concatenate(4);
+  auto concatenate = make_concatenate(5);
   auto dense0 = make_dense_feedfwd(128, make_tanh());
   auto dense_ = make_dense_feedfwd(32, make_tanh());
   auto dense1 = make_dense_feedfwd((unsigned) postags.size(), make_softmax());
   auto onehot_inverse = make_onehot_inverse(postags);
-  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense0, dense1, onehot_inverse);
+  return compose(group(embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup, embedding_lookup), concatenate, dense1, onehot_inverse);
 }
 vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_index) {
   int size = sentence.size();
   token_t suffix;
   token_t first_letter = sentence[token_index].substr(0, 1);
   
-  if (sentence[token_index].length() > 4)
-    suffix = sentence[token_index].substr(sentence[token_index].length() - 4);
+  if (sentence[token_index].length() > 3)
+    suffix = sentence[token_index].substr(sentence[token_index].length() - 3);
   else
     suffix = "<s>";
 
@@ -173,7 +173,7 @@ vector<token_t> get_features(const vector<token_t> &sentence, unsigned token_ind
     next = "<s>";
 
   lower_case(current);
-  return vector<token_t>{previous, current, next, suffix};
+  return vector<token_t>{previous, current, next, suffix, first_letter};
 }
 
 /*
