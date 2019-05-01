@@ -7,6 +7,35 @@
 using namespace tg;
 using namespace part_a;
 
+
+void error_analysis( const vector<vector<symbol_t>> &predicted_postags, const vector<vector<symbol_t>> &predicted_iobes_tags, const vector<vector<symbol_t>> &oracles, const vector<vector<symbol_t>> &sentence_tokens) {
+	int total_count = 0;
+	int wrong = 0;
+
+	for (auto i = 0; i < predicted_iobes_tags.size(); i++) {
+		auto sent_pred_postags = predicted_postags[i];
+		auto sent_pred_iobes_tags = predicted_iobes_tags[i];
+		auto sent_oracles = oracles[i];
+		auto sent_tokens = sentence_tokens[i];
+		
+		for (auto j = 0; j < sent_pred_iobes_tags.size(); j++) {
+			total_count++;
+			if (sent_pred_iobes_tags[j] != sent_oracles[j]) {
+				wrong++;
+				if (j != 0 && j != sent_pred_iobes_tags.size()-1) {
+					cout << sent_pred_iobes_tags[j] << "\t" << sent_oracles[j] << "\t" << sent_tokens[j] << "\t" << sent_pred_postags[j] << endl;
+					cout << "\t\t" << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << endl; 
+				}
+			}
+		}
+	}
+
+	double acc = wrong * 100.0 / total_count;
+	cout << "Got wrong: " << wrong << " out of " << total_count << endl;
+	cout << "Accuracy of the model " << acc << "%" << endl;
+}
+	
+
 int main() {
 
   auto postag_vocab = collect_vocab_from_symbol_matrix(part_review::read_dataset("/project/cl/httpd/htdocs/COMP4221_2019Q1_a3/res/traindata_postag.xml").second);
@@ -40,7 +69,9 @@ int main() {
 
   cout << "development testing" <<endl;
   vector<vector<symbol_t >> predicted_iobes_tags = chunk_sentences_iobes(classifier, postagger, test_sents);
-
+	
+  auto predicted_dev_postags = part_review::postag_sentences(postagger, test_sents);
+  error_analysis(predicted_dev_postags, predicted_iobes_tags, test_postags, test_sents); 
   report_score(predicted_iobes_tags, test_postags);
 
   save_dataset("predict_iobes.xml", make_pair(test_sents, predicted_iobes_tags));
