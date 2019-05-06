@@ -2,13 +2,13 @@
 // Created by Dekai WU and YAN Yuchen on 20190417.
 //
 
-#ifndef COMP4221_2019Q1_A3_ASSIGNMENT_HPP
-#define COMP4221_2019Q1_A3_ASSIGNMENT_HPP
+#ifndef COMP4221_2019Q1_A3_ASSIGNMENT_HPP_B
+#define COMP4221_2019Q1_A3_ASSIGNMENT_HPP_B
 
 #include <make_transducer.hpp>
 using namespace tg;
 
-namespace part_a {
+namespace part_b {
   extern const unsigned NUM_EPOCHS;
   transducer_t your_classifier(const vector<sentence_t> &training_set, const vector<symbol_t> &postags,
                                const vector<symbol_t> &iobes_tags);

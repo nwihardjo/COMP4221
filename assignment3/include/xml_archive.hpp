@@ -380,9 +380,12 @@ namespace cereal
         //std::cerr << e.where<char>() << std::endl;
         throw Exception("XML Parsing failed - likely due to invalid characters or invalid naming");
       }
+      if(!itsXML.first_node()) throw Exception("XML Parsing failed - likely due to empty XML file");
+
       if(itsXML.first_node()->type() == rapidxml::node_type::node_declaration) {
         itsXML.remove_first_node();
       }
+
       itsNodes.emplace(&itsXML);
     }
 
@@ -449,6 +452,13 @@ namespace cereal
 
     bool hasNextChild() {
       return itsNodes.top().child;
+    }
+
+    std::string getNextChildName() {
+      auto next = itsNodes.top().child;
+      if(!next) throw Exception("XML Parsing failed - not enough child nodes");
+
+      return std::string(next->name());
     }
 
     //! Finishes reading the current node
@@ -910,5 +920,7 @@ CEREAL_REGISTER_ARCHIVE(cereal::hltc_xml_input_archive)
 // tie input and output archives together
 CEREAL_SETUP_ARCHIVE_TRAITS(cereal::hltc_xml_input_archive, cereal::hltc_xml_output_archive)
 
+using hltc_xml_output_archive = cereal::hltc_xml_output_archive;
+using hltc_xml_input_archive = cereal::hltc_xml_input_archive;
 
 #endif //XML_SERIALIZE_XML_ARCHIVE_HPP

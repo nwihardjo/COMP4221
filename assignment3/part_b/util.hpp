@@ -2,8 +2,8 @@
 // Created by Dekai WU and YAN Yuchen on 20190417.
 //
 
-#ifndef COMP4221_2019Q1_A3_UTIL_HPP
-#define COMP4221_2019Q1_A3_UTIL_HPP
+#ifndef COMP4221_2019Q1_A3_UTIL_HPP_B
+#define COMP4221_2019Q1_A3_UTIL_HPP_B
 
 #include <make_transducer.hpp>
 #include <xml_archive.hpp>
@@ -13,7 +13,7 @@
 #include <chunk_t.hpp>
 
 using namespace tg;
-namespace part_a {
+namespace part_b {
 
   pair<vector<sentence_t>, vector<vector<symbol_t >>> read_dataset(const string &path_to_train_data) {
     pair<vector<sentence_t>, vector<vector<symbol_t>>> dataset;
@@ -78,7 +78,7 @@ namespace part_a {
       auto sentence = sentences[i];
       auto sentence_postags = postags[i];
       for (unsigned j = 0; j < sentence.size(); ++j) {
-        ret_examples.push_back(part_a::get_features(sentence, sentence_postags, j));
+        ret_examples.push_back(part_b::get_features(sentence, sentence_postags, j));
         ret_oracles.emplace_back(iobes_tags[i][j]);
       }
     }

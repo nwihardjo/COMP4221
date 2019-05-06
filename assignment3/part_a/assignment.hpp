@@ -2,8 +2,8 @@
 // Created by Dekai WU and YAN Yuchen on 20190417.
 //
 
-#ifndef COMP4221_2019Q1_A3_ASSIGNMENT_HPP
-#define COMP4221_2019Q1_A3_ASSIGNMENT_HPP
+#ifndef COMP4221_2019Q1_A3_ASSIGNMENT_HPP_A
+#define COMP4221_2019Q1_A3_ASSIGNMENT_HPP_A
 
 #include <make_transducer.hpp>
 using namespace tg;

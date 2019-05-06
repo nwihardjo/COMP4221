@@ -11,6 +11,7 @@
 #include <stdexcept>
 #include <memory>
 #include <set>
+#include "default_srl_graph_stub.hpp"
 
 using namespace std;
 
@@ -140,8 +141,8 @@ inline vector<string> generate_iobes_tags(const chunked_sentence_t &chunked_sent
   return ret;
 }
 
-inline set<tuple<string, unsigned, unsigned>> get_labeled_spans(const chunked_sentence_t &chunked_sentence) {
-  set<tuple<string, unsigned, unsigned>> ret;
+inline set<tg_stub::labeled_span> get_labeled_spans(const chunked_sentence_t &chunked_sentence) {
+  set<tg_stub::labeled_span> ret;
   unsigned i = 0;
   for (const auto &x:chunked_sentence) {
     if (holds_alternative<string>(x)) ++i;
@@ -152,6 +153,33 @@ inline set<tuple<string, unsigned, unsigned>> get_labeled_spans(const chunked_se
     }
   }
   return ret;
+}
+
+template<typename RANGE_OF_LABELED_SPAN>
+vector<string> generate_iobes_tags(unsigned sentence_length, const RANGE_OF_LABELED_SPAN &spans) {
+  vector<string> iobes(sentence_length, "O");
+  for (const auto &span:spans) {
+    for (unsigned i = span.i(); i < span.j(); ++i) {
+      if (iobes[i] != "O") throw std::runtime_error("generate_iobes_tags: spans are inconsistent");
+    }
+
+    if (span.j() - span.i() <= 1) {
+      iobes[span.i()] = "S-" + span.label();
+    } else {
+      iobes[span.i()] = "B-" + span.label();
+
+      for (unsigned i = span.i() + 1; i < span.j() - 1; ++i) {
+        iobes[i] = "I-" + span.label();
+      }
+
+      iobes[span.j() - 1] = "E-" + span.label();
+    }
+  }
+  return iobes;
+}
+
+vector<string> resolve_inconsistency(const vector<string> &named_iobes_tags) {
+  return generate_iobes_tags(parse_iobes_tags(named_iobes_tags));
 }
 
 #endif //COMP4221_2019Q1_A3_CHUNK_T_HPP

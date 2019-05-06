@@ -2,60 +2,123 @@
 // Created by Dekai WU and YAN Yuchen on 20190417.
 //
 
-#ifndef COMP4221_2019Q1_A3_UTIL_HPP_A
-#define COMP4221_2019Q1_A3_UTIL_HPP_A
+#ifndef COMP4221_2019Q1_A3_UTIL_HPP_C
+#define COMP4221_2019Q1_A3_UTIL_HPP_C
 
 #include <make_transducer.hpp>
 #include <xml_archive.hpp>
 #include <fstream>
 #include "assignment.hpp"
 #include "../part_review/util.hpp"
+#include "../part_b/util.hpp"
 #include <chunk_t.hpp>
+#include "default_srl_graph_stub.hpp"
 
 using namespace tg;
-namespace part_a {
+namespace part_c {
 
-  pair<vector<sentence_t>, vector<vector<symbol_t >>> read_dataset(const string &path_to_train_data) {
-    pair<vector<sentence_t>, vector<vector<symbol_t>>> dataset;
+  void convert_to_iobes_xml(const string &path_to_srl_xml, const string &path_to_iobes_xml) {
+    vector<tg_stub::default_srl_graph> srls;
+    {
+      ifstream ifs(path_to_srl_xml);
+      if (!ifs.is_open()) throw std::runtime_error("cannot read file " + path_to_srl_xml);
+      cereal::hltc_xml_input_archive ar(ifs);
+      ar >> srls;
+    }
+    ofstream ofs(path_to_iobes_xml);
+    if (!ofs.is_open()) throw std::runtime_error("cannot write file " + path_to_iobes_xml);
+    cereal::hltc_xml_output_archive oa(ofs);
+    oa.nest("dataset",[&]() {
+      for(const auto &srl:srls) {
+        const auto &sentence = srl.sen();
+        oa.nest("sent", [&]() {
+          for(const auto &frame:srl.get_frames()) {
+            const auto &pred_span = frame.first;
+            const auto &args_span = frame.second;
+            oa.attribute("pred_position",pred_span.i());
+            oa.nest("frame", [&]() {
+              const auto sentence_shallow_semantic_iobes = generate_iobes_tags(sentence.size(), args_span);
+              for(unsigned i=0; i<sentence.size(); ++i) {
+                oa.attribute("type", sentence_shallow_semantic_iobes[i]);
+                oa(cereal::make_nvp("token", sentence[i]));
+              }
+            });
+          }
+        });
+      }
+    });
+  }
+
+  tuple<vector<sentence_t>, vector<unsigned>, vector<vector<symbol_t >>> read_dataset(const string &path_to_train_data) {
+    tuple<vector<sentence_t>, vector<unsigned>, vector<vector<symbol_t >>> dataset;
     ifstream ifs(path_to_train_data);
     if (!ifs.is_open()) throw std::runtime_error("cannot read file " + path_to_train_data);
     cereal::hltc_xml_input_archive ar(ifs);
     ar.nest([&]() {
-      auto &sentences = dataset.first;
-      auto &tags = dataset.second;
+      auto &sentences = get<0>(dataset);
+      auto &pred_positions = get<1>(dataset);
+      auto &tags = get<2>(dataset);
       sentences.clear();
+      pred_positions.clear();
       tags.clear();
       while (ar.hasNextChild()) {
         ar.nest("sent", [&]() {
-          sentence_t sentence;
-          vector<symbol_t> sentence_tags;
-          while (ar.hasNextChild()) {
-            symbol_t postag;
-            ar.attribute("type", postag);
-            sentence_tags.push_back(postag);
-            token_t token;
-            ar(token);
-            sentence.push_back(token);
+          while(ar.hasNextChild()) {
+            unsigned pred_position;
+            ar.attribute("pred_position", pred_position);
+            pred_positions.push_back(pred_position);
+            ar.nest("frame", [&]() {
+              sentence_t sentence;
+              vector<symbol_t> sentence_tags;
+              while (ar.hasNextChild()) {
+                symbol_t postag;
+                ar.attribute("type", postag);
+                sentence_tags.push_back(postag);
+                token_t token;
+                ar(token);
+                sentence.push_back(token);
+              }
+              sentences.push_back(sentence);
+              tags.push_back(sentence_tags);
+            });
           }
-          sentences.push_back(sentence);
-          tags.push_back(sentence_tags);
         });
       }
     });
     return dataset;
   }
 
-  void save_dataset(const string &path, const pair<vector<sentence_t>, vector<vector<symbol_t >>> &dataset) {
+  pair<vector<vector<feature_t>>, vector<feature_t>>
+  get_examples_and_oracles(const vector<sentence_t> &sentences, const vector<unsigned> &pred_positions, const vector<vector<symbol_t>> &postags, const vector<vector<symbol_t>> &syntactic_iobes_tags, const vector<vector<symbol_t>> &semantic_iobes_tags) {
+    vector<vector<feature_t>> ret_examples;
+    vector<feature_t> ret_oracles;
+    for (unsigned i = 0; i < sentences.size(); ++i) {
+      auto sentence = sentences[i];
+      auto pred_position = pred_positions[i];
+      auto sentence_postags = postags[i];
+      auto sentence_syntactic_tags = syntactic_iobes_tags[i];
+      auto sentence_semantic_tags = semantic_iobes_tags[i];
+      for (unsigned j = 0; j < sentence.size(); ++j) {
+        ret_examples.push_back(part_c::get_features(sentence, sentence_postags, sentence_syntactic_tags, j, pred_position));
+        ret_oracles.emplace_back(sentence_semantic_tags[j]);
+      }
+    }
+    return make_pair(ret_examples, ret_oracles);
+  }
+
+  void save_dataset(const string &path, const tuple<vector<sentence_t>, vector<unsigned>, vector<vector<symbol_t >>> &dataset) {
     ofstream ofs(path);
     if (!ofs.is_open()) throw std::runtime_error("cannot write file " + path);
     cereal::hltc_xml_output_archive ar(ofs);
     ar.nest("dataset", [&]() {
-      const auto &sentences = dataset.first;
-      const auto &tags = dataset.second;
+      auto &sentences = get<0>(dataset);
+      auto &pred_positions = get<1>(dataset);
+      auto &tags = get<2>(dataset);
       if (sentences.size() != tags.size())
         throw std::runtime_error("dataset sentences and postags must have equal size");
       for (unsigned i = 0; i < sentences.size(); ++i) {
-        ar.nest("sent", [&]() {
+        ar.attribute("pred_position", pred_positions[i]);
+        ar.nest("frame", [&]() {
           const auto &sentence = sentences[i];
           const auto &sentence_tags = tags[i];
           if (sentence.size() != sentence_tags.size())
@@ -69,36 +132,23 @@ namespace part_a {
     });
   }
 
-  pair<vector<vector<feature_t>>, vector<feature_t>>
-  get_examples_and_oracles(const vector<sentence_t> &sentences, const vector<vector<symbol_t>> &postags,
-                           const vector<vector<symbol_t>> &iobes_tags) {
-    vector<vector<feature_t>> ret_examples;
-    vector<feature_t> ret_oracles;
-    for (unsigned i = 0; i < sentences.size(); ++i) {
-      auto sentence = sentences[i];
-      auto sentence_postags = postags[i];
-      for (unsigned j = 0; j < sentence.size(); ++j) {
-        ret_examples.push_back(part_a::get_features(sentence, sentence_postags, j));
-        ret_oracles.emplace_back(iobes_tags[i][j]);
-      }
-    }
-    return make_pair(ret_examples, ret_oracles);
-  }
-
-  vector<vector<symbol_t >> chunk_sentences_iobes(const transducer_t &chunker, const transducer_t &postagger,
-                                                  const vector<sentence_t> &sentences) {
+  vector<vector<symbol_t>> srl_sentences_iobes(const transducer_t &shallow_semantic_parser, const transducer_t &postagger, const transducer_t &shallow_syntactic_parser, const vector<sentence_t> &sentences, const vector<unsigned> &pred_positions) {
     auto postags = part_review::postag_sentences(postagger, sentences);
-    auto predicted_tags_flattened = chunker.transduce_many(
-      get_examples_and_oracles(sentences, postags, sentences).first);
+    auto syntactic_tags = part_b::chunk_sentences_iobes(shallow_syntactic_parser, postagger, sentences);
 
+    // resolve inconsistency
+    for(auto &x:syntactic_tags) {x = resolve_inconsistency(x);}
+
+    auto predicted_tags_flattened = shallow_semantic_parser.transduce_many(
+      get_examples_and_oracles(sentences, pred_positions, postags, syntactic_tags, sentences).first);
     vector<vector<symbol_t >> predicted_tags;
     unsigned flattened_pivot = 0;
     for (const auto &sentence:sentences) {
-      vector<symbol_t> sentence_postags;
+      vector<symbol_t> sentence_tags;
       for (const auto &token:sentence) {
-        sentence_postags.push_back(get<symbol_t>(predicted_tags_flattened[flattened_pivot++][0]));
+        sentence_tags.push_back(get<symbol_t>(predicted_tags_flattened[flattened_pivot++][0]));
       }
-      predicted_tags.push_back(sentence_postags);
+      predicted_tags.push_back(sentence_tags);
     }
 
     return predicted_tags;

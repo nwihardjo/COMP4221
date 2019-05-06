@@ -5,7 +5,7 @@
 #include "assignment.hpp"
 #include <shared_utils.hpp>
 
-namespace part_a{
+namespace part_b{
   const unsigned NUM_EPOCHS = 5;
 
   /**
