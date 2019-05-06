@@ -98,13 +98,11 @@ parse_iobes_tags(const vector<string> &named_iobes_tags, const vector<string> &s
           chunk = make_shared<chunk_t>();
           chunk->name = chunk_name;
           chunk->tokens.push_back(token);
-          ret.push_back(*chunk);
         }
       } else {
         chunk = make_shared<chunk_t>();
         chunk->name = chunk_name;
         chunk->tokens.push_back(token);
-        ret.push_back(*chunk);
       }
     } else if (iobes_tag == "S") {
       if (chunk) {

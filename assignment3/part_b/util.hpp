@@ -122,11 +122,52 @@ namespace part_a {
   void report_score(vector<vector<symbol_t>> &predicteds, const vector<vector<symbol_t>> &oracles) {
     if (predicteds.size() != oracles.size())
       throw std::runtime_error("compute_f_score: prediction and oracles must have same size");
+
+    cout << endl;
+    cout << "==== token level (before inconsistency resolution) ====" << endl;
+    {
+      unsigned token_level_correct_count = 0;
+      unsigned token_level_total_count = 0;
+      for(unsigned i=0; i<predicteds.size(); ++i) {
+        const auto &predicted = predicteds[i];
+        const auto &oracle = oracles[i];
+        if(predicted.size() != oracle.size()) throw std::runtime_error("comptue_f_score: prediction#"+to_string(i)+" and oracle#"+to_string(i)+" must have same size");
+        for(unsigned j=0; j<predicted.size(); ++j) {
+          if(predicted[j] == oracle[j])  ++token_level_correct_count;
+        }
+        token_level_total_count += predicted.size();
+      }
+      cout << "precision = "<< token_level_correct_count/(double)token_level_total_count <<endl;
+    }
+    cout << endl;
+
+    cout << "==== token level (after inconsistency resolution) ====" << endl;
+    {
+      unsigned token_level_correct_count = 0;
+      unsigned token_level_total_count = 0;
+      for(unsigned i=0; i<predicteds.size(); ++i) {
+        const auto predicted = generate_iobes_tags(parse_iobes_tags(predicteds[i]));
+        const auto oracle = generate_iobes_tags(parse_iobes_tags(oracles[i]));
+
+        if(predicted.size() != oracle.size()) {
+          throw std::runtime_error("comptue_f_score: prediction#"+to_string(i)+" and oracle#"+to_string(i)+" must have same size");
+        }
+        for(unsigned j=0; j<predicted.size(); ++j) {
+          if(predicted[j] == oracle[j])  ++token_level_correct_count;
+        }
+        token_level_total_count += predicted.size();
+      }
+      cout << "precision = "<< token_level_correct_count/(double)token_level_total_count <<endl;
+    }
+    cout << endl;
+
+
+    cout << "==== chunk level ====" << endl;
     unsigned precision_nominator = 0;
     unsigned precision_denominator = 0;
     unsigned recall_nominator = 0;
     unsigned recall_denominator = 0;
-    for (long i = 0; i < predicteds.size(); ++i) {
+    for (unsigned i = 0; i < predicteds.size(); ++i) {
       const auto &predicted = predicteds[i];
       const auto &oracle = oracles[i];
       auto predicted_labeled_spans = get_labeled_spans(parse_iobes_tags(predicted));
@@ -147,6 +188,7 @@ namespace part_a {
     double recall = recall_denominator == 0 ? 1 : recall_nominator / (double) recall_denominator;
     double f = 2*precision*recall/(precision + recall);
     cout << "precision = "<<precision<<"   recall = "<<recall << "   f-score = "<<f<<endl;
+    cout << endl;
   }
 
 }

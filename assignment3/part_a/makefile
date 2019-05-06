@@ -15,7 +15,7 @@ assignment.o: assignment.cpp assignment.hpp
 .PHONY: clean cleanest
 
 clean:
-	rm -f *.o *~ core
+	rm -f main *.o *~ core
 
 cleanest:
-	rm -f *.o *~ core predict.xml model.xml
+	rm -f main *.o *~ core predict.xml model.xml
