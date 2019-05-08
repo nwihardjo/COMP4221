@@ -1,50 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dataset>
 	<sent>
+		<token type="NNP">Swetha</token>
+	</sent>
+	<sent>
+		<token type="DT">The</token>
+		<token type="NNP">Greater</token>
+		<token type="NNP">New</token>
+		<token type="NNP">Orleans</token>
+		<token type="NN">Fair</token>
+		<token type="VBG">Housing</token>
+		<token type="NNP">Action</token>
+		<token type="NNP">Center</token>
+		<token type="(">(</token>
+		<token type="NNP">GNOFHAC</token>
+		<token type=")">)</token>
+		<token type="VBD">filed</token>
+		<token type="DT">a</token>
+		<token type="JJ">housing</token>
+		<token type="NN">discrimination</token>
+		<token type="NN">complaint</token>
+		<token type="IN">against</token>
+		<token type="DT">the</token>
+		<token type="NN">Housing</token>
+		<token type="NN">Authority</token>
+		<token type="IN">of</token>
+		<token type="NNP">New</token>
+		<token type="NNP">Orleans</token>
+		<token type="(">(</token>
+		<token type="NNP">HANO</token>
+		<token type=")">)</token>
+		<token type="JJ">last</token>
+		<token type="NN">week</token>
+		<token type=".">.</token>
+	</sent>
+	<sent>
+		<token type="DT">The</token>
+		<token type="NN">complaint</token>
+		<token type="COMMA">COMMA</token>
+		<token type="CD">filed</token>
+		<token type="IN">with</token>
+		<token type="DT">the</token>
+		<token type="NNP">United</token>
+		<token type="NNP">States</token>
+		<token type="NNP">Department</token>
+		<token type="IN">of</token>
+		<token type="NN">Housing</token>
+		<token type="CC">and</token>
+		<token type="NNP">Urban</token>
+		<token type="NN">Development</token>
+		<token type="COMMA">COMMA</token>
+		<token type="NNS">accuses</token>
+		<token type="NNP">HANO</token>
+		<token type="IN">of</token>
+		<token type="VBG">violating</token>
+		<token type="DT">a</token>
+		<token type="CD">2003</token>
+		<token type="JJ">enforcement</token>
+		<token type="JJ">agreement</token>
+		<token type="VBD">entered</token>
+		<token type="IN">into</token>
+		<token type="IN">between</token>
+		<token type="CD">former</token>
+		<token type="NNP">St.</token>
+		<token type="NNP">Thomas</token>
+		<token type="VBG">Housing</token>
+		<token type="NNP">Development</token>
+		<token type="NNS">residents</token>
+		<token type="COMMA">COMMA</token>
+		<token type="DT">the</token>
+		<token type="NN">City</token>
+		<token type="IN">of</token>
+		<token type="NNP">New</token>
+		<token type="NNP">Orleans</token>
+		<token type="COMMA">COMMA</token>
+		<token type="NNP">HANO</token>
+		<token type="COMMA">COMMA</token>
+		<token type="CC">and</token>
+		<token type="DT">the</token>
+		<token type="NNP">U.S.</token>
+		<token type="NN">Department</token>
+		<token type="IN">of</token>
+		<token type="NN">Housing</token>
+		<token type="CC">and</token>
+		<token type="NNP">Urban</token>
+		<token type="NN">Development</token>
+		<token type="IN">during</token>
+		<token type="DT">the</token>
+		<token type="NNP">HOPE</token>
+		<token type="NNP">VI</token>
+		<token type="NN">redevelopment</token>
+		<token type="IN">of</token>
+		<token type="NNP">St.</token>
+		<token type="NNP">Thomas</token>
+		<token type="COMMA">COMMA</token>
+		<token type="RB">now</token>
+		<token type="VBN">known</token>
+		<token type="IN">as</token>
+		<token type="NNP">River</token>
+		<token type="NNP">Garden</token>
+		<token type=".">.</token>
+	</sent>
+	<sent>
+		<token type="DT">The</token>
 		<token type="NN">current</token>
-		<token type="NNP">complaints</token>
-		<token type="NNP">allege</token>
+		<token type="NNS">complaints</token>
+		<token type="IN">allege</token>
 		<token type="IN">that</token>
-		<token type="NN">HANO</token>
+		<token type="NNP">HANO</token>
 		<token type="VBZ">has</token>
 		<token type="RB">not</token>
-		<token type="NN">provided</token>
-		<token type="NNP">qualified</token>
-		<token type="JJ">former</token>
-		<token type="NN">St.</token>
+		<token type="VBN">provided</token>
+		<token type="JJ">qualified</token>
+		<token type="NN">former</token>
+		<token type="NNP">St.</token>
 		<token type="NNP">Thomas</token>
-		<token type="NNP">residents</token>
+		<token type="VBZ">residents</token>
 		<token type="DT">a</token>
 		<token type="NN">preference</token>
 		<token type="IN">with</token>
-		<token type="NNP">respect</token>
+		<token type="VB">respect</token>
 		<token type="TO">to</token>
-		<token type="JJ">available</token>
+		<token type="VB">available</token>
 		<token type="JJ">public</token>
-		<token type="NN">housing</token>
-		<token type="NN">units</token>
+		<token type="VBG">housing</token>
+		<token type="NNS">units</token>
 		<token type="IN">at</token>
 		<token type="NNP">River</token>
 		<token type="NNP">Garden</token>
-		<token type="NN">per</token>
+		<token type="IN">per</token>
 		<token type="DT">the</token>
 		<token type="CD">2003</token>
 		<token type="NN">agreement</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="TO">Upon</token>
 		<token type="NN">return</token>
 		<token type="IN">to</token>
 		<token type="NNP">New</token>
 		<token type="NNP">Orleans</token>
 		<token type="IN">after</token>
 		<token type="DT">the</token>
-		<token type="NN">Hurricane</token>
+		<token type="NNP">Hurricane</token>
 		<token type="NNP">Katrina</token>
 		<token type="NN">evacuation</token>
 		<token type="COMMA">COMMA</token>
-		<token type="JJ">former</token>
-		<token type="NN">residents</token>
+		<token type="CD">former</token>
+		<token type="NNS">residents</token>
 		<token type="VBP">have</token>
 		<token type="VBN">been</token>
 		<token type="VBN">informed</token>
@@ -54,45 +157,46 @@
 		<token type="DT">no</token>
 		<token type="JJ">available</token>
 		<token type="JJ">public</token>
-		<token type="NN">housing</token>
-		<token type="NN">units</token>
+		<token type="VBG">housing</token>
+		<token type="NNS">units</token>
 		<token type="IN">at</token>
 		<token type="NNP">River</token>
 		<token type="NNP">Garden</token>
 		<token type="IN">because</token>
 		<token type="DT">those</token>
-		<token type="JJ">units</token>
+		<token type="NNS">units</token>
 		<token type="VBP">have</token>
 		<token type="VBN">been</token>
 		<token type="VBN">reserved</token>
 		<token type="IN">for</token>
 		<token type="NNP">HANO</token>
-		<token type="NNP">employees</token>
+		<token type="NN">employees</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Therefore</token>
 		<token type="COMMA">COMMA</token>
 		<token type="JJ">public</token>
-		<token type="NN">housing</token>
-		<token type="NN">residents</token>
+		<token type="VBG">housing</token>
+		<token type="NNS">residents</token>
 		<token type="VBP">have</token>
 		<token type="VBN">been</token>
 		<token type="JJ">unable</token>
 		<token type="TO">to</token>
 		<token type="VB">secure</token>
 		<token type="DT">the</token>
-		<token type="NN">units</token>
+		<token type="NNS">units</token>
 		<token type="IN">for</token>
 		<token type="WDT">which</token>
 		<token type="PRP">they</token>
-		<token type="VBP">qualified</token>
-		<token type="NNP">prior</token>
-		<token type="TO">to</token>
+		<token type="VBD">qualified</token>
+		<token type="NN">prior</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
 		<token type="NN">storm</token>
 		<token type="CC">and</token>
 		<token type="VBP">are</token>
-		<token type="VBN">left</token>
+		<token type="JJ">left</token>
 		<token type="NN">homeless</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">as</token>
@@ -101,38 +205,40 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">In</token>
+		<token type="``">&quot;</token>
+		<token type="IN">In</token>
 		<token type="DT">the</token>
 		<token type="NN">wake</token>
 		<token type="IN">of</token>
 		<token type="NNP">Hurricane</token>
 		<token type="NNP">Katrina</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">affordable</token>
-		<token type="NN">housing</token>
+		<token type="JJ">affordable</token>
+		<token type="VBG">housing</token>
 		<token type="IN">in</token>
 		<token type="NNP">New</token>
 		<token type="NNP">Orleans</token>
 		<token type="VBZ">is</token>
 		<token type="RBR">more</token>
-		<token type="JJ">scarce</token>
+		<token type="NN">scarce</token>
 		<token type="IN">than</token>
 		<token type="RB">ever</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="PDT">such</token>
+		<token type="UH">As</token>
+		<token type="JJ">such</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">it</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">essential</token>
+		<token type="JJ">essential</token>
 		<token type="IN">that</token>
-		<token type="NN">HANO</token>
-		<token type="NNP">comply</token>
+		<token type="NNP">HANO</token>
+		<token type="NN">comply</token>
 		<token type="IN">with</token>
 		<token type="CD">2003</token>
-		<token type="NN">enforcement</token>
-		<token type="NNP">agreement</token>
+		<token type="JJ">enforcement</token>
+		<token type="NN">agreement</token>
 		<token type="COMMA">COMMA</token>
 		<token type="''">&quot;</token>
 		<token type="VBD">said</token>
@@ -140,22 +246,25 @@
 		<token type="NNP">Perry</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NNP">GNOFHAC</token>
-		<token type="JJ">Executive</token>
+		<token type="NNP">Executive</token>
 		<token type="NN">Director</token>
 	</sent>
 	<sent>
+		<token type="IN">For</token>
 		<token type="DT">those</token>
 		<token type="WP">who</token>
 		<token type="VBP">believe</token>
-		<token type="RB">....................</token>
+		<token type=".">....................</token>
 	</sent>
 	<sent>
+		<token type="NNS">Aries</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Flexibility</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Flexibility</token>
 	</sent>
 	<sent>
+		<token type="IN">If</token>
 		<token type="PRP">you</token>
 		<token type="VBP">want</token>
 		<token type="DT">a</token>
@@ -166,12 +275,12 @@
 		<token type="DT">the</token>
 		<token type="JJS">best</token>
 		<token type="CD">one</token>
-		<token type="IN">to</token>
+		<token type="TO">to</token>
 		<token type="VB">adopt</token>
 		<token type="MD">would</token>
 		<token type="VB">be</token>
 		<token type="``">&quot;</token>
-		<token type="VB">go</token>
+		<token type="NN">go</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
 		<token type="NN">flow</token>
@@ -179,19 +288,20 @@
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
+		<token type="CD">2005</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="DT">a</token>
 		<token type="NN">year</token>
 		<token type="IN">of</token>
-		<token type="NNP">ups</token>
+		<token type="NN">ups</token>
 		<token type="CC">and</token>
 		<token type="NN">downs</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="RB">only</token>
 		<token type="DT">the</token>
-		<token type="NN">flexible</token>
+		<token type="JJ">flexible</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="JJ">able</token>
@@ -199,28 +309,30 @@
 		<token type="VB">keep</token>
 		<token type="IN">from</token>
 		<token type="VBG">going</token>
-		<token type="RB">crazy</token>
+		<token type="VBN">crazy</token>
 		<token type=".">!</token>
 	</sent>
 	<sent>
-		<token type="NN">Aries</token>
-		<token type="NNP">natives</token>
+		<token type="DT">All</token>
+		<token type="NNS">Aries</token>
+		<token type="NNS">natives</token>
 		<token type="MD">may</token>
 		<token type="VB">have</token>
 		<token type="TO">to</token>
 		<token type="VB">tighten</token>
 		<token type="PRP$">their</token>
-		<token type="NN">belts</token>
+		<token type="NNS">belts</token>
 		<token type="CC">and</token>
-		<token type="NN">curb</token>
+		<token type="VBD">curb</token>
 		<token type="PRP$">their</token>
 		<token type="NN">desire</token>
 		<token type="IN">for</token>
-		<token type="NNP">constant</token>
-		<token type="NNP">expansion</token>
+		<token type="JJ">constant</token>
+		<token type="NN">expansion</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">may</token>
 		<token type="VB">need</token>
 		<token type="TO">to</token>
@@ -228,29 +340,30 @@
 		<token type="PRP">it</token>
 		<token type="VBZ">cool</token>
 		<token type="CC">and</token>
-		<token type="NN">curb</token>
+		<token type="VB">curb</token>
 		<token type="PRP$">your</token>
 		<token type="NN">spending</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">be</token>
 		<token type="IN">among</token>
 		<token type="DT">the</token>
 		<token type="JJ">first</token>
-		<token type="IN">to</token>
+		<token type="TO">to</token>
 		<token type="VB">seize</token>
 		<token type="IN">upon</token>
 		<token type="JJ">new</token>
-		<token type="NN">societal</token>
-		<token type="NNP">trends</token>
+		<token type="JJ">societal</token>
+		<token type="NNS">trends</token>
 		<token type="TO">to</token>
 		<token type="VB">create</token>
 		<token type="JJ">new</token>
-		<token type="NN">opportunities</token>
+		<token type="NNS">opportunities</token>
 		<token type="IN">for</token>
-		<token type="NNP">yourself</token>
+		<token type="PRP">yourself</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">as</token>
 		<token type="PRP$">your</token>
@@ -259,13 +372,14 @@
 		<token type="VB">be</token>
 		<token type="IN">at</token>
 		<token type="DT">an</token>
-		<token type="RB">all</token>
+		<token type="JJ">all</token>
 		<token type="HYPH">-</token>
 		<token type="NN">time</token>
-		<token type="JJ">high</token>
+		<token type="NN">high</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="JJR">more</token>
@@ -273,19 +387,20 @@
 		<token type="CC">and</token>
 		<token type="NN">persuasive</token>
 		<token type="IN">than</token>
-		<token type="CD">usual</token>
+		<token type="RB">usual</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="NNS">others</token>
 		<token type="MD">will</token>
-		<token type="VB">identify</token>
-		<token type="NNP">enthusiastically</token>
+		<token type="RB">identify</token>
+		<token type="RB">enthusiastically</token>
 		<token type="IN">with</token>
 		<token type="PRP$">your</token>
 		<token type="NN">vision</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">If</token>
 		<token type="PRP">you</token>
 		<token type="VBP">want</token>
 		<token type="TO">to</token>
@@ -296,44 +411,47 @@
 		<token type="NN">project</token>
 		<token type="CC">or</token>
 		<token type="NN">business</token>
-		<token type="NNS">venture</token>
+		<token type="NN">venture</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
 		<token type="NN">imagination</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">working</token>
-		<token type="NNP">overtime</token>
+		<token type="VBG">working</token>
+		<token type="NN">overtime</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CD">2005</token>
 		<token type="MD">could</token>
 		<token type="VB">find</token>
 		<token type="PRP">you</token>
 		<token type="VBG">doing</token>
 		<token type="RB">well</token>
-		<token type="VBN">career-wise</token>
-		<token type="HYPH">-</token>
+		<token type="VB">career-wise</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
-		<token type="NN">aspiring</token>
+		<token type="VBG">aspiring</token>
 		<token type="TO">to</token>
 		<token type="VB">climb</token>
 		<token type="RB">even</token>
-		<token type="IN">higher</token>
+		<token type="JJR">higher</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Taurus</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
+		<token type="SYM">-</token>
 		<token type="NN">Tenacity</token>
 	</sent>
 	<sent>
-		<token type="NN">Diligence</token>
-		<token type="''">&quot;</token>
+		<token type="``">&quot;</token>
+		<token type="NNP">Diligence</token>
+		<token type="``">&quot;</token>
 		<token type="VBZ">is</token>
 		<token type="DT">the</token>
-		<token type="NN">key</token>
+		<token type="JJ">key</token>
 		<token type="NN">word</token>
 		<token type="IN">for</token>
 		<token type="PRP">you</token>
@@ -342,6 +460,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">With</token>
 		<token type="JJ">hard</token>
 		<token type="NN">work</token>
 		<token type="CC">and</token>
@@ -350,12 +469,12 @@
 		<token type="PRP">you</token>
 		<token type="MD">will</token>
 		<token type="VB">attain</token>
-		<token type="IN">at</token>
-		<token type="JJS">least</token>
+		<token type="RB">at</token>
+		<token type="RBS">least</token>
 		<token type="CD">one</token>
 		<token type="JJ">important</token>
 		<token type="NN">aspiration</token>
-		<token type="IN">that</token>
+		<token type="WDT">that</token>
 		<token type="VBZ">has</token>
 		<token type="VBN">been</token>
 		<token type="IN">on</token>
@@ -368,6 +487,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">This</token>
 		<token type="VBZ">is</token>
 		<token type="DT">the</token>
 		<token type="NN">year</token>
@@ -381,8 +501,8 @@
 		<token type="PRP$">your</token>
 		<token type="NN">career</token>
 		<token type="CC">and</token>
-		<token type="VB">ask</token>
-		<token type="NN">yourself</token>
+		<token type="VBP">ask</token>
+		<token type="PRP">yourself</token>
 		<token type="IN">if</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
@@ -402,9 +522,10 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">As</token>
 		<token type="DT">the</token>
 		<token type="NN">year</token>
-		<token type="JJ">progresses</token>
+		<token type="NNS">progresses</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
 		<token type="JJR">more</token>
@@ -412,22 +533,23 @@
 		<token type="PRP$">your</token>
 		<token type="NN">ideas</token>
 		<token type="CC">and</token>
-		<token type="VBZ">works</token>
-		<token type="VB">become</token>
+		<token type="VBD">works</token>
+		<token type="VBN">become</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">As</token>
 		<token type="DT">a</token>
 		<token type="NN">result</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
-		<token type="NN">finances</token>
-		<token type="NNP">improve</token>
-		<token type="HYPH">-</token>
+		<token type="NNS">finances</token>
+		<token type="RB">improve</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
 		<token type="PRP$">your</token>
-		<token type="NN">newfound</token>
-		<token type="NNP">confidence</token>
+		<token type="JJ">newfound</token>
+		<token type="NN">confidence</token>
 		<token type="MD">could</token>
 		<token type="VB">attract</token>
 		<token type="JJ">new</token>
@@ -438,6 +560,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="DT">the</token>
 		<token type="NN">end</token>
 		<token type="IN">of</token>
@@ -448,46 +571,48 @@
 		<token type="MD">will</token>
 		<token type="VB">have</token>
 		<token type="DT">a</token>
-		<token type="NN">whole</token>
+		<token type="RB">whole</token>
 		<token type="JJ">new</token>
 		<token type="NN">network</token>
 		<token type="IN">of</token>
 		<token type="NNS">friends</token>
 		<token type="CC">and</token>
 		<token type="NN">group</token>
-		<token type="VBG">activity</token>
+		<token type="NN">activity</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">stimulating</token>
+		<token type="VBG">stimulating</token>
 		<token type="JJ">new</token>
 		<token type="NN">ideas</token>
 		<token type="CC">and</token>
 		<token type="VBG">taking</token>
-		<token type="RB">up</token>
+		<token type="RP">up</token>
 		<token type="PRP$">your</token>
 		<token type="JJ">social</token>
 		<token type="NN">life</token>
 		<token type="DT">a</token>
-		<token type="NN">notch</token>
+		<token type="JJ">notch</token>
 		<token type="CC">or</token>
 		<token type="CD">two</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Gemini</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Success</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Success</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Your</token>
 		<token type="NN">cycle</token>
 		<token type="IN">of</token>
-		<token type="NNP">learning</token>
+		<token type="VBG">learning</token>
 		<token type="IN">through</token>
 		<token type="DT">the</token>
 		<token type="NN">school</token>
 		<token type="IN">of</token>
 		<token type="JJ">hard</token>
-		<token type="NN">knocks</token>
+		<token type="NNS">knocks</token>
 		<token type="VBZ">has</token>
 		<token type="VBN">come</token>
 		<token type="IN">to</token>
@@ -505,10 +630,10 @@
 		<token type="VB">start</token>
 		<token type="VBG">reaping</token>
 		<token type="DT">the</token>
-		<token type="NN">rewards</token>
+		<token type="NNS">rewards</token>
 		<token type="DT">these</token>
 		<token type="``">&quot;</token>
-		<token type="NN">lessons</token>
+		<token type="NNS">lessons</token>
 		<token type="''">&quot;</token>
 		<token type="VBP">have</token>
 		<token type="VBN">left</token>
@@ -518,18 +643,20 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">As</token>
 		<token type="CD">2005</token>
-		<token type="JJ">progresses</token>
+		<token type="NNS">progresses</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
 		<token type="NN">road</token>
-		<token type="NNP">ahead</token>
+		<token type="RB">ahead</token>
 		<token type="MD">will</token>
 		<token type="VB">become</token>
 		<token type="NN">clearer</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="RB">now</token>
 		<token type="VBP">have</token>
 		<token type="PRP">it</token>
@@ -542,42 +669,44 @@
 		<token type="IN">of</token>
 		<token type="NN">life</token>
 		<token type="IN">for</token>
-		<token type="NNP">yourself</token>
+		<token type="PRP">yourself</token>
 		<token type="IN">that</token>
 		<token type="PRP">you</token>
 		<token type="VBP">want</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">leaps</token>
+		<token type="DT">These</token>
+		<token type="NNS">leaps</token>
 		<token type="CC">and</token>
-		<token type="NN">bounds</token>
-		<token type="VB">forward</token>
-		<token type="VBP">include</token>
+		<token type="NNS">bounds</token>
+		<token type="RB">forward</token>
+		<token type="JJR">include</token>
 		<token type="NN">love</token>
 		<token type="CC">and</token>
 		<token type="NN">creativity</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Your</token>
 		<token type="NN">learning</token>
 		<token type="IN">of</token>
-		<token type="NNP">concepts</token>
+		<token type="NN">concepts</token>
 		<token type="IN">of</token>
 		<token type="DT">all</token>
-		<token type="NN">kinds</token>
-		<token type="NNP">combines</token>
+		<token type="NNS">kinds</token>
+		<token type="NNS">combines</token>
 		<token type="IN">with</token>
-		<token type="NNP">extensive</token>
+		<token type="JJ">extensive</token>
 		<token type="NN">group</token>
-		<token type="VBG">activity</token>
+		<token type="NN">activity</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">bringing</token>
+		<token type="VBG">bringing</token>
 		<token type="PRP$">your</token>
 		<token type="NN">mind</token>
 		<token type="IN">into</token>
 		<token type="DT">a</token>
-		<token type="NN">whole</token>
+		<token type="RB">whole</token>
 		<token type="JJ">new</token>
 		<token type="NN">space</token>
 		<token type="DT">this</token>
@@ -585,6 +714,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="DT">the</token>
 		<token type="NN">end</token>
 		<token type="IN">of</token>
@@ -593,19 +723,19 @@
 		<token type="MD">&apos;ll</token>
 		<token type="VB">have</token>
 		<token type="DT">a</token>
-		<token type="NN">whole</token>
+		<token type="RB">whole</token>
 		<token type="JJ">new</token>
-		<token type="VB">start</token>
+		<token type="NN">start</token>
 		<token type="IN">with</token>
-		<token type="NNP">regard</token>
-		<token type="TO">to</token>
+		<token type="NN">regard</token>
+		<token type="IN">to</token>
 		<token type="PRP$">your</token>
 		<token type="NN">career</token>
 		<token type="CC">and</token>
 		<token type="PRP$">your</token>
-		<token type="NN">earning</token>
-		<token type="NNP">potential</token>
-		<token type="HYPH">-</token>
+		<token type="VBG">earning</token>
+		<token type="JJ">potential</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
 		<token type="DT">a</token>
 		<token type="JJ">possible</token>
@@ -618,19 +748,21 @@
 		<token type=".">!</token>
 	</sent>
 	<sent>
+		<token type="NNP">Cancer</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Balance</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Balance</token>
 	</sent>
 	<sent>
+		<token type="VBG">Finding</token>
 		<token type="DT">a</token>
 		<token type="NN">balance</token>
 		<token type="IN">between</token>
 		<token type="PRP$">your</token>
 		<token type="JJ">personal</token>
 		<token type="CC">and</token>
-		<token type="NN">professional</token>
+		<token type="JJ">professional</token>
 		<token type="NNS">lives</token>
 		<token type="MD">may</token>
 		<token type="VB">be</token>
@@ -639,50 +771,53 @@
 		<token type="DT">the</token>
 		<token type="NN">year</token>
 		<token type="POS">&apos;s</token>
-		<token type="NN">strongest</token>
-		<token type="NNP">challenges</token>
+		<token type="JJS">strongest</token>
+		<token type="NNS">challenges</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">For</token>
 		<token type="DT">the</token>
-		<token type="RBS">most</token>
+		<token type="JJS">most</token>
 		<token type="NN">part</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
-		<token type="NN">outward</token>
+		<token type="JJ">outward</token>
 		<token type="NN">life</token>
 		<token type="DT">this</token>
 		<token type="NN">year</token>
 		<token type="MD">will</token>
 		<token type="VB">go</token>
 		<token type="IN">in</token>
-		<token type="JJ">fits</token>
+		<token type="NNS">fits</token>
 		<token type="CC">and</token>
-		<token type="NN">starts</token>
+		<token type="NNS">starts</token>
 		<token type="HYPH">-</token>
-		<token type="NN">alternating</token>
-		<token type="NNP">periods</token>
+		<token type="VBG">alternating</token>
+		<token type="NN">periods</token>
 		<token type="IN">of</token>
-		<token type="NNP">intense</token>
-		<token type="NNP">activity</token>
+		<token type="NN">intense</token>
+		<token type="NN">activity</token>
 		<token type="IN">with</token>
 		<token type="NNS">times</token>
 		<token type="IN">of</token>
-		<token type="NNP">welcome</token>
-		<token type="NNP">rest</token>
+		<token type="NN">welcome</token>
+		<token type="NN">rest</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Enjoy</token>
 		<token type="DT">the</token>
-		<token type="NN">restful</token>
-		<token type="NNP">periods</token>
+		<token type="JJ">restful</token>
+		<token type="NN">periods</token>
 		<token type="WRB">when</token>
 		<token type="PRP">you</token>
 		<token type="MD">can</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">active</token>
+		<token type="DT">The</token>
+		<token type="JJ">active</token>
 		<token type="NNS">ones</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
@@ -690,15 +825,16 @@
 		<token type=".">!</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">be</token>
 		<token type="VBG">making</token>
-		<token type="NNS">radical</token>
-		<token type="NNP">changes</token>
+		<token type="JJ">radical</token>
+		<token type="NNS">changes</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
 		<token type="NN">work</token>
-		<token type="RB">habits</token>
+		<token type="NN">habits</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">but</token>
 		<token type="PRP">you</token>
@@ -706,7 +842,7 @@
 		<token type="VB">be</token>
 		<token type="DT">a</token>
 		<token type="NN">lot</token>
-		<token type="JJ">happier</token>
+		<token type="NN">happier</token>
 		<token type="IN">for</token>
 		<token type="PRP">it</token>
 		<token type="COMMA">COMMA</token>
@@ -719,31 +855,33 @@
 		<token type="VB">know</token>
 		<token type="PRP">it</token>
 		<token type="VBD">was</token>
-		<token type="VBN">worth</token>
+		<token type="IN">worth</token>
 		<token type="PRP">it</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="VBP">love</token>
+		<token type="PRP$">Your</token>
+		<token type="VBN">love</token>
 		<token type="NN">life</token>
 		<token type="VBZ">is</token>
-		<token type="JJ">full</token>
+		<token type="RB">full</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="DT">any</token>
 		<token type="NN">dissatisfaction</token>
 		<token type="IN">with</token>
-		<token type="NNP">career</token>
+		<token type="NN">career</token>
 		<token type="CC">and</token>
 		<token type="NN">money</token>
-		<token type="VBN">matters</token>
-		<token type="NNP">fades</token>
+		<token type="NNS">matters</token>
+		<token type="RB">fades</token>
 		<token type="IN">into</token>
 		<token type="DT">the</token>
 		<token type="NN">background</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="DT">the</token>
 		<token type="NN">end</token>
 		<token type="IN">of</token>
@@ -753,31 +891,33 @@
 		<token type="MD">&apos;ll</token>
 		<token type="VB">feel</token>
 		<token type="JJR">more</token>
-		<token type="JJ">confident</token>
+		<token type="NN">confident</token>
 		<token type="COMMA">COMMA</token>
 		<token type="JJR">more</token>
 		<token type="JJ">determined</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="RB">far</token>
-		<token type="RBR">more</token>
+		<token type="JJR">more</token>
 		<token type="JJ">capable</token>
 		<token type="IN">of</token>
 		<token type="VBG">making</token>
 		<token type="DT">the</token>
-		<token type="NN">mountains</token>
+		<token type="NNS">mountains</token>
 		<token type="VB">come</token>
 		<token type="IN">to</token>
 		<token type="PRP">you</token>
 		<token type=".">!</token>
 	</sent>
 	<sent>
+		<token type="UH">Leo</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Abundance</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Abundance</token>
 	</sent>
 	<sent>
+		<token type="VBG">Pursuing</token>
 		<token type="DT">a</token>
 		<token type="JJ">successful</token>
 		<token type="NN">career</token>
@@ -785,15 +925,15 @@
 		<token type="IN">along</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="NN">usual</token>
+		<token type="JJ">usual</token>
 		<token type="JJ">social</token>
 		<token type="CC">and</token>
-		<token type="NN">financial</token>
-		<token type="NNP">advantages</token>
+		<token type="JJ">financial</token>
+		<token type="NNS">advantages</token>
 		<token type="COMMA">COMMA</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">easier</token>
+		<token type="JJR">easier</token>
 		<token type="DT">this</token>
 		<token type="NN">year</token>
 		<token type="IN">than</token>
@@ -806,22 +946,23 @@
 		<token type="IN">for</token>
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">Leo</token>
+		<token type="UH">Leo</token>
 		<token type=".">!</token>
 	</sent>
 	<sent>
-		<token type="RBS">most</token>
+		<token type="DT">The</token>
+		<token type="JJS">most</token>
 		<token type="JJ">difficult</token>
 		<token type="NN">thing</token>
 		<token type="MD">might</token>
 		<token type="VB">be</token>
-		<token type="JJ">deciding</token>
+		<token type="NN">deciding</token>
 		<token type="WDT">which</token>
-		<token type="VBZ">path</token>
+		<token type="TO">path</token>
 		<token type="NNS">means</token>
 		<token type="DT">the</token>
-		<token type="RBS">most</token>
-		<token type="TO">to</token>
+		<token type="JJS">most</token>
+		<token type="IN">to</token>
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
@@ -833,22 +974,24 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">be</token>
 		<token type="JJ">able</token>
 		<token type="TO">to</token>
 		<token type="VB">create</token>
-		<token type="NNP">opportunities</token>
+		<token type="NNS">opportunities</token>
 		<token type="IN">for</token>
-		<token type="NNP">advancement</token>
+		<token type="NN">advancement</token>
 		<token type="RB">almost</token>
-		<token type="RB">out</token>
+		<token type="IN">out</token>
 		<token type="IN">of</token>
-		<token type="NNP">thin</token>
+		<token type="JJ">thin</token>
 		<token type="NN">air</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NN">Romance</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
 		<token type="MD">will</token>
@@ -858,7 +1001,7 @@
 		<token type="NN">year</token>
 		<token type="TO">to</token>
 		<token type="VB">remember</token>
-		<token type="HYPH">-</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
 		<token type="PRP">you</token>
 		<token type="MD">&apos;ll</token>
@@ -866,39 +1009,42 @@
 		<token type="DT">the</token>
 		<token type="NN">envy</token>
 		<token type="IN">of</token>
-		<token type="DT">all</token>
+		<token type="PDT">all</token>
 		<token type="PRP$">your</token>
 		<token type="NNS">friends</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">comes</token>
-		<token type="NNP">willingly</token>
+		<token type="NNP">Love</token>
+		<token type="VBZ">comes</token>
+		<token type="NN">willingly</token>
 		<token type="CC">and</token>
-		<token type="NN">easily</token>
+		<token type="RB">easily</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NN">Money</token>
 		<token type="MD">may</token>
-		<token type="VB">suddenly</token>
-		<token type="VB">become</token>
+		<token type="RB">suddenly</token>
+		<token type="VBN">become</token>
 		<token type="NN">tight</token>
 		<token type="IN">at</token>
 		<token type="DT">a</token>
 		<token type="RB">very</token>
-		<token type="RB">inconvenient</token>
+		<token type="JJ">inconvenient</token>
 		<token type="NN">time</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Yet</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">this</token>
 		<token type="VBZ">is</token>
 		<token type="DT">no</token>
 		<token type="NN">comparison</token>
-		<token type="TO">to</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
-		<token type="NN">advancements</token>
+		<token type="NNS">advancements</token>
 		<token type="PRP">you</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">make</token>
@@ -917,25 +1063,27 @@
 		<token type="RB">back</token>
 		<token type="IN">in</token>
 		<token type="JJ">sheer</token>
-		<token type="NNP">wonder</token>
+		<token type="NN">wonder</token>
 		<token type="CC">and</token>
 		<token type="NN">happiness</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Virgo</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Perseverance</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Perseverance</token>
 	</sent>
 	<sent>
-		<token type="NN">working</token>
+		<token type="PRP$">Your</token>
+		<token type="VBG">working</token>
 		<token type="NN">life</token>
 		<token type="MD">might</token>
 		<token type="RB">not</token>
 		<token type="VB">go</token>
 		<token type="RB">so</token>
-		<token type="JJ">smoothly</token>
+		<token type="VB">smoothly</token>
 		<token type="DT">this</token>
 		<token type="NN">year</token>
 		<token type="COMMA">COMMA</token>
@@ -943,45 +1091,48 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="RB">much</token>
+		<token type="CC">For</token>
+		<token type="JJ">much</token>
 		<token type="IN">of</token>
 		<token type="CD">2005</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">you</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">be</token>
-		<token type="JJ">putting</token>
+		<token type="VBG">putting</token>
 		<token type="PRP$">your</token>
 		<token type="NN">nose</token>
-		<token type="TO">to</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
 		<token type="NN">grindstone</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">On</token>
 		<token type="DT">the</token>
 		<token type="NN">bright</token>
-		<token type="NNP">side</token>
+		<token type="NN">side</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
-		<token type="NN">finances</token>
+		<token type="NNS">finances</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="RB">pretty</token>
-		<token type="RB">stable</token>
+		<token type="JJ">stable</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Just</token>
 		<token type="VBP">do</token>
 		<token type="RB">n&apos;t</token>
 		<token type="VB">take</token>
 		<token type="PRP">it</token>
 		<token type="IN">for</token>
-		<token type="NNP">granted</token>
+		<token type="JJ">granted</token>
 		<token type="HYPH">-</token>
 		<token type="PRP">you</token>
 		<token type="RB">still</token>
-		<token type="VBG">need</token>
+		<token type="VBP">need</token>
 		<token type="TO">to</token>
 		<token type="VB">be</token>
 		<token type="JJ">cautious</token>
@@ -990,35 +1141,37 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="VBP">love</token>
+		<token type="PRP$">Your</token>
+		<token type="VBN">love</token>
 		<token type="NN">life</token>
 		<token type="MD">will</token>
 		<token type="VB">thrive</token>
 		<token type="IN">for</token>
-		<token type="RBS">most</token>
+		<token type="JJS">most</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">year</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="DT">any</token>
-		<token type="NN">relationship</token>
-		<token type="NNP">begun</token>
+		<token type="JJ">relationship</token>
+		<token type="NNS">begun</token>
 		<token type="CC">or</token>
-		<token type="VBG">reaffirmed</token>
+		<token type="VBN">reaffirmed</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
 		<token type="VBZ">is</token>
 		<token type="RB">very</token>
-		<token type="JJ">likely</token>
+		<token type="RB">likely</token>
 		<token type="TO">to</token>
 		<token type="VB">be</token>
 		<token type="DT">a</token>
-		<token type="NN">lasting</token>
+		<token type="VBG">lasting</token>
 		<token type="CD">one</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CC">And</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
@@ -1026,19 +1179,20 @@
 		<token type="TO">to</token>
 		<token type="VB">develop</token>
 		<token type="DT">a</token>
-		<token type="NN">hopeless</token>
-		<token type="NNP">romantic</token>
-		<token type="NNP">streak</token>
+		<token type="JJ">hopeless</token>
+		<token type="JJ">romantic</token>
+		<token type="NN">streak</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">In</token>
 		<token type="NN">spite</token>
 		<token type="IN">of</token>
 		<token type="DT">a</token>
 		<token type="NN">lot</token>
 		<token type="IN">of</token>
-		<token type="NNP">worry</token>
-		<token type="IN">over</token>
+		<token type="NN">worry</token>
+		<token type="RP">over</token>
 		<token type="PRP$">your</token>
 		<token type="NN">career</token>
 		<token type="COMMA">COMMA</token>
@@ -1058,35 +1212,38 @@
 		<token type="PRP$">your</token>
 		<token type="NN">life</token>
 		<token type="IN">with</token>
-		<token type="NNP">prosperity</token>
+		<token type="NN">prosperity</token>
 		<token type="CC">and</token>
-		<token type="NN">accomplishments</token>
+		<token type="NNS">accomplishments</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Libra</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Expansion</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Expansion</token>
 	</sent>
 	<sent>
+		<token type="VB">Flex</token>
 		<token type="PRP$">your</token>
-		<token type="NN">muscles</token>
+		<token type="NNS">muscles</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NN">friend</token>
-		<token type="JJ">Libra</token>
+		<token type="WP$">Libra</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="NN">prepare</token>
 		<token type="IN">for</token>
 		<token type="DT">a</token>
-		<token type="NN">relatively</token>
-		<token type="JJ">easy</token>
-		<token type="NNS">ride</token>
+		<token type="RB">relatively</token>
+		<token type="NN">easy</token>
+		<token type="NN">ride</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">beneficent</token>
+		<token type="IN">With</token>
+		<token type="JJ">beneficent</token>
 		<token type="NNP">Jupiter</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
@@ -1094,7 +1251,7 @@
 		<token type="COMMA">COMMA</token>
 		<token type="DT">this</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">definitely</token>
+		<token type="VBN">definitely</token>
 		<token type="PRP$">your</token>
 		<token type="NN">year</token>
 		<token type="COMMA">COMMA</token>
@@ -1104,22 +1261,24 @@
 		<token type="JJ">social</token>
 		<token type="NN">life</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">concerned</token>
+		<token type="VBN">concerned</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Happiness</token>
 		<token type="CC">and</token>
-		<token type="NN">enjoyment</token>
-		<token type="NNP">lie</token>
-		<token type="NNP">ahead</token>
+		<token type="JJ">enjoyment</token>
+		<token type="NN">lie</token>
+		<token type="RB">ahead</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">If</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
 		<token type="RB">not</token>
-		<token type="NN">presently</token>
-		<token type="NNP">married</token>
+		<token type="RB">presently</token>
+		<token type="VBN">married</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="VBP">want</token>
@@ -1129,7 +1288,7 @@
 		<token type="PRP">you</token>
 		<token type="RB">just</token>
 		<token type="MD">might</token>
-		<token type="VB">wed</token>
+		<token type="CD">wed</token>
 		<token type="IN">by</token>
 		<token type="DT">the</token>
 		<token type="NN">end</token>
@@ -1139,6 +1298,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">This</token>
 		<token type="VBZ">is</token>
 		<token type="DT">the</token>
 		<token type="NN">year</token>
@@ -1151,9 +1311,9 @@
 		<token type="DT">a</token>
 		<token type="NN">lot</token>
 		<token type="IN">of</token>
-		<token type="NNP">travel</token>
+		<token type="NN">travel</token>
 		<token type="CC">and</token>
-		<token type="NN">learning</token>
+		<token type="VBG">learning</token>
 		<token type="IN">about</token>
 		<token type="PRP$">your</token>
 		<token type="NN">world</token>
@@ -1166,20 +1326,21 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="CD">one</token>
+		<token type="DT">The</token>
+		<token type="NN">one</token>
 		<token type="NN">department</token>
 		<token type="IN">of</token>
 		<token type="NN">life</token>
-		<token type="WRB">that</token>
+		<token type="WDT">that</token>
 		<token type="MD">may</token>
 		<token type="RB">not</token>
-		<token type="RB">quite</token>
-		<token type="VB">be</token>
+		<token type="TO">quite</token>
+		<token type="NN">be</token>
 		<token type="IN">as</token>
-		<token type="NN">hopeful</token>
+		<token type="JJ">hopeful</token>
 		<token type="IN">as</token>
 		<token type="PRP">you</token>
-		<token type="VBG">&apos;d</token>
+		<token type="``">&apos;d</token>
 		<token type="IN">like</token>
 		<token type="MD">could</token>
 		<token type="VB">be</token>
@@ -1187,16 +1348,17 @@
 		<token type="NN">career</token>
 		<token type="COMMA">COMMA</token>
 		<token type="WRB">where</token>
-		<token type="NNP">advancement</token>
+		<token type="JJ">advancement</token>
 		<token type="MD">may</token>
 		<token type="VB">be</token>
-		<token type="JJ">slow</token>
+		<token type="NN">slow</token>
 		<token type="CC">and</token>
 		<token type="NN">satisfaction</token>
-		<token type="NNP">rare</token>
+		<token type="NN">rare</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="NN">year</token>
 		<token type="POS">&apos;s</token>
 		<token type="NN">end</token>
@@ -1204,32 +1366,34 @@
 		<token type="PRP">you</token>
 		<token type="MD">may</token>
 		<token type="VB">find</token>
-		<token type="NNP">yourself</token>
-		<token type="NNP">seriously</token>
-		<token type="NNP">considering</token>
+		<token type="PRP">yourself</token>
+		<token type="NN">seriously</token>
+		<token type="VBG">considering</token>
 		<token type="DT">a</token>
 		<token type="JJ">major</token>
 		<token type="NN">change</token>
-		<token type="HYPH">-</token>
-		<token type="PDT">all</token>
+		<token type=":">-</token>
+		<token type="RB">all</token>
 		<token type="IN">for</token>
 		<token type="DT">the</token>
 		<token type="JJS">best</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Scorpio</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Transmutation</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Transmutation</token>
 	</sent>
 	<sent>
+		<token type="UH">Scorpio</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">you</token>
 		<token type="MD">can</token>
 		<token type="RB">still</token>
-		<token type="VBG">expect</token>
-		<token type="NNP">changes</token>
+		<token type="VB">expect</token>
+		<token type="NNS">changes</token>
 		<token type="HYPH">-</token>
 		<token type="NN">perhaps</token>
 		<token type="JJ">major</token>
@@ -1247,10 +1411,11 @@
 		<token type="NN">point</token>
 		<token type="IN">of</token>
 		<token type="JJ">total</token>
-		<token type="NNS">transformation</token>
+		<token type="NN">transformation</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">While</token>
 		<token type="DT">this</token>
 		<token type="VBZ">is</token>
 		<token type="RBS">most</token>
@@ -1266,37 +1431,39 @@
 		<token type="MD">&apos;ll</token>
 		<token type="VB">see</token>
 		<token type="PRP">it</token>
-		<token type="VBZ">showing</token>
+		<token type="VBG">showing</token>
 		<token type="RP">up</token>
 		<token type="IN">in</token>
 		<token type="JJ">other</token>
-		<token type="JJ">important</token>
-		<token type="NN">aspects</token>
+		<token type="RB">important</token>
+		<token type="NNS">aspects</token>
 		<token type="IN">of</token>
 		<token type="PRP$">your</token>
 		<token type="NN">life</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Your</token>
 		<token type="NN">life</token>
 		<token type="MD">might</token>
 		<token type="VB">take</token>
-		<token type="NN">on</token>
+		<token type="IN">on</token>
 		<token type="DT">an</token>
-		<token type="NN">entirely</token>
+		<token type="RB">entirely</token>
 		<token type="JJ">new</token>
 		<token type="NN">direction</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;ve</token>
 		<token type="RB">never</token>
-		<token type="VBG">dreamed</token>
+		<token type="VBN">dreamed</token>
 		<token type="IN">of</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">may</token>
 		<token type="RB">also</token>
-		<token type="NN">change</token>
+		<token type="VB">change</token>
 		<token type="PRP$">your</token>
 		<token type="NN">residence</token>
 		<token type="IN">during</token>
@@ -1305,8 +1472,9 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">Whether</token>
 		<token type="PRP">you</token>
-		<token type="VB">start</token>
+		<token type="VBP">start</token>
 		<token type="DT">the</token>
 		<token type="NN">year</token>
 		<token type="IN">as</token>
@@ -1327,44 +1495,47 @@
 		<token type="JJ">many</token>
 		<token type="NNS">years</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">happiness</token>
-		<token type="IN">in</token>
-		<token type="VBP">love</token>
+		<token type="NN">happiness</token>
+		<token type="TO">in</token>
+		<token type="RBR">love</token>
 		<token type="VBZ">does</token>
-		<token type="VB">lie</token>
-		<token type="NNP">ahead</token>
+		<token type="UH">lie</token>
+		<token type="RB">ahead</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">prepared</token>
+		<token type="VB">Be</token>
+		<token type="VBN">prepared</token>
 		<token type="IN">for</token>
 		<token type="JJ">new</token>
-		<token type="NN">horizons</token>
+		<token type="NNS">horizons</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">They</token>
 		<token type="MD">may</token>
 		<token type="RB">not</token>
 		<token type="VB">be</token>
-		<token type="JJ">familiar</token>
+		<token type="RB">familiar</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">but</token>
 		<token type="PRP">they</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">fascinating</token>
+		<token type="NN">fascinating</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VBP">Do</token>
 		<token type="RB">n&apos;t</token>
-		<token type="VB">cling</token>
-		<token type="TO">to</token>
+		<token type="VBG">cling</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
-		<token type="NN">banks</token>
+		<token type="NNS">banks</token>
 		<token type="COMMA">;</token>
 		<token type="RB">instead</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">flow</token>
+		<token type="JJ">flow</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
 		<token type="NN">tide</token>
@@ -1373,21 +1544,24 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Sagittarius</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Empowerment</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Empowerment</token>
 	</sent>
 	<sent>
+		<token type="VBP">Are</token>
 		<token type="PRP">you</token>
-		<token type="VBG">prepared</token>
+		<token type="VBN">prepared</token>
 		<token type="TO">to</token>
-		<token type="VB">handle</token>
-		<token type="NNP">absolute</token>
+		<token type="ADD">handle</token>
+		<token type="NN">absolute</token>
 		<token type="NN">power</token>
 		<token type=".">?</token>
 	</sent>
 	<sent>
+		<token type="IN">If</token>
 		<token type="RB">not</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">you</token>
@@ -1397,8 +1571,9 @@
 		<token type=".">!</token>
 	</sent>
 	<sent>
-		<token type="NN">ruling</token>
-		<token type="NNP">planet</token>
+		<token type="PRP$">Your</token>
+		<token type="VBG">ruling</token>
+		<token type="NN">planet</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NNP">Jupiter</token>
 		<token type="COMMA">COMMA</token>
@@ -1410,23 +1585,24 @@
 		<token type="NN">relationship</token>
 		<token type="IN">with</token>
 		<token type="NNP">Pluto</token>
-		<token type="HYPH">-</token>
+		<token type="COMMA">-</token>
 		<token type="VBN">called</token>
 		<token type="``">&quot;</token>
 		<token type="NN">mutual</token>
-		<token type="NNP">reception</token>
+		<token type="NN">reception</token>
 		<token type="''">&quot;</token>
-		<token type="COMMA">-</token>
+		<token type="HYPH">-</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="EX">There</token>
 		<token type="VBZ">&apos;s</token>
 		<token type="RB">so</token>
-		<token type="RB">much</token>
+		<token type="JJ">much</token>
 		<token type="NN">punch</token>
-		<token type="NNP">packed</token>
+		<token type="VBD">packed</token>
 		<token type="IN">into</token>
 		<token type="DT">this</token>
 		<token type="NN">combination</token>
@@ -1434,14 +1610,15 @@
 		<token type="PRP">it</token>
 		<token type="VBZ">&apos;s</token>
 		<token type="RB">almost</token>
-		<token type="RB">scary</token>
+		<token type="JJ">scary</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">find</token>
 		<token type="DT">the</token>
-		<token type="NN">ultimate</token>
+		<token type="JJ">ultimate</token>
 		<token type="NN">power</token>
 		<token type="VBZ">is</token>
 		<token type="DT">the</token>
@@ -1454,31 +1631,33 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">find</token>
-		<token type="NNP">practical</token>
-		<token type="NNP">ways</token>
+		<token type="JJ">practical</token>
+		<token type="NNS">ways</token>
 		<token type="IN">of</token>
-		<token type="NNP">increasing</token>
+		<token type="VBG">increasing</token>
 		<token type="PRP$">your</token>
 		<token type="NN">effectiveness</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">world</token>
 		<token type="IN">by</token>
-		<token type="NNP">gaining</token>
+		<token type="VBG">gaining</token>
 		<token type="JJ">new</token>
 		<token type="NN">skills</token>
-		<token type="IN">that</token>
-		<token type="VB">allow</token>
+		<token type="WDT">that</token>
+		<token type="VBP">allow</token>
 		<token type="PRP">you</token>
 		<token type="TO">to</token>
 		<token type="VB">live</token>
 		<token type="JJR">more</token>
-		<token type="JJ">abundantly</token>
+		<token type="RB">abundantly</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="DT">the</token>
 		<token type="JJ">second</token>
 		<token type="NN">half</token>
@@ -1488,16 +1667,16 @@
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">you</token>
 		<token type="MD">will</token>
-		<token type="VB">finally</token>
+		<token type="RB">finally</token>
 		<token type="VB">feel</token>
-		<token type="RB">welcome</token>
-		<token type="NNP">relief</token>
+		<token type="VBN">welcome</token>
+		<token type="VBN">relief</token>
 		<token type="IN">from</token>
 		<token type="DT">the</token>
 		<token type="NN">tight</token>
-		<token type="NNP">financial</token>
-		<token type="NNP">binds</token>
-		<token type="IN">that</token>
+		<token type="JJ">financial</token>
+		<token type="NNS">binds</token>
+		<token type="WDT">that</token>
 		<token type="VBP">have</token>
 		<token type="VBN">hindered</token>
 		<token type="PRP">you</token>
@@ -1509,11 +1688,12 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CC">And</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">a</token>
 		<token type="NN">relationship</token>
 		<token type="PRP">you</token>
-		<token type="VB">begin</token>
+		<token type="RB">begin</token>
 		<token type="RB">now</token>
 		<token type="MD">will</token>
 		<token type="VB">last</token>
@@ -1533,6 +1713,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Overall</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CD">2005</token>
 		<token type="VBZ">is</token>
@@ -1542,44 +1723,47 @@
 		<token type="DT">a</token>
 		<token type="NN">year</token>
 		<token type="PRP">you</token>
-		<token type="VBG">wo</token>
+		<token type="VBP">wo</token>
 		<token type="RB">n&apos;t</token>
-		<token type="VB">forget</token>
+		<token type="JJ">forget</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Capricorn</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
+		<token type="SYM">-</token>
 		<token type="NN">Resolution</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="VBP">&apos;ve</token>
 		<token type="VBN">got</token>
-		<token type="RB">plenty</token>
+		<token type="NN">plenty</token>
 		<token type="IN">of</token>
-		<token type="NNP">lucky</token>
-		<token type="NNP">breaks</token>
-		<token type="NNP">headed</token>
+		<token type="NN">lucky</token>
+		<token type="NN">breaks</token>
+		<token type="VBN">headed</token>
 		<token type="PRP$">your</token>
 		<token type="NN">way</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NN">friend</token>
-		<token type="JJ">Capricorn</token>
+		<token type="WP$">Capricorn</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="JJ">long</token>
-		<token type="NN">awaited</token>
-		<token type="NNP">relief</token>
+		<token type="JJ">awaited</token>
+		<token type="VBP">relief</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;ve</token>
 		<token type="VBN">needed</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
-		<token type="NN">love</token>
+		<token type="VBN">love</token>
 		<token type="NN">life</token>
 		<token type="VBZ">is</token>
 		<token type="IN">around</token>
@@ -1606,32 +1790,34 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Financially</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP">it</token>
 		<token type="MD">could</token>
 		<token type="VB">be</token>
 		<token type="DT">a</token>
-		<token type="NN">lean</token>
+		<token type="JJ">lean</token>
 		<token type="NN">year</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">although</token>
 		<token type="DT">some</token>
 		<token type="NN">advance</token>
-		<token type="NNP">planning</token>
+		<token type="VBG">planning</token>
 		<token type="MD">can</token>
 		<token type="VB">help</token>
 		<token type="PRP">you</token>
-		<token type="VBG">weather</token>
+		<token type="IN">weather</token>
 		<token type="DT">the</token>
 		<token type="NN">storm</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Your</token>
 		<token type="NN">career</token>
-		<token type="NNP">opportunities</token>
+		<token type="NNS">opportunities</token>
 		<token type="MD">will</token>
 		<token type="VB">expand</token>
-		<token type="NNP">exponentially</token>
+		<token type="RB">exponentially</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="PRP">you</token>
@@ -1639,69 +1825,72 @@
 		<token type="JJ">likely</token>
 		<token type="TO">to</token>
 		<token type="VB">change</token>
-		<token type="RB">jobs</token>
+		<token type="NN">jobs</token>
 		<token type="CC">or</token>
-		<token type="VBG">positions</token>
+		<token type="NNS">positions</token>
 		<token type="DT">this</token>
 		<token type="NN">year</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">At</token>
 		<token type="NNS">times</token>
-		<token type="JJR">COMMA</token>
+		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
 		<token type="NN">pressure</token>
 		<token type="IN">on</token>
 		<token type="PRP$">your</token>
 		<token type="NN">job</token>
 		<token type="CC">and</token>
-		<token type="NN">home</token>
+		<token type="JJ">home</token>
 		<token type="NN">life</token>
 		<token type="MD">may</token>
 		<token type="VB">seem</token>
 		<token type="JJ">unbearable</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">but</token>
-		<token type="NNP">rest</token>
-		<token type="NNP">assured</token>
+		<token type="VB">rest</token>
+		<token type="VBD">assured</token>
 		<token type="PRP">you</token>
 		<token type="MD">will</token>
 		<token type="VB">come</token>
 		<token type="IN">through</token>
 		<token type="DT">this</token>
-		<token type="NN">stronger</token>
-		<token type="HYPH">-</token>
+		<token type="JJ">stronger</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
-		<token type="NN">wiser</token>
+		<token type="CD">wiser</token>
 		<token type="HYPH">-</token>
 		<token type="IN">than</token>
 		<token type="RB">ever</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">as</token>
-		<token type="JJR">more</token>
+		<token type="DT">more</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">revealed</token>
+		<token type="VBN">revealed</token>
 		<token type="CC">and</token>
-		<token type="NN">resolved</token>
+		<token type="VBD">resolved</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Aquarius</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Magic</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Magic</token>
 	</sent>
 	<sent>
+		<token type="CD">2005</token>
 		<token type="NN">sees</token>
 		<token type="PRP">you</token>
 		<token type="VBG">expanding</token>
 		<token type="PRP$">your</token>
 		<token type="NN">intuitive</token>
 		<token type="CC">and</token>
-		<token type="NN">psychic</token>
-		<token type="NNP">skills</token>
+		<token type="JJ">psychic</token>
+		<token type="RB">skills</token>
 		<token type="RB">even</token>
 		<token type="JJR">more</token>
 		<token type="COMMA">COMMA</token>
@@ -1709,61 +1898,63 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">mysteries</token>
+		<token type="DT">The</token>
+		<token type="NNS">mysteries</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
-		<token type="NN">universe</token>
-		<token type="VB">continue</token>
+		<token type="JJ">universe</token>
+		<token type="VBN">continue</token>
 		<token type="TO">to</token>
 		<token type="VB">attract</token>
 		<token type="CC">and</token>
-		<token type="NN">intrigue</token>
+		<token type="VBP">intrigue</token>
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">as</token>
 		<token type="PRP">you</token>
-		<token type="VBG">apply</token>
+		<token type="VBP">apply</token>
 		<token type="PRP$">your</token>
-		<token type="NN">mystical</token>
-		<token type="NNP">awareness</token>
-		<token type="TO">to</token>
+		<token type="JJ">mystical</token>
+		<token type="NN">awareness</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
 		<token type="JJ">important</token>
-		<token type="NN">decisions</token>
-		<token type="NNP">upcoming</token>
+		<token type="NNS">decisions</token>
+		<token type="VBG">upcoming</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
 		<token type="NN">life</token>
 		<token type="COMMA">COMMA</token>
 		<token type="RB">especially</token>
 		<token type="VBG">concerning</token>
-		<token type="NNP">partnerships</token>
+		<token type="NN">partnerships</token>
 		<token type="IN">of</token>
 		<token type="DT">all</token>
-		<token type="NN">kinds</token>
+		<token type="NNS">kinds</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CD">2005</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">bound</token>
+		<token type="VBN">bound</token>
 		<token type="TO">to</token>
-		<token type="VB">bring</token>
-		<token type="IN">at</token>
-		<token type="JJS">least</token>
+		<token type="VBG">bring</token>
+		<token type="RB">at</token>
+		<token type="RBS">least</token>
 		<token type="CD">one</token>
 		<token type="JJ">major</token>
 		<token type="NN">success</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">love</token>
-		<token type="VBZ">department</token>
+		<token type="NN">department</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="PRP$">your</token>
 		<token type="NN">career</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">brimming</token>
+		<token type="VBG">brimming</token>
 		<token type="IN">with</token>
 		<token type="JJ">new</token>
 		<token type="NN">enthusiasm</token>
@@ -1772,37 +1963,39 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Not</token>
 		<token type="RB">only</token>
 		<token type="DT">that</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">but</token>
-		<token type="NNP">travel</token>
+		<token type="VB">travel</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">adventure</token>
+		<token type="NN">adventure</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="JJ">personal</token>
 		<token type="NN">expansion</token>
-		<token type="NNP">infuse</token>
-		<token type="NNP">fresh</token>
+		<token type="NN">infuse</token>
+		<token type="JJ">fresh</token>
 		<token type="NN">energy</token>
 		<token type="IN">into</token>
-		<token type="PDT">all</token>
-		<token type="NNS">areas</token>
+		<token type="DT">all</token>
+		<token type="NN">areas</token>
 		<token type="IN">of</token>
 		<token type="PRP$">your</token>
 		<token type="NN">life</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">By</token>
 		<token type="NN">year</token>
 		<token type="POS">&apos;s</token>
 		<token type="NN">end</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
-		<token type="NN">creative</token>
+		<token type="JJ">creative</token>
 		<token type="NN">decision</token>
-		<token type=":">-</token>
+		<token type="COMMA">-</token>
 		<token type="VBG">making</token>
 		<token type="MD">will</token>
 		<token type="VB">have</token>
@@ -1812,10 +2005,10 @@
 		<token type="VB">whole</token>
 		<token type="JJ">new</token>
 		<token type="NN">peaks</token>
-		<token type="HYPH">-</token>
+		<token type="COMMA">-</token>
 		<token type="CC">and</token>
 		<token type="DT">a</token>
-		<token type="NN">whole</token>
+		<token type="RB">whole</token>
 		<token type="JJ">new</token>
 		<token type="NN">view</token>
 		<token type="IN">from</token>
@@ -1823,14 +2016,16 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Pisces</token>
 		<token type="IN">in</token>
 		<token type="CD">2005</token>
-		<token type="HYPH">-</token>
-		<token type="NN">Self</token>
+		<token type="SYM">-</token>
+		<token type="NNP">Self</token>
 		<token type="HYPH">-</token>
 		<token type="NN">confidence</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">&apos;s</token>
 		<token type="DT">a</token>
 		<token type="JJ">big</token>
@@ -1839,10 +2034,11 @@
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NN">friend</token>
-		<token type="JJ">Pisces</token>
+		<token type="NNS">Pisces</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">No</token>
 		<token type="NN">doubt</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">in</token>
@@ -1850,8 +2046,8 @@
 		<token type="PRP">you</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">find</token>
-		<token type="NNP">yourself</token>
-		<token type="NNP">pushed</token>
+		<token type="PRP">yourself</token>
+		<token type="VBN">pushed</token>
 		<token type="JJR">more</token>
 		<token type="CC">and</token>
 		<token type="JJR">more</token>
@@ -1862,13 +2058,14 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="MD">&apos;ll</token>
 		<token type="VB">experience</token>
 		<token type="DT">a</token>
 		<token type="JJ">new</token>
 		<token type="NN">sense</token>
 		<token type="IN">of</token>
-		<token type="NNP">purpose</token>
+		<token type="NN">purpose</token>
 		<token type="CC">and</token>
 		<token type="VB">make</token>
 		<token type="NN">plenty</token>
@@ -1878,26 +2075,27 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Expect</token>
 		<token type="NN">lots</token>
 		<token type="IN">of</token>
-		<token type="NNP">surprises</token>
+		<token type="NNS">surprises</token>
 		<token type="CC">and</token>
-		<token type="NN">lucky</token>
-		<token type="NNP">breaks</token>
+		<token type="JJ">lucky</token>
+		<token type="VBD">breaks</token>
 		<token type="DT">this</token>
 		<token type="NN">year</token>
 		<token type="COMMA">COMMA</token>
 		<token type="IN">with</token>
 		<token type="NNP">Uranus</token>
-		<token type="NNP">bringing</token>
+		<token type="VBG">bringing</token>
 		<token type="DT">the</token>
-		<token type="NN">unexpected</token>
+		<token type="VBN">unexpected</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
 		<token type="NN">career</token>
 		<token type="COMMA">COMMA</token>
 		<token type="PRP$">your</token>
-		<token type="NN">love</token>
+		<token type="VBN">love</token>
 		<token type="NN">life</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
@@ -1908,6 +2106,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">At</token>
 		<token type="DT">some</token>
 		<token type="NN">point</token>
 		<token type="IN">during</token>
@@ -1919,19 +2118,19 @@
 		<token type="VB">pick</token>
 		<token type="RP">up</token>
 		<token type="DT">a</token>
-		<token type="NN">financial</token>
-		<token type="NNP">windfall</token>
+		<token type="JJ">financial</token>
+		<token type="NN">windfall</token>
 		<token type="COMMA">COMMA</token>
-		<token type="VB">hear</token>
+		<token type="NN">hear</token>
 		<token type="IN">of</token>
 		<token type="DT">a</token>
 		<token type="JJ">great</token>
 		<token type="NN">career</token>
-		<token type="NNP">opportunity</token>
+		<token type="NN">opportunity</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">or</token>
-		<token type="VBG">unexpectedly</token>
-		<token type="NNP">meet</token>
+		<token type="JJ">unexpectedly</token>
+		<token type="IN">meet</token>
 		<token type="DT">the</token>
 		<token type="NN">love</token>
 		<token type="IN">of</token>
@@ -1940,18 +2139,19 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">&apos;s</token>
 		<token type="JJ">important</token>
 		<token type="IN">that</token>
 		<token type="PRP">you</token>
 		<token type="VB">take</token>
-		<token type="NN">retreats</token>
+		<token type="NNS">retreats</token>
 		<token type="CC">and</token>
 		<token type="NN">plenty</token>
 		<token type="IN">of</token>
 		<token type="NN">time</token>
 		<token type="IN">for</token>
-		<token type="NNP">yourself</token>
+		<token type="PRP">yourself</token>
 		<token type="TO">to</token>
 		<token type="VB">regenerate</token>
 		<token type="COMMA">COMMA</token>
@@ -1964,25 +2164,26 @@
 		<token type="PRP$">your</token>
 		<token type="JJ">personal</token>
 		<token type="CC">and</token>
-		<token type="NN">professional</token>
+		<token type="JJ">professional</token>
 		<token type="NN">life</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="JJ">fast</token>
 		<token type="CC">and</token>
-		<token type="NN">unpredictable</token>
+		<token type="JJ">unpredictable</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Remain</token>
 		<token type="NN">calm</token>
 		<token type="CC">and</token>
 		<token type="NN">confident</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
-		<token type="VB">love</token>
+		<token type="NNP">love</token>
 		<token type="VBZ">is</token>
 		<token type="RB">very</token>
-		<token type="JJ">likely</token>
+		<token type="RB">likely</token>
 		<token type="TO">to</token>
 		<token type="VB">flourish</token>
 		<token type="IN">in</token>
@@ -1990,20 +2191,22 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">Expect</token>
+		<token type="``">&quot;</token>
+		<token type="NNP">Expect</token>
 		<token type="DT">the</token>
-		<token type="NN">unexpected</token>
+		<token type="JJ">unexpected</token>
 		<token type="COMMA">COMMA</token>
 		<token type="''">&quot;</token>
 		<token type="CC">and</token>
-		<token type="NN">enjoy</token>
+		<token type="PDT">enjoy</token>
 		<token type="DT">the</token>
 		<token type="NN">ride</token>
 		<token type=".">!</token>
 	</sent>
 	<sent>
-		<token type="NN">Success</token>
-		<token type="NNP">comes</token>
+		<token type="``">&quot;</token>
+		<token type="NNP">Success</token>
+		<token type="NNS">comes</token>
 		<token type="IN">before</token>
 		<token type="NN">work</token>
 		<token type="''">&quot;</token>
@@ -2013,56 +2216,66 @@
 		<token type="NN">dictionary</token>
 	</sent>
 	<sent>
+		<token type="UH">Mayur</token>
 		<token type=".">?</token>
 		<token type="(">&lt;</token>
 		<token type=")">&gt;</token>
 	</sent>
 	<sent>
-		<token type="NN">Mails</token>
+		<token type="VB">Get</token>
+		<token type="NNP">Mails</token>
 		<token type="NNP">Everyday</token>
 		<token type="(">&lt;</token>
 		<token type=")">&gt;</token>
 	</sent>
 	<sent>
-		<token type="NN">Your</token>
+		<token type="VB">Share</token>
+		<token type="PRP$">Your</token>
 		<token type="NNP">Mails</token>
 		<token type="(">&lt;</token>
 		<token type="ADD">mailto:mayur...@yahoo.com</token>
-		<token type=")">&gt;</token>
-		<token type="NN">mayur...@yahoo.com</token>
+		<token type="SYM">&gt;</token>
+		<token type="ADD">mayur...@yahoo.com</token>
 	</sent>
 	<sent>
-		<token type="NN">Me</token>
+		<token type="UH">SMS</token>
+		<token type="PRP">Me</token>
 		<token type="COMMA">...</token>
-		<token type="NNP">09819602175</token>
+		<token type="CD">09819602175</token>
 	</sent>
 	<sent>
-		<token type="TO">to</token>
+		<token type="NNP">Talk</token>
+		<token type="IN">to</token>
 		<token type="PRP">me</token>
 		<token type="(">&lt;</token>
 		<token type="ADD">ymsgr:sendIM?mayursha&amp;__Hi+Mayur...</token>
 		<token type=")">&gt;</token>
 	</sent>
 	<sent>
-		<token type="VBP">send</token>
+		<token type="(">[</token>
+		<token type="VB">send</token>
 		<token type="RB">offline</token>
 		<token type="IN">as</token>
 		<token type="RB">well</token>
 		<token type=")">]</token>
 	</sent>
 	<sent>
+		<token type="ADD">online?u=mayursha&amp;m=g&amp;t=1</token>
+	</sent>
+	<sent>
 		<token type="CD">1</token>
-		<token type="NN">K</token>
+		<token type="CD">K</token>
 		<token type="NN">Download</token>
 	</sent>
 	<sent>
-		<token type=":">-</token>
+		<token type="CD">Crude</token>
+		<token type="SYM">-</token>
 		<token type="NN">oil</token>
 		<token type="NNS">prices</token>
-		<token type="NNP">rose</token>
+		<token type="NN">rose</token>
 		<token type="NNP">Wednesday</token>
 		<token type="IN">as</token>
-		<token type="NN">strengthening</token>
+		<token type="VBG">strengthening</token>
 		<token type="NNP">Hurricane</token>
 		<token type="NNP">Rita</token>
 		<token type="COMMA">COMMA</token>
@@ -2070,13 +2283,13 @@
 		<token type="DT">a</token>
 		<token type="NN">Category</token>
 		<token type="CD">5</token>
-		<token type="VBZ">storm</token>
+		<token type="NN">storm</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">threatened</token>
+		<token type="VBN">threatened</token>
 		<token type="TO">to</token>
 		<token type="VB">disrupt</token>
 		<token type="NN">oil</token>
-		<token type="NNS">production</token>
+		<token type="NN">production</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">Gulf</token>
@@ -2085,72 +2298,75 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">New</token>
 		<token type="NNP">York</token>
 		<token type="POS">&apos;s</token>
 		<token type="JJ">main</token>
-		<token type="NNS">contract</token>
+		<token type="NN">contract</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">light</token>
-		<token type="NNP">sweet</token>
-		<token type="NNP">crude</token>
+		<token type="JJ">light</token>
+		<token type="NN">sweet</token>
+		<token type="NN">crude</token>
 		<token type="IN">for</token>
-		<token type="NNP">delivery</token>
+		<token type="NN">delivery</token>
 		<token type="IN">in</token>
-		<token type="JJ">November</token>
-		<token type="NNP">rose</token>
-		<token type="NNP">60</token>
-		<token type="NNP">cents</token>
+		<token type="NNP">November</token>
+		<token type="NN">rose</token>
+		<token type="CD">60</token>
+		<token type="NNS">cents</token>
 		<token type="TO">to</token>
-		<token type="JJ">close</token>
+		<token type="VB">close</token>
 		<token type="IN">at</token>
-		<token type="NNP">66.80</token>
-		<token type="NNP">dollars</token>
-		<token type="NN">per</token>
+		<token type="CD">66.80</token>
+		<token type="NNS">dollars</token>
+		<token type="IN">per</token>
 		<token type="NN">barrel</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">In</token>
 		<token type="NN">London</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
 		<token type="NN">price</token>
 		<token type="IN">of</token>
-		<token type="NNP">Brent</token>
+		<token type="JJ">Brent</token>
 		<token type="NNP">North</token>
 		<token type="NNP">Sea</token>
-		<token type="NNP">crude</token>
+		<token type="NN">crude</token>
 		<token type="IN">for</token>
 		<token type="NNP">November</token>
-		<token type="NNP">delivery</token>
-		<token type="NNP">advanced</token>
-		<token type="NNP">53</token>
-		<token type="NNP">cents</token>
+		<token type="NN">delivery</token>
+		<token type="VBN">advanced</token>
+		<token type="CD">53</token>
+		<token type="NNS">cents</token>
 		<token type="TO">to</token>
-		<token type="VB">64.73</token>
-		<token type="NNP">dollars</token>
+		<token type="CD">64.73</token>
+		<token type="NNS">dollars</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">brushing</token>
+		<token type="IN">After</token>
+		<token type="VBG">brushing</token>
 		<token type="DT">the</token>
-		<token type="NN">Florida</token>
+		<token type="NNP">Florida</token>
 		<token type="NNP">Keys</token>
-		<token type="NNP">islands</token>
+		<token type="NNS">islands</token>
 		<token type="IN">on</token>
-		<token type="NN">Tuesday</token>
+		<token type="NNP">Tuesday</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NNP">Rita</token>
-		<token type="NNP">packed</token>
-		<token type="NNP">winds</token>
+		<token type="JJ">packed</token>
+		<token type="NNS">winds</token>
 		<token type="IN">of</token>
 		<token type="IN">about</token>
-		<token type="NN">240</token>
-		<token type="NNP">kilometers</token>
+		<token type="CD">240</token>
+		<token type="VBZ">kilometers</token>
 		<token type="DT">an</token>
 		<token type="NN">hour</token>
 		<token type="IN">as</token>
 		<token type="PRP">it</token>
-		<token type="VBZ">headed</token>
+		<token type="VBD">headed</token>
 		<token type="IN">across</token>
 		<token type="DT">the</token>
 		<token type="NN">Gulf</token>
@@ -2159,45 +2375,47 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="NNP">US</token>
 		<token type="NNP">National</token>
-		<token type="NNP">Hurricane</token>
+		<token type="NNPS">Hurricane</token>
 		<token type="NNP">Center</token>
 		<token type="VBD">said</token>
 		<token type="NNP">Rita</token>
 		<token type="VBD">was</token>
 		<token type="``">&quot;</token>
-		<token type="NN">extremely</token>
+		<token type="RB">extremely</token>
 		<token type="JJ">dangerous</token>
 		<token type="''">&quot;</token>
 		<token type="CC">and</token>
 		<token type="MD">could</token>
 		<token type="VB">become</token>
 		<token type="DT">a</token>
-		<token type="NN">top</token>
+		<token type="JJ">top</token>
 		<token type="HYPH">-</token>
 		<token type="NN">level</token>
 		<token type="NN">category</token>
-		<token type="NNP">five</token>
-		<token type="NNP">storm</token>
+		<token type="CD">five</token>
+		<token type="NN">storm</token>
 		<token type="IN">on</token>
 		<token type="DT">the</token>
-		<token type="NN">Saffir</token>
+		<token type="NNP">Saffir</token>
 		<token type="HYPH">-</token>
-		<token type="NN">Simpson</token>
-		<token type="NNP">scale</token>
+		<token type="NNP">Simpson</token>
+		<token type="NN">scale</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="NN">storm</token>
-		<token type="NNP">threatened</token>
+		<token type="VBN">threatened</token>
 		<token type="NN">oil</token>
 		<token type="NNS">installations</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">Gulf</token>
 		<token type="IN">of</token>
-		<token type="NNP">Mexico</token>
+		<token type="NN">Mexico</token>
 		<token type="WRB">where</token>
 		<token type="IN">about</token>
 		<token type="CD">one</token>
@@ -2212,109 +2430,115 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">companies</token>
-		<token type="NNP">evacuated</token>
-		<token type="NNP">offshore</token>
-		<token type="NNP">facilities</token>
+		<token type="UH">Oil</token>
+		<token type="NNS">companies</token>
+		<token type="VBD">evacuated</token>
+		<token type="RB">offshore</token>
+		<token type="NNS">facilities</token>
 		<token type="IN">as</token>
 		<token type="DT">the</token>
 		<token type="NN">storm</token>
 		<token type="POS">&apos;s</token>
 		<token type="NN">progress</token>
-		<token type="VBD">kept</token>
+		<token type="VBN">kept</token>
 		<token type="JJ">global</token>
-		<token type="NN">markets</token>
+		<token type="NNPS">markets</token>
 		<token type="IN">on</token>
-		<token type="NN">tenterhooks</token>
+		<token type="NNS">tenterhooks</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">In</token>
 		<token type="NNP">Texas</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NNP">BP</token>
-		<token type="NNP">shut</token>
+		<token type="VBZ">shut</token>
 		<token type="PRP$">its</token>
-		<token type="NN">460COMMA000</token>
-		<token type="NNP">barrels</token>
+		<token type="CD">460COMMA000</token>
+		<token type="NN">barrels</token>
 		<token type="NN">per</token>
 		<token type="NN">day</token>
-		<token type="VBG">refinery</token>
+		<token type="NN">refinery</token>
 		<token type="CC">and</token>
-		<token type="NN">Marathon</token>
-		<token type="NNP">shut</token>
+		<token type="NNP">Marathon</token>
+		<token type="VBZ">shut</token>
 		<token type="PRP$">its</token>
-		<token type="NN">72COMMA000</token>
-		<token type="NNP">bpd</token>
+		<token type="CD">72COMMA000</token>
+		<token type="CD">bpd</token>
 		<token type="NN">plant</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Valero</token>
 		<token type="VBD">said</token>
 		<token type="PRP">it</token>
 		<token type="VBD">was</token>
-		<token type="VBN">reducing</token>
-		<token type="NNP">rates</token>
+		<token type="VBG">reducing</token>
+		<token type="NNS">rates</token>
 		<token type="IN">at</token>
 		<token type="PRP$">its</token>
-		<token type="NN">243COMMA000</token>
-		<token type="NNP">bpd</token>
+		<token type="CD">243COMMA000</token>
+		<token type="IN">bpd</token>
 		<token type="NNP">Texas</token>
-		<token type="NNP">City</token>
-		<token type="NNP">refinery</token>
+		<token type="NN">City</token>
+		<token type="NN">refinery</token>
 		<token type="CC">and</token>
 		<token type="PRP$">its</token>
-		<token type="NN">85COMMA000</token>
-		<token type="NNP">bpd</token>
+		<token type="CD">85COMMA000</token>
+		<token type="CD">bpd</token>
 		<token type="NNP">Houston</token>
-		<token type="NNP">refinery</token>
+		<token type="NN">refinery</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">Mobil</token>
+		<token type="NNP">Exxon</token>
+		<token type="NNP">Mobil</token>
 		<token type="VBD">released</token>
-		<token type="VBZ">nonessential</token>
-		<token type="NNP">staff</token>
+		<token type="JJ">nonessential</token>
+		<token type="VBN">staff</token>
 		<token type="IN">from</token>
 		<token type="CD">two</token>
-		<token type="VBG">giant</token>
+		<token type="JJ">giant</token>
 		<token type="NNP">Texas</token>
 		<token type="NNS">plants</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="JJ">Last</token>
 		<token type="NN">month</token>
 		<token type="COMMA">COMMA</token>
 		<token type="NNP">Katrina</token>
-		<token type="NN">devastated</token>
-		<token type="NNP">refineries</token>
+		<token type="VBN">devastated</token>
+		<token type="NNS">refineries</token>
 		<token type="IN">in</token>
-		<token type="JJ">Louisiana</token>
+		<token type="NNP">Louisiana</token>
 		<token type="CC">and</token>
 		<token type="NNP">Mississippi</token>
 		<token type="CC">and</token>
-		<token type="VBN">sent</token>
-		<token type="NN">prices</token>
-		<token type="TO">to</token>
+		<token type="JJ">sent</token>
+		<token type="NNS">prices</token>
+		<token type="IN">to</token>
 		<token type="DT">a</token>
-		<token type="NN">record</token>
+		<token type="JJ">record</token>
 		<token type="NN">high</token>
 		<token type="IN">of</token>
-		<token type="NNP">70.85</token>
-		<token type="NNP">dollars</token>
+		<token type="CD">70.85</token>
+		<token type="VBZ">dollars</token>
 		<token type="DT">a</token>
 		<token type="NN">barrel</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">support</token>
+		<token type="UH">please</token>
+		<token type="VB">support</token>
 		<token type="DT">the</token>
 		<token type="NN">link</token>
-		<token type="RB">bellow</token>
+		<token type="NN">bellow</token>
 		<token type="WDT">which</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">excelnt</token>
+		<token type="VBN">excelnt</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">thank</token>
+		<token type="VBP">thank</token>
 		<token type="IN">for</token>
 		<token type="PRP$">your</token>
 		<token type="NN">click</token>
@@ -2323,38 +2547,44 @@
 		<token type=":">:</token>
 	</sent>
 	<sent>
+		<token type="NN">Email</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
-		<token type="NN">Dharmadeva</token>
+		<token type="NNP">Dharmadeva</token>
 		<token type="''">&quot;</token>
 		<token type="(">&lt;</token>
 		<token type="ADD">dharmad...@gmail.com</token>
 		<token type=")">&gt;</token>
 	</sent>
 	<sent>
-		<token type="NN">Hi</token>
-		<token type="NNP">All</token>
+		<token type="ADD">Namaskar</token>
+	</sent>
+	<sent>
+		<token type="UH">Hi</token>
+		<token type="UH">All</token>
 		<token type=".">!</token>
 	</sent>
 	<sent>
+		<token type="PRP">We</token>
 		<token type="RB">now</token>
-		<token type="VB">present</token>
+		<token type="VBP">present</token>
 		<token type="DT">the</token>
 		<token type="NN">kaoshikii</token>
-		<token type="NNP">dance</token>
+		<token type="NN">dance</token>
 		<token type="COMMA">COMMA</token>
 		<token type="WDT">which</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">excellent</token>
+		<token type="JJ">excellent</token>
 		<token type="IN">before</token>
 		<token type="CC">and</token>
 		<token type="IN">after</token>
-		<token type="NNP">yoga</token>
-		<token type="NNP">postures</token>
+		<token type="PRP">yoga</token>
+		<token type="NNS">postures</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">encourage</token>
+		<token type="PRP">I</token>
+		<token type="VBP">encourage</token>
 		<token type="PRP">you</token>
 		<token type="TO">to</token>
 		<token type="VB">do</token>
@@ -2364,26 +2594,31 @@
 		<token type="IN">as</token>
 		<token type="PRP">it</token>
 		<token type="VBZ">has</token>
-		<token type="VBN">tremendous</token>
-		<token type="NNP">positive</token>
-		<token type="NNP">effects</token>
+		<token type="JJ">tremendous</token>
+		<token type="JJ">positive</token>
+		<token type="NNS">effects</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">is</token>
 		<token type="DT">a</token>
 		<token type="NN">dance</token>
 		<token type="IN">for</token>
-		<token type="DT">both</token>
-		<token type="JJ">males</token>
+		<token type="CC">both</token>
+		<token type="NNS">males</token>
 		<token type="CC">and</token>
-		<token type="NN">females</token>
+		<token type="NNS">females</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="COMMA">--</token>
+		<token type="NNP">Dharma</token>
 	</sent>
 	<sent>
+		<token type="NFP">--</token>
+	</sent>
+	<sent>
+		<token type="NNP">Kaoshikii</token>
 		<token type="VBZ">is</token>
 		<token type="DT">a</token>
 		<token type="NN">dance</token>
@@ -2391,7 +2626,7 @@
 		<token type="VBD">was</token>
 		<token type="VBN">invented</token>
 		<token type="IN">in</token>
-		<token type="JJ">1978</token>
+		<token type="CD">1978</token>
 		<token type="IN">by</token>
 		<token type="NNP">Shrii</token>
 		<token type="NNP">Shrii</token>
@@ -2399,89 +2634,95 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">is</token>
 		<token type="DT">a</token>
 		<token type="NN">psycho-spiritual</token>
-		<token type="NNP">exercise</token>
+		<token type="NN">exercise</token>
 		<token type="CC">and</token>
-		<token type="NN">benefiting</token>
+		<token type="VBG">benefiting</token>
 		<token type="DT">the</token>
 		<token type="NN">mind</token>
 		<token type="IN">by</token>
-		<token type="NNP">developing</token>
-		<token type="NNP">stamina</token>
+		<token type="VBG">developing</token>
+		<token type="NN">stamina</token>
 		<token type="CC">and</token>
-		<token type="NN">strength</token>
+		<token type="VBN">strength</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Kaoshikii</token>
 		<token type="VBZ">is</token>
 		<token type="RB">especially</token>
 		<token type="JJ">good</token>
 		<token type="IN">for</token>
-		<token type="NNP">women</token>
+		<token type="NN">women</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="MD">can</token>
 		<token type="VB">ward</token>
 		<token type="RP">off</token>
 		<token type="CC">and</token>
-		<token type="NN">cure</token>
+		<token type="VBP">cure</token>
 		<token type="DT">a</token>
 		<token type="NN">number</token>
 		<token type="IN">of</token>
-		<token type="NNP">diseases</token>
+		<token type="NNS">diseases</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">keeps</token>
+		<token type="PDT">keeps</token>
 		<token type="DT">the</token>
 		<token type="NN">body</token>
-		<token type="VB">youthful</token>
+		<token type="JJ">youthful</token>
 		<token type="CC">and</token>
-		<token type="NN">enables</token>
+		<token type="NNS">enables</token>
 		<token type="DT">an</token>
-		<token type="JJ">easy</token>
-		<token type="NNS">delivery</token>
+		<token type="NN">easy</token>
+		<token type="NN">delivery</token>
 		<token type="IN">in</token>
-		<token type="JJ">childbirth</token>
+		<token type="NN">childbirth</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">comes</token>
+		<token type="NNP">Kaoshikii</token>
+		<token type="NNS">comes</token>
 		<token type="IN">from</token>
 		<token type="DT">the</token>
-		<token type="NN">Sanskrit</token>
+		<token type="NNP">Sanskrit</token>
 		<token type="NN">word</token>
 		<token type="``">&apos;</token>
 		<token type="NN">kosa</token>
-		<token type="''">&apos;</token>
-		<token type="NN">meaning</token>
-		<token type="NNP">shell</token>
+		<token type="``">&apos;</token>
+		<token type="VBG">meaning</token>
+		<token type="NN">shell</token>
 		<token type="CC">or</token>
-		<token type="VBG">layer</token>
+		<token type="NN">layer</token>
 		<token type="IN">of</token>
-		<token type="NNP">mind</token>
+		<token type="NN">mind</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="NN">self</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">individual</token>
-		<token type="NNP">lies</token>
-		<token type="NNP">hidden</token>
+		<token type="NNS">lies</token>
+		<token type="VBN">hidden</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
-		<token type="NN">innermost</token>
-		<token type="NNP">layers</token>
+		<token type="JJS">innermost</token>
+		<token type="NNS">layers</token>
 		<token type="IN">of</token>
-		<token type="NNP">existence</token>
+		<token type="NN">existence</token>
 		<token type="(">(</token>
-		<token type="NNP">kosas</token>
+		<token type="NN">kosas</token>
 		<token type=")">)</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Thus</token>
 		<token type="NN">kaoshikii</token>
 		<token type="VBZ">is</token>
 		<token type="DT">a</token>
@@ -2490,7 +2731,7 @@
 		<token type="DT">the</token>
 		<token type="NN">microcosm</token>
 		<token type="(">(</token>
-		<token type="NNP">unit</token>
+		<token type="IN">unit</token>
 		<token type="VBG">being</token>
 		<token type=")">)</token>
 		<token type="IN">in</token>
@@ -2502,7 +2743,7 @@
 		<token type="NN">link</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="NN">Macrocosm</token>
+		<token type="NNP">Macrocosm</token>
 		<token type="(">(</token>
 		<token type="NNP">Cosmic</token>
 		<token type="NNP">Consciousness</token>
@@ -2510,116 +2751,131 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">This</token>
 		<token type="NN">attempt</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">normally</token>
-		<token type="NNP">referred</token>
-		<token type="TO">to</token>
+		<token type="RB">normally</token>
+		<token type="VBN">referred</token>
+		<token type="IN">to</token>
 		<token type="IN">as</token>
 		<token type="NN">mysticism</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="DT">The</token>
-		<token type="NNP">Benefits</token>
+		<token type="NFP">--</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
+		<token type="NNPS">Benefits</token>
+	</sent>
+	<sent>
+		<token type="NNS">Exercises</token>
 		<token type="PDT">all</token>
 		<token type="DT">the</token>
-		<token type="NN">glands</token>
+		<token type="NNS">glands</token>
 		<token type="CC">and</token>
-		<token type="NN">limbs</token>
+		<token type="VBN">limbs</token>
 		<token type="IN">from</token>
-		<token type="NNP">head</token>
+		<token type="NN">head</token>
 		<token type="TO">to</token>
-		<token type="VB">toes</token>
+		<token type="NNS">toes</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Increases</token>
 		<token type="NN">longevity</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VBZ">Makes</token>
 		<token type="IN">for</token>
 		<token type="JJ">easy</token>
-		<token type="NNS">delivery</token>
+		<token type="NN">delivery</token>
 		<token type="IN">at</token>
-		<token type="NNP">childbirth</token>
+		<token type="NN">childbirth</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="NN">spine</token>
 		<token type="MD">will</token>
 		<token type="VB">become</token>
-		<token type="NN">flexible</token>
+		<token type="JJ">flexible</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Arthritis</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">spine</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">neck</token>
+		<token type="NN">neck</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">waist</token>
+		<token type="NN">waist</token>
 		<token type="CC">and</token>
 		<token type="JJ">other</token>
-		<token type="NN">joints</token>
+		<token type="NNS">joints</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">removed</token>
+		<token type="VBN">removed</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Gout</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">spine</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">neck</token>
+		<token type="NN">neck</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">hands</token>
+		<token type="NNS">hands</token>
 		<token type="CC">and</token>
 		<token type="NN">waist</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">lost</token>
+		<token type="VBN">lost</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">mind</token>
-		<token type="NNP">becomes</token>
-		<token type="JJ">strong</token>
+		<token type="DT">The</token>
+		<token type="JJ">mind</token>
+		<token type="NNS">becomes</token>
+		<token type="NN">strong</token>
 		<token type="CC">and</token>
-		<token type="NN">sharp</token>
+		<token type="VBN">sharp</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Irregularities</token>
 		<token type="IN">in</token>
-		<token type="JJ">menstruation</token>
+		<token type="NN">menstruation</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">cured</token>
+		<token type="VBN">cured</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">secretions</token>
+		<token type="JJ">Glandular</token>
+		<token type="NNS">secretions</token>
 		<token type="MD">will</token>
 		<token type="VB">become</token>
-		<token type="NN">regulated</token>
+		<token type="VBN">regulated</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Troubles</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">bladder</token>
 		<token type="CC">and</token>
-		<token type="NN">urethra</token>
+		<token type="JJ">urethra</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">cured</token>
+		<token type="VBN">cured</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Gives</token>
 		<token type="NN">control</token>
 		<token type="IN">over</token>
 		<token type="DT">the</token>
@@ -2627,172 +2883,189 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Adds</token>
 		<token type="NN">charm</token>
 		<token type="CC">and</token>
-		<token type="NN">shine</token>
-		<token type="TO">to</token>
+		<token type="VB">shine</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
 		<token type="NN">face</token>
 		<token type="CC">and</token>
-		<token type="NN">skin</token>
+		<token type="VBN">skin</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">wrinkles</token>
+		<token type="NNS">Removes</token>
+		<token type="NNS">wrinkles</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Removes</token>
 		<token type="NN">lethargy</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Cures</token>
 		<token type="NN">insomnia</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Cures</token>
 		<token type="NN">hysteria</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="JJ">Fear</token>
 		<token type="NN">complexes</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">removed</token>
+		<token type="VBN">removed</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Hopelessness</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">lost</token>
+		<token type="VBN">lost</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Helps</token>
 		<token type="IN">in</token>
-		<token type="JJ">self</token>
+		<token type="CD">self</token>
 		<token type="HYPH">-</token>
 		<token type="NN">expression</token>
 		<token type="CC">and</token>
-		<token type="NN">develops</token>
+		<token type="VBD">develops</token>
 		<token type="CD">one</token>
-		<token type="VBZ">&apos;s</token>
+		<token type="POS">&apos;s</token>
 		<token type="NN">potentiality</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="JJ">Spinal</token>
 		<token type="NN">pain</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">piles</token>
+		<token type="NNS">piles</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">hernia</token>
+		<token type="NN">hernia</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">hydrocele</token>
+		<token type="RB">hydrocele</token>
 		<token type="IN">in</token>
-		<token type="JJ">men</token>
+		<token type="NN">men</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">nervous</token>
-		<token type="NNP">pain</token>
+		<token type="JJ">nervous</token>
+		<token type="NN">pain</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">nervous</token>
-		<token type="NNP">disability</token>
+		<token type="JJ">nervous</token>
+		<token type="NN">disability</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
-		<token type="JJ">cured</token>
+		<token type="VBN">cured</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Cures</token>
 		<token type="NN">kidney</token>
 		<token type="CC">and</token>
-		<token type="NN">gall</token>
-		<token type="NNP">bladder</token>
-		<token type="NNP">troubles</token>
+		<token type="JJ">gall</token>
+		<token type="JJR">bladder</token>
+		<token type="NNS">troubles</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">gastric</token>
-		<token type="NNP">trouble</token>
+		<token type="JJ">gastric</token>
+		<token type="NN">trouble</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">dyspepsia</token>
+		<token type="NN">dyspepsia</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">acidity</token>
+		<token type="NN">acidity</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">dysentery</token>
+		<token type="NN">dysentery</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">obesity</token>
+		<token type="NN">obesity</token>
 		<token type="CC">and</token>
 		<token type="NN">liver</token>
-		<token type="NNP">diseases</token>
+		<token type="NNS">diseases</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VBZ">Increases</token>
 		<token type="DT">the</token>
 		<token type="NN">capacity</token>
 		<token type="TO">to</token>
 		<token type="VB">work</token>
 		<token type="IN">until</token>
-		<token type="NN">75</token>
+		<token type="CD">75</token>
 		<token type="HYPH">-</token>
-		<token type="NN">80</token>
+		<token type="CD">80</token>
 		<token type="NNS">years</token>
 		<token type="IN">of</token>
-		<token type="NNP">age</token>
+		<token type="NN">age</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="DT">The</token>
-		<token type="NNP">Dance</token>
+		<token type="NFP">--</token>
 	</sent>
 	<sent>
-		<token type="NN">eighteen</token>
-		<token type="NNP">steps</token>
+		<token type="DT">The</token>
+		<token type="NN">Dance</token>
+	</sent>
+	<sent>
+		<token type="DT">The</token>
+		<token type="JJ">eighteen</token>
+		<token type="NN">steps</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">dance</token>
 		<token type="VBP">are</token>
 		<token type="JJ">done</token>
-		<token type="VBG">rhythmically</token>
+		<token type="RB">rhythmically</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">First</token>
 		<token type="DT">the</token>
 		<token type="NN">dancer</token>
-		<token type="NNP">begins</token>
+		<token type="NNS">begins</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">starting</token>
-		<token type="NNP">position</token>
+		<token type="NN">position</token>
 		<token type=":">:</token>
 		<token type="DT">the</token>
-		<token type="NN">hands</token>
+		<token type="NNS">hands</token>
 		<token type="RB">together</token>
 		<token type="CC">and</token>
-		<token type="VBD">raised</token>
+		<token type="VBN">raised</token>
 		<token type="IN">over</token>
 		<token type="DT">the</token>
 		<token type="NN">head</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="TO">to</token>
+		<token type="RB">Then</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
-		<token type="VBP">beat</token>
+		<token type="NN">beat</token>
 		<token type="IN">of</token>
 		<token type="``">&quot;</token>
 		<token type="NN">dhin</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">dhin</token>
+		<token type="NN">dhin</token>
 		<token type="COMMA">COMMA</token>
 		<token type="COMMA">...</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">ta&apos;</token>
+		<token type="NN">ta&apos;</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">ta&apos;</token>
+		<token type="NN">ta&apos;</token>
 		<token type="''">&quot;</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
-		<token type="NN">dancers</token>
-		<token type="VB">begin</token>
+		<token type="NNS">dancers</token>
+		<token type="IN">begin</token>
 		<token type="PRP$">their</token>
 		<token type="NN">step</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">placing</token>
+		<token type="VBG">placing</token>
 		<token type="DT">the</token>
 		<token type="JJ">big</token>
 		<token type="NN">toe</token>
@@ -2806,15 +3079,16 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">In</token>
 		<token type="DT">the</token>
-		<token type="NN">final</token>
+		<token type="JJ">final</token>
 		<token type="CD">two</token>
-		<token type="VBG">steps</token>
+		<token type="NNS">steps</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
-		<token type="NN">dancers</token>
-		<token type="NNP">firmly</token>
-		<token type="NNP">stamp</token>
+		<token type="NNS">dancers</token>
+		<token type="NN">firmly</token>
+		<token type="IN">stamp</token>
 		<token type="PRP$">their</token>
 		<token type="NN">feet</token>
 		<token type="IN">on</token>
@@ -2823,66 +3097,73 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CD">Kaoshikii</token>
 		<token type="MD">can</token>
 		<token type="VB">be</token>
-		<token type="JJ">danced</token>
+		<token type="VBN">danced</token>
 		<token type="IN">for</token>
 		<token type="IN">as</token>
 		<token type="JJ">many</token>
-		<token type="JJ">rounds</token>
+		<token type="NNS">rounds</token>
 		<token type="IN">as</token>
 		<token type="PRP">you</token>
 		<token type="IN">like</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NFP">--</token>
+	</sent>
+	<sent>
 		<token type="DT">The</token>
 		<token type="NNP">Ideation</token>
 	</sent>
 	<sent>
+		<token type="WRB">When</token>
 		<token type="DT">the</token>
-		<token type="NN">dancers</token>
+		<token type="NNS">dancers</token>
 		<token type="VB">start</token>
 		<token type="DT">the</token>
 		<token type="NN">step</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="VBP">beat</token>
+		<token type="NN">beat</token>
 		<token type="IN">of</token>
 		<token type="``">&quot;</token>
 		<token type="NN">dhin</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">dhin</token>
+		<token type="CD">dhin</token>
 		<token type="COMMA">...</token>
 		<token type="''">&quot;</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
-		<token type="NN">mental</token>
-		<token type="NNP">ideation</token>
+		<token type="JJ">mental</token>
+		<token type="NN">ideation</token>
 		<token type="MD">should</token>
 		<token type="RB">also</token>
-		<token type="VB">be</token>
+		<token type="NN">be</token>
 		<token type="VBN">kept</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Here</token>
 		<token type="VBZ">is</token>
 		<token type="DT">the</token>
 		<token type="NN">ideation</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="CD">two</token>
-		<token type="VBG">hands</token>
+		<token type="NNS">hands</token>
 		<token type="WRB">when</token>
-		<token type="NN">upraised</token>
+		<token type="JJ">upraised</token>
 		<token type="CC">and</token>
-		<token type="NN">folded</token>
+		<token type="VBN">folded</token>
 		<token type="RB">together</token>
-		<token type="NNS">represent</token>
+		<token type="NN">represent</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
-		<token type="NN">Now</token>
+		<token type="RB">Now</token>
 		<token type="PRP">I</token>
 		<token type="VBP">am</token>
 		<token type="VBG">trying</token>
@@ -2901,56 +3182,60 @@
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
-		<token type="TO">to</token>
+		<token type="VBG">Bending</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
 		<token type="NN">right</token>
-		<token type="NN">indicates</token>
+		<token type="VBZ">indicates</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
 		<token type="PRP">I</token>
-		<token type="VB">know</token>
+		<token type="VBP">know</token>
 		<token type="DT">the</token>
-		<token type="NN">right</token>
+		<token type="JJ">right</token>
 		<token type="NN">way</token>
-		<token type="TO">to</token>
+		<token type="IN">to</token>
 		<token type="VB">request</token>
-		<token type="PRP">You</token>
+		<token type="UH">You</token>
 		<token type=".">.</token>
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
-		<token type="TO">to</token>
+		<token type="VBG">Bending</token>
+		<token type="IN">to</token>
 		<token type="DT">the</token>
-		<token type="VBD">left</token>
-		<token type="NN">indicates</token>
+		<token type="NN">left</token>
+		<token type="NNS">indicates</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
 		<token type="PRP">I</token>
-		<token type="VB">know</token>
+		<token type="VBP">know</token>
 		<token type="WRB">how</token>
 		<token type="TO">to</token>
 		<token type="VB">fulfil</token>
-		<token type="NNP">Your</token>
-		<token type="NNP">demands</token>
+		<token type="PRP$">Your</token>
+		<token type="NNS">demands</token>
 		<token type=".">.</token>
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
-		<token type="VB">forward</token>
-		<token type="IN">suggests</token>
+		<token type="NN">Bending</token>
+		<token type="RB">forward</token>
+		<token type="NNS">suggests</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
 		<token type="PRP">I</token>
-		<token type="VBD">completely</token>
-		<token type="NNP">surrender</token>
-		<token type="TO">to</token>
+		<token type="RB">completely</token>
+		<token type="NN">surrender</token>
+		<token type="IN">to</token>
 		<token type="PRP">You</token>
 		<token type=".">.</token>
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
-		<token type="NN">backward</token>
-		<token type="NNP">represents</token>
+		<token type="VBG">Bending</token>
+		<token type="IN">backward</token>
+		<token type="NNS">represents</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
 		<token type="PRP">I</token>
@@ -2959,86 +3244,93 @@
 		<token type="TO">to</token>
 		<token type="VB">face</token>
 		<token type="RB">all</token>
-		<token type="NN">obstacles</token>
-		<token type="IN">that</token>
+		<token type="NNS">obstacles</token>
+		<token type="WDT">that</token>
 		<token type="MD">may</token>
 		<token type="VB">come</token>
 		<token type=".">.</token>
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
-		<token type="JJ">last</token>
+		<token type="DT">The</token>
+		<token type="VBG">last</token>
 		<token type="CD">two</token>
-		<token type="VBG">steps</token>
-		<token type="NNP">represent</token>
+		<token type="NNS">steps</token>
+		<token type="NN">represent</token>
 		<token type=":">:</token>
 		<token type="``">&quot;</token>
-		<token type="NN">O</token>
+		<token type="UH">O</token>
 		<token type="NNP">Lord</token>
 		<token type="PRP">I</token>
-		<token type="VBD">repeat</token>
-		<token type="NNP">Your</token>
-		<token type="NNP">cosmic</token>
-		<token type="NNP">rhythm</token>
+		<token type="VBP">repeat</token>
+		<token type="PRP$">Your</token>
+		<token type="NN">cosmic</token>
+		<token type="NN">rhythm</token>
 		<token type=".">.</token>
 		<token type="''">&quot;</token>
 	</sent>
 	<sent>
+		<token type="NN">Email</token>
 		<token type=":">:</token>
-		<token type="NN">dharmad...@gmail.com</token>
+		<token type="ADD">dharmad...@gmail.com</token>
 	</sent>
 	<sent>
+		<token type="NNS">Visualizations</token>
 		<token type="IN">as</token>
 		<token type="DT">a</token>
-		<token type="NN">helpful</token>
-		<token type="NNP">beginning</token>
-		<token type="NNP">technique</token>
+		<token type="JJ">helpful</token>
+		<token type="VBG">beginning</token>
+		<token type="NN">technique</token>
+	</sent>
+	<sent>
+		<token type="NFP">-----------------------------------------------</token>
 	</sent>
 	<sent>
 		<token type="IN">If</token>
 		<token type="PRP">you</token>
-		<token type="VBG">consider</token>
+		<token type="VBP">consider</token>
 		<token type="IN">that</token>
 		<token type="PRP">you</token>
 		<token type="RB">still</token>
-		<token type="VBG">need</token>
+		<token type="VBP">need</token>
 		<token type="DT">the</token>
 		<token type="NN">assistance</token>
 		<token type="IN">of</token>
 		<token type="JJ">other</token>
-		<token type="NN">visualizations</token>
+		<token type="NNS">visualizations</token>
 		<token type="TO">to</token>
 		<token type="VB">help</token>
 		<token type="DT">the</token>
-		<token type="NN">mind</token>
+		<token type="JJ">mind</token>
 		<token type="VB">feel</token>
 		<token type="DT">the</token>
 		<token type="NN">spirit</token>
 		<token type="IN">of</token>
-		<token type="NNP">transcendence</token>
+		<token type="NN">transcendence</token>
 		<token type="COMMA">COMMA</token>
 		<token type="VB">try</token>
 		<token type="DT">the</token>
 		<token type="VBG">following</token>
 		<token type="IN">before</token>
-		<token type="JJ">moving</token>
-		<token type="NNP">onto</token>
+		<token type="VBG">moving</token>
+		<token type="IN">onto</token>
 		<token type="DT">the</token>
 		<token type="JJR">more</token>
 		<token type="JJ">formal</token>
-		<token type="NNP">method</token>
-		<token type="IN">below</token>
+		<token type="NN">method</token>
+		<token type="RB">below</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNS">Visualisations</token>
 		<token type="MD">can</token>
 		<token type="VB">be</token>
 		<token type="IN">as</token>
-		<token type="NN">useful</token>
-		<token type="NNP">tools</token>
+		<token type="JJ">useful</token>
+		<token type="NN">tools</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">but</token>
-		<token type="NNP">meditation</token>
+		<token type="NN">meditation</token>
 		<token type="VBZ">is</token>
 		<token type="RBR">more</token>
 		<token type="IN">than</token>
@@ -3046,6 +3338,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Meditation</token>
 		<token type="VBZ">has</token>
 		<token type="TO">to</token>
 		<token type="VB">do</token>
@@ -3053,59 +3346,62 @@
 		<token type="WP">what</token>
 		<token type="VBZ">is</token>
 		<token type="VBN">called</token>
-		<token type="NNP">ideation</token>
+		<token type="NN">ideation</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">is</token>
 		<token type="RB">always</token>
 		<token type="JJ">good</token>
 		<token type="TO">to</token>
 		<token type="VB">stick</token>
-		<token type="TO">to</token>
+		<token type="IN">to</token>
 		<token type="DT">a</token>
-		<token type="NN">formal</token>
-		<token type="NNP">intense</token>
-		<token type="NNP">meditation</token>
-		<token type="NNP">practice</token>
+		<token type="JJ">formal</token>
+		<token type="NN">intense</token>
+		<token type="NN">meditation</token>
+		<token type="NN">practice</token>
 		<token type="IN">like</token>
 		<token type="DT">the</token>
-		<token type="CD">one</token>
+		<token type="NN">one</token>
 		<token type="IN">for</token>
-		<token type="NNP">beginners</token>
-		<token type="NNP">described</token>
+		<token type="NNS">beginners</token>
+		<token type="NN">described</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
-		<token type="NN">MP3</token>
-		<token type="NNP">file</token>
+		<token type="NNP">MP3</token>
+		<token type="NN">file</token>
 		<token type="IN">that</token>
-		<token type="NN">follows</token>
+		<token type="NNS">follows</token>
 		<token type="IN">after</token>
 		<token type="DT">the</token>
-		<token type="NN">visualisations</token>
+		<token type="NNS">visualisations</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Find</token>
 		<token type="DT">a</token>
-		<token type="NN">comfortable</token>
-		<token type="VB">place</token>
+		<token type="JJ">comfortable</token>
+		<token type="NN">place</token>
 		<token type="IN">on</token>
 		<token type="DT">the</token>
 		<token type="NN">floor</token>
 		<token type="CC">and</token>
-		<token type="NN">sit</token>
+		<token type="VB">sit</token>
 		<token type="IN">with</token>
 		<token type="PRP$">your</token>
 		<token type="NN">legs</token>
-		<token type="NNP">crossed</token>
+		<token type="VBN">crossed</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Place</token>
 		<token type="PRP$">your</token>
-		<token type="NN">hands</token>
+		<token type="NNS">hands</token>
 		<token type="CD">one</token>
 		<token type="IN">on</token>
-		<token type="JJ">top</token>
+		<token type="NN">top</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="JJ">other</token>
@@ -3115,11 +3411,11 @@
 		<token type="COMMA">COMMA</token>
 		<token type="VB">keep</token>
 		<token type="PRP$">your</token>
-		<token type="NN">back</token>
+		<token type="RB">back</token>
 		<token type="NN">straight</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">eyes</token>
-		<token type="NNP">closed</token>
+		<token type="JJ">eyes</token>
+		<token type="VBN">closed</token>
 		<token type="CC">and</token>
 		<token type="NN">tongue</token>
 		<token type="IN">on</token>
@@ -3131,10 +3427,11 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Your</token>
 		<token type="NN">breathing</token>
 		<token type="MD">should</token>
 		<token type="VB">be</token>
-		<token type="JJ">calm</token>
+		<token type="NN">calm</token>
 		<token type="CC">and</token>
 		<token type="NN">relaxed</token>
 		<token type="COMMA">COMMA</token>
@@ -3144,61 +3441,65 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Spend</token>
 		<token type="DT">a</token>
 		<token type="NN">minute</token>
 		<token type="CC">or</token>
 		<token type="RB">so</token>
-		<token type="JJ">concentrating</token>
+		<token type="VBG">concentrating</token>
 		<token type="IN">on</token>
 		<token type="PRP$">your</token>
 		<token type="NN">breath</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NN">feeling</token>
+		<token type="VBG">feeling</token>
 		<token type="DT">the</token>
 		<token type="NN">air</token>
-		<token type="NNS">flowing</token>
+		<token type="VBG">flowing</token>
 		<token type="IN">through</token>
 		<token type="PRP$">your</token>
 		<token type="NN">nostrils</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CD">1</token>
 		<token type=".">.</token>
-		<token type=")">Warm</token>
+		<token type="NNP">Warm</token>
 		<token type="NNP">Sun</token>
 		<token type="NNP">Visualization</token>
 	</sent>
 	<sent>
+		<token type="VB">Continue</token>
 		<token type="TO">to</token>
-		<token type="VB">breathe</token>
-		<token type="NNP">slowly</token>
+		<token type="JJR">breathe</token>
+		<token type="NN">slowly</token>
 		<token type="CC">and</token>
 		<token type="NN">deeply</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">With</token>
 		<token type="DT">each</token>
 		<token type="NN">breath</token>
 		<token type="COMMA">COMMA</token>
 		<token type="VB">feel</token>
 		<token type="DT">the</token>
-		<token type="NN">muscles</token>
+		<token type="NNS">muscles</token>
 		<token type="IN">in</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
-		<token type="VB">becoming</token>
-		<token type="NNP">lighter</token>
+		<token type="NNS">body</token>
+		<token type="VBG">becoming</token>
+		<token type="NN">lighter</token>
 		<token type="CC">and</token>
 		<token type="NN">lighter</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="RB">also</token>
 		<token type="PRP$">your</token>
-		<token type="NN">external</token>
-		<token type="NNP">motor</token>
+		<token type="JJ">external</token>
+		<token type="NN">motor</token>
 		<token type="CC">and</token>
-		<token type="NN">sensory</token>
-		<token type="NNP">organs</token>
+		<token type="JJ">sensory</token>
+		<token type="NNS">organs</token>
 		<token type="VBP">are</token>
 		<token type="VBG">feeling</token>
 		<token type="IN">like</token>
@@ -3212,33 +3513,35 @@
 		<token type="DT">a</token>
 		<token type="JJ">special</token>
 		<token type="NN">inner</token>
-		<token type="NNP">quietness</token>
+		<token type="NN">quietness</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Imagine</token>
 		<token type="DT">the</token>
 		<token type="NN">tension</token>
-		<token type="NNP">melting</token>
+		<token type="VBG">melting</token>
 		<token type="RB">away</token>
 		<token type="IN">as</token>
 		<token type="PRP">you</token>
-		<token type="VB">continue</token>
-		<token type="RB">breathing</token>
-		<token type="NNP">rhythmically</token>
+		<token type="VBP">continue</token>
+		<token type="VBG">breathing</token>
+		<token type="RB">rhythmically</token>
 		<token type="CC">and</token>
-		<token type="NN">naturally</token>
+		<token type="RB">naturally</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">yourself</token>
-		<token type="NNP">sitting</token>
+		<token type="NNP">Picture</token>
+		<token type="PRP">yourself</token>
+		<token type="VBG">sitting</token>
 		<token type="IN">on</token>
 		<token type="DT">a</token>
 		<token type="NN">warm</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">tropical</token>
-		<token type="NNP">beach</token>
-		<token type="NNP">basking</token>
+		<token type="JJ">tropical</token>
+		<token type="NN">beach</token>
+		<token type="VBG">basking</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
 		<token type="NN">glow</token>
@@ -3249,48 +3552,51 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Visualize</token>
 		<token type="DT">the</token>
 		<token type="NN">vivid</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">beautiful</token>
-		<token type="NNP">colours</token>
+		<token type="JJ">beautiful</token>
+		<token type="NN">colours</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
-		<token type="NN">earth</token>
+		<token type="NNP">earth</token>
 		<token type="(">(</token>
 		<token type="PRP$">its</token>
-		<token type="NN">flowers</token>
+		<token type="NNS">flowers</token>
 		<token type="CC">and</token>
 		<token type="NNS">plants</token>
 		<token type=")">)</token>
 		<token type="COMMA">COMMA</token>
 		<token type="DT">the</token>
 		<token type="NN">sea</token>
-		<token type="JJ">next</token>
+		<token type="IN">next</token>
 		<token type="IN">to</token>
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
 		<token type="DT">the</token>
 		<token type="NN">sky</token>
-		<token type="RB">above</token>
+		<token type="IN">above</token>
 		<token type="PRP">you</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">yourself</token>
-		<token type="NNP">floating</token>
-		<token type="RB">above</token>
+		<token type="VB">Feel</token>
+		<token type="PRP">yourself</token>
+		<token type="VBG">floating</token>
+		<token type="IN">above</token>
 		<token type="DT">the</token>
-		<token type="NN">earth</token>
+		<token type="NNP">earth</token>
 		<token type="CC">and</token>
 		<token type="NN">sea</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">As</token>
 		<token type="PRP">you</token>
-		<token type="VBG">sit</token>
-		<token type="RB">above</token>
+		<token type="VBP">sit</token>
+		<token type="IN">above</token>
 		<token type="DT">the</token>
 		<token type="NN">world</token>
 		<token type="COMMA">COMMA</token>
@@ -3298,48 +3604,52 @@
 		<token type="NN">warmth</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
-		<token type="NN">golden</token>
-		<token type="NNP">sun</token>
-		<token type="NNP">penetrates</token>
+		<token type="JJ">golden</token>
+		<token type="NN">sun</token>
+		<token type="VBZ">penetrates</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
+		<token type="NNS">body</token>
 		<token type="CC">and</token>
 		<token type="VBZ">makes</token>
 		<token type="PRP">you</token>
 		<token type="VB">feel</token>
-		<token type="RB">warmer</token>
+		<token type="JJR">warmer</token>
 		<token type="CC">and</token>
-		<token type="NN">warmer</token>
+		<token type="VBN">warmer</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">surrounds</token>
+		<token type="PRP">It</token>
+		<token type="VBZ">surrounds</token>
 		<token type="PRP">you</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">golden</token>
-		<token type="NNP">rays</token>
+		<token type="DT">The</token>
+		<token type="JJ">golden</token>
+		<token type="NNS">rays</token>
 		<token type="VB">feel</token>
 		<token type="RB">soft</token>
 		<token type="CC">and</token>
-		<token type="NN">soothing</token>
+		<token type="VBG">soothing</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Now</token>
 		<token type="PRP">you</token>
 		<token type="VBP">are</token>
 		<token type="RB">far</token>
-		<token type="RB">above</token>
+		<token type="IN">above</token>
 		<token type="DT">the</token>
-		<token type="NN">earth</token>
-		<token type="HYPH">-</token>
+		<token type="JJ">earth</token>
+		<token type="COMMA">-</token>
 		<token type="IN">into</token>
 		<token type="NN">space</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="IN">around</token>
+		<token type="NN">Everything</token>
+		<token type="RB">around</token>
 		<token type="PRP">you</token>
 		<token type="VBZ">is</token>
 		<token type="RB">so</token>
@@ -3347,10 +3657,11 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="UH">Yet</token>
 		<token type="COMMA">COMMA</token>
 		<token type="EX">there</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">warmth</token>
+		<token type="VBN">warmth</token>
 		<token type="CC">and</token>
 		<token type="DT">a</token>
 		<token type="NN">familiarity</token>
@@ -3360,6 +3671,7 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="VBP">want</token>
 		<token type="TO">to</token>
 		<token type="VB">merge</token>
@@ -3367,21 +3679,22 @@
 		<token type="NN">mind</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="NN">greater</token>
-		<token type="NNP">universal</token>
-		<token type="NNP">Mind</token>
+		<token type="JJR">greater</token>
+		<token type="JJ">universal</token>
+		<token type="NN">Mind</token>
 		<token type="IN">that</token>
-		<token type="NN">surrounds</token>
+		<token type="VBZ">surrounds</token>
 		<token type="PRP">you</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Continue</token>
 		<token type="TO">to</token>
 		<token type="VB">ideate</token>
 		<token type="IN">on</token>
 		<token type="DT">this</token>
 		<token type="NN">intense</token>
-		<token type="NNP">desire</token>
+		<token type="NN">desire</token>
 		<token type="IN">for</token>
 		<token type="PRP$">your</token>
 		<token type="NN">mind</token>
@@ -3389,30 +3702,31 @@
 		<token type="VB">merge</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="WDT">that</token>
-		<token type="NN">universal</token>
+		<token type="IN">that</token>
+		<token type="JJ">universal</token>
 		<token type="NNP">Consciousness</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CC">And</token>
 		<token type="IN">while</token>
 		<token type="VBG">doing</token>
 		<token type="RB">so</token>
-		<token type="VB">continue</token>
+		<token type="GW">continue</token>
 		<token type="VBG">using</token>
 		<token type="DT">the</token>
-		<token type="NN">Baba</token>
+		<token type="NNP">Baba</token>
 		<token type="NNP">Nam</token>
 		<token type="NNP">Kevalam</token>
-		<token type="NNP">mantra</token>
+		<token type="NN">mantra</token>
 		<token type="(">(</token>
-		<token type="NNP">breathe</token>
+		<token type="VBN">breathe</token>
 		<token type="IN">in</token>
 		<token type="IN">with</token>
 		<token type="NNP">Baba</token>
-		<token type="NNP">Nam</token>
+		<token type="NN">Nam</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">breathe</token>
+		<token type="VBD">breathe</token>
 		<token type="RP">out</token>
 		<token type="IN">with</token>
 		<token type="NNP">Kevalam</token>
@@ -3420,74 +3734,81 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Try</token>
 		<token type="DT">this</token>
 		<token type="IN">for</token>
 		<token type="CD">5</token>
-		<token type="IN">to</token>
+		<token type="TO">to</token>
 		<token type="CD">10</token>
 		<token type="NNS">minutes</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="VB">come</token>
+		<token type="RB">Now</token>
+		<token type="VBN">come</token>
 		<token type="RB">back</token>
 		<token type="IN">to</token>
-		<token type="VB">earth</token>
+		<token type="NNP">earth</token>
 		<token type="RB">again</token>
 		<token type="HYPH">-</token>
 		<token type="NN">slowly</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">yourself</token>
-		<token type="NNP">sitting</token>
+		<token type="CD">Imagine</token>
+		<token type="PRP">yourself</token>
+		<token type="VBG">sitting</token>
 		<token type="IN">on</token>
 		<token type="DT">the</token>
 		<token type="NN">beach</token>
-		<token type="NNP">serenely</token>
+		<token type="RB">serenely</token>
 		<token type="CC">and</token>
-		<token type="NN">restfully</token>
+		<token type="RB">restfully</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">muscles</token>
+		<token type="PRP$">Your</token>
+		<token type="NNS">muscles</token>
 		<token type="VBP">are</token>
-		<token type="VBG">loose</token>
+		<token type="JJ">loose</token>
 		<token type="CC">and</token>
-		<token type="NN">limp</token>
+		<token type="VBN">limp</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Feel</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
-		<token type="VB">sinking</token>
-		<token type="NNP">slightly</token>
+		<token type="NNS">body</token>
+		<token type="VBG">sinking</token>
+		<token type="RB">slightly</token>
 		<token type="IN">into</token>
 		<token type="DT">the</token>
 		<token type="NN">sand</token>
 		<token type="VBG">making</token>
-		<token type="IN">that</token>
-		<token type="NN">earthly</token>
-		<token type="NNP">connection</token>
+		<token type="DT">that</token>
+		<token type="VBZ">earthly</token>
+		<token type="NN">connection</token>
 		<token type="RB">again</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">The</token>
 		<token type="NN">sun</token>
 		<token type="POS">&apos;s</token>
-		<token type="NN">rays</token>
+		<token type="NNS">rays</token>
 		<token type="CC">and</token>
-		<token type="NN">warmth</token>
+		<token type="NNS">warmth</token>
 		<token type="VBP">are</token>
 		<token type="RB">still</token>
 		<token type="IN">with</token>
 		<token type="PRP">you</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">surrounding</token>
+		<token type="VBG">surrounding</token>
 		<token type="PRP">you</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="VBP">are</token>
 		<token type="IN">in</token>
 		<token type="DT">a</token>
@@ -3499,24 +3820,26 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="IN">With</token>
 		<token type="DT">each</token>
 		<token type="NN">breath</token>
 		<token type="COMMA">COMMA</token>
 		<token type="VB">watch</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
+		<token type="NNS">body</token>
 		<token type="CC">and</token>
 		<token type="NN">ensure</token>
 		<token type="IN">that</token>
 		<token type="PRP">it</token>
 		<token type="VBZ">remains</token>
-		<token type="VBN">relaxed</token>
+		<token type="NN">relaxed</token>
 		<token type="HYPH">-</token>
 		<token type="IN">at</token>
 		<token type="NN">peace</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Continue</token>
 		<token type="TO">to</token>
 		<token type="VB">feel</token>
 		<token type="DT">the</token>
@@ -3524,44 +3847,46 @@
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">sunlight</token>
-		<token type="PDT">all</token>
+		<token type="DT">all</token>
 		<token type="IN">over</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
+		<token type="NNS">body</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NN">warming</token>
+		<token type="VBG">warming</token>
 		<token type="PRP">you</token>
-		<token type="VBG">deeply</token>
+		<token type="VBP">deeply</token>
 		<token type="CC">and</token>
-		<token type="NN">gently</token>
+		<token type="RB">gently</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">You</token>
 		<token type="VBP">want</token>
 		<token type="TO">to</token>
-		<token type="VB">bring</token>
+		<token type="VBG">bring</token>
 		<token type="NN">something</token>
-		<token type="RB">back</token>
+		<token type="JJ">back</token>
 		<token type="IN">with</token>
 		<token type="PRP">you</token>
 		<token type="IN">from</token>
 		<token type="PRP$">your</token>
-		<token type="NN">deep</token>
+		<token type="JJ">deep</token>
 		<token type="NN">space</token>
-		<token type="NNS">experience</token>
+		<token type="NN">experience</token>
 		<token type="WRB">where</token>
 		<token type="PRP">you</token>
-		<token type="VBG">sensed</token>
+		<token type="VBN">sensed</token>
 		<token type="PRP$">your</token>
-		<token type="NN">mind</token>
-		<token type="NNP">merging</token>
+		<token type="JJ">mind</token>
+		<token type="VBG">merging</token>
 		<token type="IN">with</token>
 		<token type="DT">the</token>
-		<token type="NN">universal</token>
-		<token type="NNP">Mind</token>
+		<token type="JJ">universal</token>
+		<token type="NN">Mind</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">This</token>
 		<token type="MD">will</token>
 		<token type="VB">be</token>
 		<token type="DT">the</token>
@@ -3569,9 +3894,9 @@
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">sun</token>
-		<token type="HYPH">-</token>
+		<token type="COMMA">-</token>
 		<token type="DT">a</token>
-		<token type="JJ">close</token>
+		<token type="NN">close</token>
 		<token type="NN">reminder</token>
 		<token type="CC">and</token>
 		<token type="NN">link</token>
@@ -3579,93 +3904,100 @@
 		<token type="NN">earth</token>
 		<token type="CC">and</token>
 		<token type="DT">the</token>
-		<token type="NN">infinite</token>
+		<token type="JJ">infinite</token>
 		<token type="NN">space</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="NNP">Visualize</token>
 		<token type="DT">the</token>
 		<token type="NN">inside</token>
 		<token type="IN">of</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
-		<token type="VB">bathed</token>
+		<token type="NNS">body</token>
+		<token type="VBD">bathed</token>
 		<token type="IN">in</token>
 		<token type="DT">the</token>
-		<token type="NN">golden</token>
-		<token type="NNP">light</token>
+		<token type="JJ">golden</token>
+		<token type="NN">light</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">absorbing</token>
+		<token type="VBG">absorbing</token>
 		<token type="DT">every</token>
 		<token type="NN">ray</token>
 		<token type="CC">and</token>
-		<token type="NN">glowing</token>
+		<token type="VBG">glowing</token>
 		<token type="IN">as</token>
-		<token type="NN">radiantly</token>
+		<token type="RB">radiantly</token>
 		<token type="IN">as</token>
 		<token type="DT">the</token>
 		<token type="NN">sun</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">A</token>
 		<token type="NN">warm</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">gentle</token>
-		<token type="NNP">breeze</token>
-		<token type="NNP">swirls</token>
+		<token type="NN">gentle</token>
+		<token type="NN">breeze</token>
+		<token type="VBZ">swirls</token>
 		<token type="IN">around</token>
 		<token type="PRP$">your</token>
-		<token type="NN">body</token>
+		<token type="NNS">body</token>
 		<token type="CC">and</token>
-		<token type="NN">relaxes</token>
+		<token type="VBP">relaxes</token>
 		<token type="PRP">you</token>
 		<token type="RB">even</token>
 		<token type="JJR">more</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Let</token>
 		<token type="PRP$">your</token>
 		<token type="NN">mind</token>
 		<token type="CC">and</token>
-		<token type="NN">body</token>
-		<token type="VB">be</token>
-		<token type="JJ">totally</token>
+		<token type="VBD">body</token>
+		<token type="NN">be</token>
+		<token type="RB">totally</token>
 		<token type="IN">at</token>
 		<token type="NN">peace</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Now</token>
 		<token type="VB">feel</token>
-		<token type="RB">yourself</token>
-		<token type="NNP">returning</token>
-		<token type="TO">to</token>
+		<token type="PRP">yourself</token>
+		<token type="VBG">returning</token>
+		<token type="IN">to</token>
 		<token type="WRB">where</token>
 		<token type="PRP">you</token>
-		<token type="VBG">sit</token>
+		<token type="VB">sit</token>
 		<token type="COMMA">...</token>
 		<token type="VB">move</token>
 		<token type="PRP$">your</token>
-		<token type="NN">hands</token>
+		<token type="NNS">hands</token>
 		<token type="CC">and</token>
-		<token type="NN">feet</token>
+		<token type="VBD">feet</token>
 		<token type="DT">a</token>
-		<token type="JJ">little</token>
+		<token type="NN">little</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">stretch</token>
+		<token type="VB">stretch</token>
 		<token type="PRP">them</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Open</token>
 		<token type="PRP$">your</token>
 		<token type="NN">eyes</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="CD">2</token>
 		<token type=".">.</token>
-		<token type=")">Mountain</token>
+		<token type="NNP">Mountain</token>
 		<token type="NNP">Visualization</token>
 	</sent>
 	<sent>
+		<token type="DT">Another</token>
 		<token type="NN">thing</token>
 		<token type="PRP">you</token>
 		<token type="MD">can</token>
@@ -3673,23 +4005,24 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Imagine</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
 		<token type="VBG">sitting</token>
 		<token type="IN">on</token>
-		<token type="JJ">top</token>
+		<token type="NN">top</token>
 		<token type="IN">of</token>
 		<token type="DT">a</token>
 		<token type="NN">mountain</token>
 		<token type="COMMA">COMMA</token>
 		<token type="CC">and</token>
-		<token type="DT">that</token>
+		<token type="IN">that</token>
 		<token type="PRP">it</token>
 		<token type="VBZ">&apos;s</token>
 		<token type="DT">the</token>
-		<token type="RBS">most</token>
+		<token type="JJS">most</token>
 		<token type="JJ">peaceful</token>
-		<token type="VB">place</token>
+		<token type="NN">place</token>
 		<token type="PRP">you</token>
 		<token type="MD">can</token>
 		<token type="VB">think</token>
@@ -3697,28 +4030,30 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Feel</token>
 		<token type="IN">that</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
 		<token type="VBG">sitting</token>
-		<token type="EX">there</token>
+		<token type="RB">there</token>
 		<token type="IN">in</token>
 		<token type="JJ">complete</token>
 		<token type="NN">peace</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NN">right</token>
+		<token type="RB">right</token>
 		<token type="IN">on</token>
-		<token type="JJ">top</token>
+		<token type="NN">top</token>
 		<token type="IN">of</token>
 		<token type="DT">the</token>
 		<token type="NN">world</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">imagine</token>
+		<token type="RB">Now</token>
+		<token type="JJR">imagine</token>
 		<token type="IN">that</token>
-		<token type="NN">infinite</token>
-		<token type="NNP">happiness</token>
+		<token type="IN">infinite</token>
+		<token type="NN">happiness</token>
 		<token type="VBZ">is</token>
 		<token type="VBG">surrounding</token>
 		<token type="PRP">you</token>
@@ -3728,56 +4063,60 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Feel</token>
 		<token type="PRP">you</token>
 		<token type="VBP">&apos;re</token>
-		<token type="VBG">completely</token>
-		<token type="NNP">surrounded</token>
+		<token type="JJ">completely</token>
+		<token type="VBN">surrounded</token>
 		<token type="IN">by</token>
 		<token type="DT">that</token>
-		<token type="NN">infinite</token>
+		<token type="VBZ">infinite</token>
 		<token type="NN">peace</token>
 		<token type="CC">and</token>
 		<token type="NN">happiness</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="RB">Now</token>
 		<token type="VB">start</token>
 		<token type="TO">to</token>
 		<token type="VB">repeat</token>
 		<token type="IN">within</token>
 		<token type="PRP$">your</token>
-		<token type="NN">mind</token>
+		<token type="JJ">mind</token>
 		<token type="DT">the</token>
 		<token type="NN">mantra</token>
 		<token type=":">:</token>
-		<token type="NN">BABA</token>
+		<token type="NNP">BABA</token>
 		<token type="NNP">NAM</token>
 		<token type="NNP">KEVALAM</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP$">Its</token>
 		<token type="NN">meaning</token>
 		<token type="VBZ">is</token>
 		<token type="``">&quot;</token>
-		<token type="NN">Infinite</token>
-		<token type="NNP">happiness</token>
+		<token type="NNP">Infinite</token>
+		<token type="NN">happiness</token>
 		<token type="VBZ">is</token>
-		<token type="VBG">everywhere</token>
+		<token type="JJ">everywhere</token>
 		<token type="''">&quot;</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="VB">Feel</token>
 		<token type="DT">the</token>
 		<token type="NN">meaning</token>
 		<token type="COMMA">COMMA</token>
 		<token type="VBP">do</token>
 		<token type="RB">n&apos;t</token>
 		<token type="RB">just</token>
-		<token type="VBP">think</token>
+		<token type="VB">think</token>
 		<token type="IN">of</token>
 		<token type="PRP$">its</token>
-		<token type="NN">wordy</token>
-		<token type="NNP">meaning</token>
+		<token type="JJS">wordy</token>
+		<token type="VBG">meaning</token>
 		<token type="CC">or</token>
 		<token type="VB">try</token>
 		<token type="TO">to</token>
@@ -3789,12 +4128,12 @@
 		<token type="NNP">NAM</token>
 		<token type="NNP">KEVALAM</token>
 		<token type=")">)</token>
-		<token type="TO">to</token>
+		<token type="IN">to</token>
 		<token type="DT">an</token>
-		<token type="NN">English</token>
-		<token type="NNP">meaning</token>
+		<token type="JJ">English</token>
+		<token type="NN">meaning</token>
 		<token type="(">(</token>
-		<token type="NNP">Infinite</token>
+		<token type="JJ">Infinite</token>
 		<token type="NN">peace</token>
 		<token type="CC">and</token>
 		<token type="NN">happiness</token>
@@ -3802,9 +4141,10 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
-		<token type="NN">internally</token>
+		<token type="VB">Think</token>
+		<token type="RB">internally</token>
 		<token type="COMMA">COMMA</token>
-		<token type="NNP">intuitively</token>
+		<token type="RB">intuitively</token>
 		<token type="COMMA">COMMA</token>
 		<token type="RB">not</token>
 		<token type="IN">by</token>
@@ -3822,12 +4162,14 @@
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="DT">This</token>
 		<token type="VBZ">is</token>
 		<token type="VBN">called</token>
-		<token type="NNP">ideation</token>
+		<token type="NN">ideation</token>
 		<token type=".">.</token>
 	</sent>
 	<sent>
+		<token type="PRP">It</token>
 		<token type="VBZ">is</token>
 		<token type="JJ">important</token>
 		<token type="TO">to</token>
@@ -3839,7 +4181,46 @@
 		<token type="RB">just</token>
 		<token type="DT">the</token>
 		<token type="NN">intellectual</token>
-		<token type="NNP">analysis</token>
+		<token type="NN">analysis</token>
+		<token type=".">.</token>
+	</sent>
+	<sent>
+		<token type="VBG">Touching</token>
+		<token type="NN">deep</token>
+		<token type="IN">into</token>
+		<token type="DT">the</token>
+		<token type="NN">idea</token>
+		<token type="VBZ">is</token>
+		<token type="WP">what</token>
+		<token type="CD">builds</token>
+		<token type="NN">intuition</token>
+		<token type="COMMA">-</token>
+		<token type="PRP">it</token>
+		<token type="VBZ">is</token>
+		<token type="DT">a</token>
+		<token type="JJ">synthetic</token>
+		<token type="NN">process</token>
+		<token type=".">.</token>
+	</sent>
+	<sent>
+		<token type="UH">Whereas</token>
+		<token type="COMMA">COMMA</token>
+		<token type="VBG">trying</token>
+		<token type="TO">to</token>
+		<token type="VB">translate</token>
+		<token type="CC">and</token>
+		<token type="NNS">grapple</token>
+		<token type="IN">with</token>
+		<token type="JJ">wordy</token>
+		<token type="NNS">meanings</token>
+		<token type="VBZ">is</token>
+		<token type="DT">an</token>
+		<token type="NN">intellectual</token>
+		<token type="CD">mechanism</token>
+		<token type="COMMA">-</token>
+		<token type="DT">an</token>
+		<token type="JJ">analytical</token>
+		<token type="NN">process</token>
 		<token type=".">.</token>
 	</sent>
 </dataset>
