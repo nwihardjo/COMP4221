@@ -21,9 +21,13 @@ void error_analysis(const vector<vector<symbol_t>> &predicted_postags, const vec
 			total_count++;
 			if (sent_pred_iobes_tags[j] != sent_oracles[j]){
 				wrong++;
-				if (j != 0 && j != sent_pred_iobes_tags.size()-1) {
-					cout << sent_pred_iobes_tags[j] << "\t" << sent_oracles[j] << "\t" << sent_tokens[j] << "\t" << sent_pred_postags[j] << endl;
-					cout << "\t" << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << endl;
+				if (j > 3 && j < sent_pred_iobes_tags.size()-3) {
+					cout << sent_pred_iobes_tags[j] << "\t" << sent_oracles[j] << "\t" << sent_tokens[j] << "\t" << sent_pred_postags[j] << endl << "\t";
+					for (int i = -3; i < 4; i++) {
+						cout << sent_pred_postags[j+i] << " ";
+					}
+					cout << endl;
+					//cout << "\t" << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << endl;
 				}
 			}
 		}
