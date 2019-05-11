@@ -220,18 +220,14 @@ namespace part_b{
 
     auto concatenate = make_concatenate(10);
 
-    auto dense0 = make_dense_feedfwd(32, make_tanh());
-
     auto dense1 = make_dense_feedfwd(iobes_tags.size(), make_softmax());
 
     auto onehot_inverse = make_onehot_inverse(iobes_tags);
 
-    return compose(group(embedding_lookup, postag, postag, postag, postag, postag, postag, postag, postag, postag), concatenate, dense0, dense1, onehot_inverse);
+    return compose(group(embedding_lookup, postag, postag, postag, postag, postag, postag, postag, postag, postag), concatenate, dense1, onehot_inverse);
   }
 
   vector<feature_t> get_features(const vector<symbol_t> &sentence, const vector<symbol_t> &postags, unsigned target_index) {
-    //feature_t s = (int(target_index) < int(sentence.size())-5) ? postags[target_index+5] : "<s>";
-    //feature_t a = (target_index > 5) ? postags[target_index-5] : "<s>";
     feature_t sub = (int(target_index) < int(sentence.size())-4) ? postags[target_index+4] : "<s>";
     feature_t add = (target_index > 4) ? postags[target_index-4] : "<s>";
     feature_t next_pos;
@@ -243,18 +239,14 @@ namespace part_b{
     feature_t next1 = (int(target_index) < int(sentence.size())-2) ? postags[target_index+2] : "<s>";
 
     if (target_index > 0) {
-	//prev = sentence[target_index-1];
 	prev_pos = postags[target_index-1];
     } else {
-	//prev = "<s>";
 	prev_pos = "<s>";
     }
 
     if (int(target_index) < int(sentence.size())-1) {
-	//next = sentence[target_index+1];
 	next_pos = postags[target_index+1];
     } else {
-	//next = "<s>";
 	next_pos = "<s>";
     }
     return vector<feature_t>{sentence[target_index], sub, prev, prev1, prev_pos, postags[target_index], next_pos, next1, next, add};
