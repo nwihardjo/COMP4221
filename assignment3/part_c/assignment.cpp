@@ -308,7 +308,7 @@ namespace part_c{
   // =========================================
   // ======== ITERATION 2 - HYPOTHESIS 4 ===== 
   // =========================================
-  const unsigned NUM_EPOCHS = 5;
+  const unsigned NUM_EPOCHS = 4;
 
   transducer_t your_classifier(const vector <sentence_t> &training_set, const vector <symbol_t> &postag_vocab, const vector <symbol_t> &iobes_syntactic_tag_vocab, const vector <symbol_t> &iobes_semantic_role_vocab) {
     std::unordered_set<symbol_t> token_set;

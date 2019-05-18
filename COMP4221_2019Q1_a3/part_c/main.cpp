@@ -8,6 +8,43 @@
 using namespace tg;
 using namespace part_c;
 
+void error_analysis(const vector<vector<symbol_t>> &predicted_postags, const vector<vector<symbol_t>> &predicted_syntac, const vector<vector<symbol_t>> &predicted_iobes_tags, const vector<vector<symbol_t>> &oracles, const vector<vector<symbol_t>> &sentence_tokens, const vector<unsigned> &predicate_pos) {
+        int total_count = 0;
+        int wrong = 0;
+
+        for (auto i = 0; i < predicted_iobes_tags.size(); i++) {
+                auto sent_pred_postags = predicted_postags[i];
+		auto sent_pred_syntac = predicted_syntac[i];
+                auto sent_pred_iobes_tags = predicted_iobes_tags[i];
+                auto sent_oracles = oracles[i];
+                auto sent_tokens = sentence_tokens[i];
+		auto pred = predicate_pos[i];
+
+                for (auto j = 0; j < sent_pred_iobes_tags.size(); j++) {
+                        total_count++;
+                        if (sent_pred_iobes_tags[j] != sent_oracles[j]){
+                                wrong++;
+                                //if (j > 4 && j < sent_pred_iobes_tags.size()-4) {
+                                if (j > 0 && int(j) < int(sent_pred_iobes_tags.size())-1){
+                                  cout << sent_pred_iobes_tags[j] << "\t" << sent_oracles[j] << "\t";
+			          cout << sent_tokens[j] << " (" << sent_pred_postags[j-1] << " " << sent_pred_postags[j]  << " " << sent_pred_postags[j+1] << ", " << sent_pred_syntac[j] << ")\t";
+				  cout << "pred: " << sent_tokens[pred] << " (" << sent_pred_postags[pred] << ") " << pred << " " << sent_tokens.size() << endl; 
+				}
+			       //<< "\t" << sent_pred_postags[j] << endl << "\t";
+                               //         for (int i = -4; i < 5; i++) {
+                               //                 cout << sent_pred_postags[j+i] << " ";
+                               //         }
+                               //         cout << endl;
+                               //cout << "\t" << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << endl;
+                       }
+		}
+	}
+
+        double acc = wrong * 100.0 / total_count;
+        cout << "Got wrong: " << wrong << " out of " << total_count << endl;
+        cout << "Accuracy of the model " << acc << "%" << endl;
+}
+
 int main() {
 
   auto postag_vocab = collect_vocab_from_symbol_matrix(part_review::read_dataset("/project/cl/httpd/htdocs/COMP4221_2019Q1_a3/res/traindata_postag.xml").second);
@@ -51,33 +88,19 @@ int main() {
 
   cout << "training data size:"<<training_examples.size()<<endl;
 
-  cout << "training, please be patient" <<endl;
-  for(unsigned i_epoch = 0; i_epoch < NUM_EPOCHS; ++i_epoch) {
-    cout << "epoch #"<< i_epoch <<endl;
-    for(unsigned i=0; i<training_examples.size(); i+=1000) {
-      cout << "training data #"<<i<<endl;
-      if(i + 1000 >= training_examples.size()) {
-        classifier.train(
-          vector<vector<feature_t>>(training_examples.begin() + i, training_examples.end()),
-          vector<feature_t>(training_oracles.begin() + i, training_oracles.end()),
-          1);
-      }
-      else {
-        classifier.train(
-          vector<vector<feature_t>>(training_examples.begin() + i, training_examples.begin() + i + 1000),
-          vector<feature_t>(training_oracles.begin() + i, training_oracles.begin() + i + 1000),
-          1);
-      }
-    }
-  }
+  cout << "training, please be patient (it will take 10x time when compared with part b)" <<endl;
+  classifier.train(training_examples, training_oracles, NUM_EPOCHS);
+
   auto [test_sents, test_predicate_positions, test_postags] = read_dataset("/project/cl/httpd/htdocs/COMP4221_2019Q1_a3/res/devdata_part_c_iobes.xml");
 
 
   cout << "development testing" <<endl;
   vector<vector<symbol_t >> predicted_iobes_tags = srl_sentences_iobes(classifier, postagger, shallow_syntactic_parser, test_sents, test_predicate_positions);
 
+  auto predicted_dev_postags = part_review::postag_sentences(postagger, test_sents);
+  auto predicted_syntax_tag = part_b::chunk_sentences_iobes(shallow_syntactic_parser, postagger, test_sents);
+  error_analysis(predicted_dev_postags, predicted_syntax_tag, predicted_iobes_tags, test_postags, test_sents, test_predicate_positions);
   report_score(predicted_iobes_tags, test_postags);
-
   save_dataset("predict_iobes.xml", make_tuple(test_sents, test_predicate_positions, predicted_iobes_tags));
   cout << "prediction saved to predict_iobes.xml"<<endl;
 
