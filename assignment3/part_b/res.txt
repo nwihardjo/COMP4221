@@ -1,0 +1,2 @@
+loading your POS tagger
+predicting POS tags with your POS tagger

@@ -1,8 +1,13 @@
 #include "make_transducer.hpp"
 #include "util.hpp"
+#include <vector>
 using namespace tg;
 using namespace part_review;
 int main() {
+
+  vector<int> arr;
+  arr.push_back(1);
+
   auto [train_sents, train_postags] = read_dataset("/project/cl/httpd/htdocs/COMP4221_2019Q1_a3/res/traindata_postag.xml");
 
   auto [training_examples, training_oracles] = get_examples_and_oracles(train_sents, train_postags);

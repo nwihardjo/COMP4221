@@ -201,7 +201,7 @@ namespace part_b{
   // ==========================
   // ITERATION 2 - HYPOTHESIS 2 
   // ==========================
-  const unsigned NUM_EPOCHS = 50;
+  const unsigned NUM_EPOCHS = 40;
 
   transducer_t your_classifier(const vector<sentence_t> &training_set, const vector<symbol_t> &postags, const vector<symbol_t> &iobes_tags) {
 
@@ -248,12 +248,11 @@ namespace part_b{
     }
     return vector<feature_t>{sentence[target_index], prev, prev1, prev_pos, postags[target_index], next_pos, next1, next};
   }
-}
 */
   // ==========================
   // ITERATION 2 - HYPOTHESIS 3 
   // ==========================
-  const unsigned NUM_EPOCHS = 60;
+  const unsigned NUM_EPOCHS = 45;
 
   transducer_t your_classifier(const vector<sentence_t> &training_set, const vector<symbol_t> &postags, const vector<symbol_t> &iobes_tags) {
 
