@@ -22,9 +22,9 @@ void error_analysis( const vector<vector<symbol_t>> &predicted_postags, const ve
 			total_count++;
 			if (sent_pred_iobes_tags[j] != sent_oracles[j]) {
 				wrong++;
-				if (j != 0 && j != sent_pred_iobes_tags.size()-1) {
+				if (j > 1 && int(j) < int(sent_pred_iobes_tags.size())-2) {
 					cout << sent_pred_iobes_tags[j] << "\t" << sent_oracles[j] << "\t" << sent_tokens[j] << "\t" << sent_pred_postags[j] << endl;
-					cout << "\t\t" << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << endl; 
+					cout << "\t\t" << sent_pred_postags[j-2] << " " << sent_tokens[j-1] << " " << sent_pred_postags[j-1] << " " << sent_tokens[j+1] << " " << sent_pred_postags[j+1] << " " << sent_pred_postags[j+2] << endl; 
 				}
 			}
 		}
