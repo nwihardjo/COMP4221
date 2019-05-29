@@ -10,7 +10,7 @@ The codes for these assignment is connected to the remote server in HLTC lab in 
 
 [Assignment 2](https://github.com/nwihardjo/COMP4221/tree/master/assignment2/src): NN model for POS tagger based on the surrounding context and feature engineering
 
-Assignment 3:
+[Assignment 3](https://github.com/nwihardjo/COMP4221/tree/master/assignment3):
 - [Part A](https://github.com/nwihardjo/COMP4221/tree/master/assignment3/part_a): NN model for IOBES tagger based on the POS tagger on Assignment 2
 - [Part B](https://github.com/nwihardjo/COMP4221/tree/master/assignment3/part_b): NN model for shallow syntactic parsers
 - [Part C](https://github.com/nwihardjo/COMP4221/tree/master/assignment3/part_c): NN model for shallow semantic parsers
